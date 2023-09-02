@@ -1,9 +1,8 @@
-export default function AboutUs() {
+export default function Menu() {
     return (
         <>
             <div className="text-center m-3">
-                <h1>This is our story...</h1>
-                <p></p>
+                <h1>Our Concession Stand is Open!</h1>
             </div>
         </>
     );
