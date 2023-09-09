@@ -1,3 +1,5 @@
+import Footer from "../components/Footer";
+
 export default function AboutUs() {
     return (
         <>
@@ -5,6 +7,7 @@ export default function AboutUs() {
                 <h1>This is our story...</h1>
                 <p></p>
             </div>
+            <Footer></Footer>
         </>
     );
 };
