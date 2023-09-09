@@ -9,6 +9,7 @@ export default function CurrentFeatures() {
             <div className="text-center my-3 pb-3">
                 <h1>Now Playing!</h1>
                 <h2><strong>Gran Turismo & The Equalizer 3</strong></h2>
+                <p>Click or tap the movie poster below to see the IMDB entry!</p>
             </div>
             {nowPlaying.map((res) => (
                 <div className="row justify-content-center m-3">

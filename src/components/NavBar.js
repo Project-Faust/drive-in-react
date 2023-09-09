@@ -1,19 +1,40 @@
+import React, { useState } from 'react';
+
 export default function NavBar({ navLinks = [], currentLink, setCurrentLink }) {
+    const [collapsed, setCollapsed] = useState(true);
+
     return (
-        <ul id="navBarContainer" className="nav nav-tabs sticky-top justify-content-center bg-light">
-            {navLinks.map((navLink) => (
-                <li key={navLink.name} className="nav-item">
-                    <a
-                        className={`nav-link text-dark ${currentLink === navLink ? 'active' : ''}`}
-                        href={navLink.url}
-                        onClick={() => {
-                            setCurrentLink(navLink);
-                        }}
-                    >
-                        {navLink.name}
-                    </a>
-                </li>
-            ))}
-        </ul>
+        <nav className="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+            <button
+                className="navbar-toggler"
+                type="button"
+                data-toggle="collapse"
+                data-target="#navbarNav"
+                aria-controls="navbarNav"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+                onClick={() => setCollapsed(!collapsed)}
+            >
+                <span className="navbar-toggler-icon"></span>
+            </button>
+            <div className={`collapse navbar-collapse ${collapsed ? '' : 'show'}`} id="navbarNav">
+                <ul className={`navbar-nav ${collapsed ? 'mx-auto' : ''} text-center`}>
+                    {navLinks.map((navLink) => (
+                        <li key={navLink.name} className="nav-item">
+                            <a
+                                className={`nav-link text-dark ${currentLink === navLink ? 'active' : ''}`}
+                                href={navLink.url}
+                                onClick={() => {
+                                    setCurrentLink(navLink);
+                                    setCollapsed(true);
+                                }}
+                            >
+                                {navLink.name}
+                            </a>
+                        </li>
+                    ))}
+                </ul>
+            </div>
+        </nav>
     );
-};
+}

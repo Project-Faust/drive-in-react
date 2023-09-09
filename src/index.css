@@ -12,6 +12,25 @@ code {
     monospace;
 }
 
+@media (min-width: 992px) {
+  #nav-btn {
+      display: none;
+  }
+}
+
 #mainContainer {
   max-width: 100%;
+  height: 100%;
+}
+
+.pdfViewer, #pdfSection {
+  height: 100%
+}
+
+.pdfContainer { 
+height: 100vh;
+}
+
+.pdfViewer {
+  width: 100%;
 }
