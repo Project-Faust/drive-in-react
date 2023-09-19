@@ -5,16 +5,18 @@ const posterStyle = {
 
 export default function CurrentFeatures() {
     return (
-        <section id="currentFeaturesParent" className="p-1">
-            <div className="text-center my-3 pb-3">
+        <section id="currentFeaturesParent" className="">
+            <div className="text-center m-3 py-3">
                 <h1>Now Playing!</h1>
-                <h2><strong>Gran Turismo & The Equalizer 3</strong></h2>
-                <p>Click or tap the movie poster below to see the IMDB entry!</p>
             </div>
+            <section className="text-center">
+                <h1><strong>Blue Beetle & Barbie</strong></h1>
+                <p>Click or tap the movie poster below to see the IMDB entry!</p>
+            </section>
             {nowPlaying.map((res) => (
-                <div className="row justify-content-center m-3">
+                <div className="row justify-content-center my-3 py-3">
                     <div className="col-md-6 text-center">
-                        {/* <h1><strong>{res.title}</strong></h1> */}
+                        <h1><strong>{res.title}</strong></h1>
                         <div className="conatiner">
                             <a
                                 href={res.imdb}

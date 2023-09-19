@@ -14,7 +14,7 @@ export default function App() {
     { name: "Current Features" },
     { name: "Rules" },
     { name: "Menu" },
-    { name: "About Us" }
+    // { name: "About Us" }
   ]);
 
   const [currentNav, setCurrentNav] = useState(navLinks[0]);
@@ -36,7 +36,7 @@ export default function App() {
         {currentNav === navLinks[1] && <CurrentFeatures></CurrentFeatures>}
         {currentNav === navLinks[2] && <Rules></Rules>}
         {currentNav === navLinks[3] && <Menu></Menu>}
-        {currentNav === navLinks[4] && <AboutUs></AboutUs>}
+        {/* {currentNav === navLinks[4] && <AboutUs></AboutUs>} */}
       </main>
     </div>
   );

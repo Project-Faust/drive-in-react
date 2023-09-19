@@ -14,7 +14,11 @@ code {
 
 @media (min-width: 992px) {
   #nav-btn {
-      display: none;
+    display: none;
+  }
+
+  .pdfViewer {
+    width: 55%;
   }
 }
 
@@ -23,14 +27,11 @@ code {
   height: 100%;
 }
 
-.pdfViewer, #pdfSection {
+.pdfViewer,
+#pdfSection {
   height: 100%
 }
 
-.pdfContainer { 
-height: 100vh;
-}
-
-.pdfViewer {
-  width: 100%;
+.pdfContainer {
+  height: 100vh;
 }
