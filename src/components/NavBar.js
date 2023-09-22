@@ -4,7 +4,7 @@ export default function NavBar({ navLinks = [], currentLink, setCurrentLink }) {
     const [collapsed, setCollapsed] = useState(true);
 
     return (
-        <nav className="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+        <nav className="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
             <button
                 className="navbar-toggler"
                 type="button"
@@ -22,7 +22,7 @@ export default function NavBar({ navLinks = [], currentLink, setCurrentLink }) {
                     {navLinks.map((navLink) => (
                         <li key={navLink.name} className="nav-item">
                             <a
-                                className={`nav-link text-dark ${currentLink === navLink ? 'active' : ''}`}
+                                className={`nav-link text-light ${currentLink === navLink ? 'active' : ''}`}
                                 href={navLink.url}
                                 onClick={() => {
                                     setCurrentLink(navLink);

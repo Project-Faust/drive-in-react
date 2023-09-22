@@ -25,6 +25,7 @@ code {
 #mainContainer {
   max-width: 100%;
   height: 100%;
+  margin-bottom: 1rem;
 }
 
 .pdfViewer,
@@ -34,4 +35,9 @@ code {
 
 .pdfContainer {
   height: 100vh;
+}
+
+.fixed-bottom {
+  position: fixed;
+  bottom: 0;
 }

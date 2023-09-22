@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import './App.css';
 import logo from './assets/logo.png'
 import NavBar from "./components/NavBar.js";
+import Footer from "./components/Footer";
 import HomePage from './pages/HomePage.js';
 import CurrentFeatures from './pages/CurrentFeatures.js';
 import Rules from './pages/Rules.js';
@@ -38,6 +39,7 @@ export default function App() {
         {currentNav === navLinks[3] && <Menu></Menu>}
         {/* {currentNav === navLinks[4] && <AboutUs></AboutUs>} */}
       </main>
+      <Footer></Footer>
     </div>
   );
 }
