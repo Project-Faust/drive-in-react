@@ -2,8 +2,8 @@ import MenuPDF from "../assets/drive-in-menu.pdf"
 
 export default function Menu() {
     return (
-        <section id="pdfSection" className="my-3">
-            <div className="text-center py-3">
+        <section className="pdfSection">
+            <div className="text-center m-3 py-3">
                 <h1>Our Concession Stand is Open!</h1>
             </div>
             <div className="pdfContainer text-center">
