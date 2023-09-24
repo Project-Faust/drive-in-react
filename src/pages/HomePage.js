@@ -21,7 +21,7 @@ export default function HomePage() {
                         <h4>The second feature follows the first film.</h4>
                         <h4>All sound is done by FM radio at <strong>90.3FM</strong>!</h4>
                         {/* <h4>Learn how to make sure <strong>EXTERIOR h4>HTS ARE OFF</strong> when the <strong>MOTOR IS OFF</strong> and the <strong>RADIO IS ON</strong>!</h4> */}
-                        <h4>Find us at <strong>312 McAdenville Rd, Belmont, NC 28012</strong>!</h4>
+                        <h4>Find us at <strong>314 McAdenville Rd, Belmont, NC 28012</strong>!</h4>
                     </ul>
                     <img src={IfYoureLookingImg} alt="If You're Looking" className="justify-content-center w-50 border border-dark mt-3"></img>
                 </h3>
