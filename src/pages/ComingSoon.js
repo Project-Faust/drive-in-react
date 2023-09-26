@@ -1,25 +1,23 @@
-import WeekendDates from "../components/WeekendDates";
-import { nowPlaying } from "../data";
+import { comingSoon } from "../data";
 const posterStyle = {
     maxWidth: "95%",
 }
-const firstFeature = nowPlaying[0].title;
-const secondFeature = nowPlaying[1].title;
+// const comingSoonFirst = comingSoon[0].title;
+// const comingSoonSecond = comingSoon[1].title;
 
 export default function CurrentFeatures() {
     return (
         <section id="currentFeaturesParent" className="">
             <div className="text-center m-3 py-3">
-                <h1>Now Playing!</h1>
-                <h2><WeekendDates/></h2>
+                <h1>Coming Soon!</h1>
             </div>
             <section className="text-center">
-                <h1><strong>{firstFeature} & {secondFeature}</strong></h1>
+                {/* <h1><strong>{comingSoonFirst} & {comingSoonSecond}</strong></h1> */}
                 <p>Click or tap the movie poster below to see the IMDB entry!</p>
             </section>
             <div className="d-flex justify-content-center">
                 <section className="row text-center w-100">
-                    {nowPlaying.map((res) => (
+                    {comingSoon.map((res) => (
                         <div className="justify-content-center my-3 py-3 col-lg-6 col-md-12">
                             <div className="justify-content-center border border-dark border-3 rounded m-3">
                                 <a href={res.imdb} target="_blank" rel="noreferrer" className="text-dark text-decoration-none">
