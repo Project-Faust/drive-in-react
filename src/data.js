@@ -13,9 +13,9 @@ export const nowPlaying = [
         imdb: "https://www.imdb.com/title/tt15837338/",
     },
     {
-        title: "Transformers: Rise of the Beasts",
-        image: require("./assets/transformers-rise-of-the-beasts-poster.jpg"),
-        imdb: "https://www.imdb.com/title/tt5090568/",
+        title: "To Be Determined",
+        image: "https://placeholder.pics/svg/1000x1482/DEDEDE/555555/To%20Be%20Determined",
+        imdb: "",
     }
 ]
 
@@ -33,6 +33,11 @@ export const comingSoon = [
 ]
 
 export const previousPlaying = [
+    {
+        title: "Transformers: Rise of the Beasts",
+        image: require("./assets/transformers-rise-of-the-beasts-poster.jpg"),
+        imdb: "https://www.imdb.com/title/tt5090568/",
+    },
     {
         title: "Gran Turismo",
         image: require("./assets/gran-turismo-poster.jpg"),
