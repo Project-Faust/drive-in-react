@@ -1,3 +1,4 @@
+// eslint-disable-next-line
 const template = [
     // {
     //     title: "",
@@ -13,9 +14,9 @@ export const nowPlaying = [
         imdb: "https://www.imdb.com/title/tt15837338/",
     },
     {
-        title: "To Be Determined",
-        image: "https://placeholder.pics/svg/1000x1482/DEDEDE/555555/To%20Be%20Determined",
-        imdb: "",
+        title: "Scream VI",
+        image: require("./assets/scream-vi-poster.jpg"),
+        imdb: "https://www.imdb.com/title/tt17663992/",
     }
 ]
 

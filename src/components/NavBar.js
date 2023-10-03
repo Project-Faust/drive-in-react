@@ -20,18 +20,18 @@ export default function NavBar({ navLinks = [], currentLink, setCurrentLink }) {
             <div className={`collapse navbar-collapse ${collapsed ? '' : 'show'}`} id="navbarNav">
                 <ul className={`navbar-nav ${collapsed ? 'mx-auto' : ''} text-center`}>
                     {navLinks.map((navLink) => (
-                        <li key={navLink.name} className="nav-item">
-                            <a
-                                className={`nav-link text-light ${currentLink === navLink ? 'active' : ''}`}
-                                href={navLink.url}
-                                onClick={() => {
-                                    setCurrentLink(navLink);
-                                    setCollapsed(true);
-                                }}
+                        <a key={navLink.name}
+                            className={`nav-link text-light ${currentLink === navLink ? 'active' : ''}`}
+                            href={navLink.url}
+                            onClick={() => {
+                                setCurrentLink(navLink);
+                                setCollapsed(true);
+                            }}>
+                            <span
                             >
                                 {navLink.name}
-                            </a>
-                        </li>
+                            </span>
+                        </a>
                     ))}
                 </ul>
             </div>

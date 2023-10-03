@@ -30,7 +30,7 @@ export default function App() {
         setCurrentLink={setCurrentNav}
       />
       <header>
-        <div id="banner" className="text-center my-3">
+        <div id="banner" className="text-center py-3">
           <img src={logo} alt="Belmont Drive-In logo" />
         </div>
       </header>

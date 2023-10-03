@@ -2,8 +2,8 @@ import rulesPDF from "../assets/drive-in-rules.pdf"
 
 export default function Rules() {
     return (
-        <section className="pdfSection">
-            <div className="text-center m-3 py-3">
+        <section className="pdfSection p-3">
+            <div className="text-center">
                 <h1>Here are our rules and regulations!</h1>
             </div>
             <div className="pdfContainer text-center">

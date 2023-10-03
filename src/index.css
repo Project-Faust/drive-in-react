@@ -25,7 +25,7 @@ code {
 #mainContainer {
   max-width: 100%;
   height: 100%;
-  margin-bottom: 1rem;
+  /* margin-bottom: ; */
 }
 
 .pdfViewer,
@@ -40,4 +40,8 @@ code {
 .fixed-bottom {
   position: fixed;
   bottom: 0;
+}
+
+#mainContainer, header {
+  background-color: #F39F5A;
 }

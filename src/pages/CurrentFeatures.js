@@ -9,13 +9,13 @@ const secondFeature = nowPlaying[1].title;
 export default function CurrentFeatures() {
     return (
         <section id="currentFeaturesParent" className="">
-            <div className="text-center m-3 py-3">
-                <h1>Now Playing!</h1>
+            <div className="text-center p-3">
+                <h1><strong>Now Playing!</strong></h1>
                 <h2><WeekendDates/></h2>
             </div>
             <section className="text-center">
                 <h1><strong>{firstFeature} & {secondFeature}</strong></h1>
-                <p>Click or tap the movie poster below to see the IMDB entry!</p>
+                <h4>Click or tap the movie poster below to see the IMDB entry!</h4>
             </section>
             <div className="d-flex justify-content-center">
                 <section className="row text-center w-100">
