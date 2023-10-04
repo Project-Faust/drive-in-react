@@ -8,7 +8,7 @@ const secondFeature = nowPlaying[1].title;
 
 export default function CurrentFeatures() {
     return (
-        <section id="currentFeaturesParent" className="">
+        <section id="currentFeaturesParent" className="mw-100 mh-100 bg-halloween px-3">
             <div className="text-center p-3">
                 <h1><strong>Now Playing!</strong></h1>
                 <h2><WeekendDates/></h2>
@@ -21,9 +21,9 @@ export default function CurrentFeatures() {
                 <section className="row text-center w-100">
                     {nowPlaying.map((res) => (
                         <div className="justify-content-center my-3 py-3 col-lg-6 col-md-12">
-                            <div className="justify-content-center border border-dark border-3 rounded m-3">
+                            <div className="border border-dark border-3 rounded m-3 bg-halloween-accent">
                                 <a href={res.imdb} target="_blank" rel="noreferrer" className="text-dark text-decoration-none">
-                                    <h1 className="text-decoration-underline"><strong>{res.title}</strong></h1>
+                                    <h1 className="text-decoration-underline text-light"><strong>{res.title}</strong></h1>
                                 </a>
                                 <div className="container">
                                     <a
@@ -37,7 +37,7 @@ export default function CurrentFeatures() {
                                             className="img-fluid border border-dark"
                                             style={posterStyle}
                                         />
-                                        <p className="text-decoration-none text-dark">Image source: IMDB</p>
+                                        <p className="text-decoration-none text-light">Image source: IMDB</p>
                                     </a>
                                 </div>
                             </div>

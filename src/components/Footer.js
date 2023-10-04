@@ -13,6 +13,6 @@ export function Citation() {
 
 export default function Footer() {
     return (
-        <p className="d-flex justify-content-center bg-dark text-light mb-0 py-1">© 2023 Belmont Drive-In</p>
+        <p className="text-center bg-dark text-light mw-100 mb-0 py-1">© 2023 Belmont Drive-In</p>
     )
 }

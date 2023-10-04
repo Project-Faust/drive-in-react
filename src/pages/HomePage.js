@@ -3,7 +3,7 @@ import IfYoureLookingImg from "../assets/if-youre-looking.jpg"
 
 export default function HomePage() {
     return (
-        <section>
+        <section className="mw-100 mh-100 bg-halloween">
             <div className="text-center py-3">
                 <h1><strong>Welcome to the Belmont Drive-In Theatre!</strong></h1>
                 <h2><strong>Your affordable family entertainment center!</strong></h2>

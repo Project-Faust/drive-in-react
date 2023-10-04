@@ -25,7 +25,6 @@ code {
 #mainContainer {
   max-width: 100%;
   height: 100%;
-  /* margin-bottom: ; */
 }
 
 .pdfViewer,
@@ -42,6 +41,10 @@ code {
   bottom: 0;
 }
 
-#mainContainer, header {
+.bg-halloween{
   background-color: #F39F5A;
+}
+
+.bg-halloween-accent {
+  background-color: #451952;
 }
