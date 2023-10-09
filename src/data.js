@@ -9,14 +9,14 @@ const template = [
 
 export const nowPlaying = [
     {
-        title: "Paw Patrol: The Mighty Movie",
-        image: require("./assets/paw-patrol-the-mighty-movie-poster.jpg"),
-        imdb: "https://www.imdb.com/title/tt15837338/",
+        title: "Haunted Mansion",
+        image: require("./assets/haunted-mansion-poster.jpg"),
+        imdb: "https://www.imdb.com/title/tt1695843/",
     },
     {
-        title: "Scream VI",
-        image: require("./assets/scream-vi-poster.jpg"),
-        imdb: "https://www.imdb.com/title/tt17663992/",
+        title: "Friday the 13th",
+        image: require("./assets/friday-the-13th-poster.jpg"),
+        imdb: "https://www.imdb.com/title/tt0080761/",
     }
 ]
 
@@ -34,6 +34,16 @@ export const comingSoon = [
 ]
 
 export const previousPlaying = [
+    {
+        title: "Paw Patrol: The Mighty Movie",
+        image: require("./assets/paw-patrol-the-mighty-movie-poster.jpg"),
+        imdb: "https://www.imdb.com/title/tt15837338/",
+    },
+    {
+        title: "Scream VI",
+        image: require("./assets/scream-vi-poster.jpg"),
+        imdb: "https://www.imdb.com/title/tt17663992/",
+    },
     {
         title: "Transformers: Rise of the Beasts",
         image: require("./assets/transformers-rise-of-the-beasts-poster.jpg"),
