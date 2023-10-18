@@ -23,6 +23,7 @@ export default function HomePage() {
                         <div className="border border-dark border-3 rounded bg-halloween-accent text-light m-3">
                             <div className="d-flex flex-column justify-content-evenly align-items-center p-3">
                                 <h4>We are a <strong>cash only</strong> business!</h4>
+                                <h4>Entry is <strong>$25 per car</strong>!</h4>
                                 <h4>Gates open at <strong>6:00PM</strong>!</h4>
                                 <h4><strong>No outside food or drink</strong> allowed!</h4>
                                 <h4><strong>No exterior lights</strong> during showtime!</h4>

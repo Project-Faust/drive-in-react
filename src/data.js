@@ -9,14 +9,14 @@ const template = [
 
 export const nowPlaying = [
     {
-        title: "Haunted Mansion",
-        image: require("./assets/haunted-mansion-poster.jpg"),
-        imdb: "https://www.imdb.com/title/tt1695843/",
+        title: "Casper (1995)",
+        image: require("./assets/casper-poster.jpg"),
+        imdb: "https://www.imdb.com/title/tt0112642/",
     },
     {
-        title: "Friday the 13th",
-        image: require("./assets/friday-the-13th-poster.jpg"),
-        imdb: "https://www.imdb.com/title/tt0080761/",
+        title: "The Exorcist: Believer",
+        image: require("./assets/the-exorcist-believer-poster.jpg"),
+        imdb: "https://www.imdb.com/title/tt12921446/",
     }
 ]
 
