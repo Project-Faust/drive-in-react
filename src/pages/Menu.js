@@ -1,5 +1,6 @@
 import MenuPDF from "../assets/drive-in-menu.pdf"
 import menuJPG from "../assets/drive-in-menu.jpg"
+import updatedMenuPNG from "../assets/updated-menu.png"
 
 export default function Menu() {
     return (
@@ -12,7 +13,7 @@ export default function Menu() {
             </div> */}
             <div className="row justify-content-center mw-100 p-3">
                 <img
-                    src={menuJPG}
+                    src={updatedMenuPNG}
                     alt="menu"
                     className="col-lg-6 col-md-12 border border-3 border-dark p-0" />
             </div>
