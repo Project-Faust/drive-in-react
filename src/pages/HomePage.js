@@ -10,16 +10,16 @@ export default function HomePage() {
                 <h2><strong>Your affordable family entertainment center!</strong></h2>
             </div>
             <div className="d-flex justify-content-center align-items-center mw-100">
-                <section className="row text-center w-100">
-                    <div className="col-lg-6 col-md-12">
+                <section className="row justify-content-center text-center w-100">
+                    {/* <div className="col-lg-6 col-md-12">
                         <div className="border border-dark border-3 rounded bg-halloween-accent m-3">
                             <img
                                 src={Oct2023ScheduleImg}
                                 alt="October Schedule"
                                 className="justify-content-center mw-100 mh-100 border border-dark p-3"></img>
                         </div>
-                    </div>
-                    <div className="col-lg-6 col-md-12">
+                    </div> */}
+                    <div className="col-lg-9 col-md-12">
                         <div className="border border-dark border-3 rounded bg-halloween-accent text-light m-3">
                             <div className="d-flex flex-column justify-content-evenly align-items-center p-3">
                                 <h4>We are a <strong>cash only</strong> business!</h4>
@@ -33,7 +33,7 @@ export default function HomePage() {
                                 <h4>The first feature starts tentatively at 8:00PM!</h4>
                                 <h4>The second feature follows the first film with a short intermission between.</h4>
                                 <h4>All sound is done by FM radio at <strong>90.3FM</strong>!</h4>
-                                <h4>Portable radios are encouraged for those who may want to sit outside of the vehicle.</h4>
+                                <h4><strong>Portable radios</strong> are welcomed and encouraged for those concerned with vehicle batteries, those to wish outside, or those who prefer something more than in-car audio.</h4>
                                 {/* <h4>Learn how to make sure <strong>EXTERIOR h4>HTS ARE OFF</strong> when the <strong>MOTOR IS OFF</strong> and the <strong>RADIO IS ON</strong>!</h4> */}
                                 <h4>Find us at <strong>314 McAdenville Rd, Belmont, NC 28012</strong>!</h4>
                                 <div className="d-flex justify-content-center">

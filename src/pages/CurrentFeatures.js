@@ -14,8 +14,9 @@ export default function CurrentFeatures() {
                 <h2><WeekendDates/></h2>
             </div>
             <section className="text-center">
-                <h1><strong>{firstFeature} & {secondFeature}</strong></h1>
-                <h4>Click or tap the movie poster below to see the IMDB entry!</h4>
+                {/* <h1><strong>{firstFeature} & {secondFeature}</strong></h1> */}
+                <h1><strong>To Be Determined!</strong></h1>
+                {/* <h4>Click or tap the movie poster below to see the IMDB entry!</h4> */}
             </section>
             <div className="d-flex justify-content-center">
                 <section className="row text-center w-100">
