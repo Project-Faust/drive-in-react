@@ -8,9 +8,22 @@ const template = [
 ]
 
 export const nowPlaying = [
+        {
+            title: "E.T. the Extra Terrestrial (1982)",
+            image: require("./assets/et-1982-poster.jpg"),
+            imdb: "https://www.imdb.com/title/tt0083866/",
+        },
+        {
+            title: "Christine (1983)",
+            image: require("./assets/christine-1983-poster.jpg"),
+            imdb: "https://www.imdb.com/title/tt0085333/"
+        }
+]
+
+export const toBeDetermined = [
     {
         title: "To Be Determined",
-        image: require("../src/assets/to-be-determined.jpg"),
+        image: require("./assets/to-be-determined.jpg"),
         imdb: "",
     },
     {
@@ -20,6 +33,7 @@ export const nowPlaying = [
     }
 ]
 
+// eslint-disable-next-line
 export const comingSoon = [
     // {
     //     title: "",

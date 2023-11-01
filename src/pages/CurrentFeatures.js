@@ -8,21 +8,21 @@ const secondFeature = nowPlaying[1].title;
 
 export default function CurrentFeatures() {
     return (
-        <section id="currentFeaturesParent" className="mw-100 mh-100 bg-halloween px-3">
+        <section id="currentFeaturesParent" className="mw-100 mh-100 px-3">
             <div className="text-center p-3">
                 <h1><strong>Now Playing!</strong></h1>
                 <h2><WeekendDates/></h2>
             </div>
             <section className="text-center">
-                {/* <h1><strong>{firstFeature} & {secondFeature}</strong></h1> */}
-                <h1><strong>To Be Determined!</strong></h1>
-                {/* <h4>Click or tap the movie poster below to see the IMDB entry!</h4> */}
+                <h1><strong>{firstFeature} & {secondFeature}</strong></h1>
+                <h4>Click or tap the movie poster below to see the IMDB entry!</h4>
+                {/* <h1><strong>To Be Determined!</strong></h1> */}
             </section>
             <div className="d-flex justify-content-center">
                 <section className="row text-center w-100">
                     {nowPlaying.map((res) => (
                         <div className="justify-content-center my-3 py-3 col-lg-6 col-md-12">
-                            <div className="border border-dark border-3 rounded m-3 bg-halloween-accent">
+                            <div className="border border-dark border-3 rounded m-3 bg-dark">
                                 <a href={res.imdb} target="_blank" rel="noreferrer" className="text-dark text-decoration-none">
                                     <h1 className="text-decoration-underline text-light"><strong>{res.title}</strong></h1>
                                 </a>

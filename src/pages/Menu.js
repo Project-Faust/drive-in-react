@@ -4,7 +4,7 @@ import updatedMenuPNG from "../assets/updated-menu.png"
 
 export default function Menu() {
     return (
-        <section className="pdfSection d-flex flex-column justify-content-center align-items-center container-fluid mw-100 mh-100 bg-halloween">
+        <section className="pdfSection d-flex flex-column justify-content-center align-items-center container-fluid mw-100 mh-100">
             <div className="row text-center p-3">
                 <h1>Our Concession Stand is Open!</h1>
             </div>

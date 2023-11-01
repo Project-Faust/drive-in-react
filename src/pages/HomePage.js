@@ -4,7 +4,7 @@ import Oct2023ScheduleImg from "../assets/2023-october-schedule.jpeg";
 
 export default function HomePage() {
     return (
-        <section className="mw-100 mh-100 bg-halloween">
+        <section className="mw-100 mh-100">
             <div className="text-center py-3">
                 <h1><strong>Welcome to the Belmont Drive-In Theatre!</strong></h1>
                 <h2><strong>Your affordable family entertainment center!</strong></h2>
@@ -20,7 +20,7 @@ export default function HomePage() {
                         </div>
                     </div> */}
                     <div className="col-lg-9 col-md-12">
-                        <div className="border border-dark border-3 rounded bg-halloween-accent text-light m-3">
+                        <div className="border border-dark border-3 rounded bg-dark text-light m-3">
                             <div className="d-flex flex-column justify-content-evenly align-items-center p-3">
                                 <h4>We are a <strong>cash only</strong> business!</h4>
                                 <h4>Entry is <strong>$25 per car</strong>!</h4>

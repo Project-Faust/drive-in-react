@@ -3,7 +3,7 @@ import rulesJGP from "../assets/drive-in-rules.jpg"
 
 export default function Rules() {
     return (
-        <section className="pdfSection d-flex flex-column justify-content-center align-items-center container-fluid mw-100 mh-100 bg-halloween">
+        <section className="pdfSection d-flex flex-column justify-content-center align-items-center container-fluid mw-100 mh-100">
             <div className="row text-center p-3">
                 <h1>Here are our rules and regulations!</h1>
             </div>
