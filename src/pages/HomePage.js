@@ -33,7 +33,7 @@ export default function HomePage() {
                                 <h4>The first feature starts tentatively at 8:00PM!</h4>
                                 <h4>The second feature follows the first film with a short intermission between.</h4>
                                 <h4>All sound is done by FM radio at <strong>90.3FM</strong>!</h4>
-                                <h4><strong>Portable radios</strong> are welcomed and encouraged for those concerned with vehicle batteries, those to wish outside, or those who prefer something more than in-car audio.</h4>
+                                <h4><strong>Portable radios</strong> are welcomed and encouraged !</h4>
                                 {/* <h4>Learn how to make sure <strong>EXTERIOR h4>HTS ARE OFF</strong> when the <strong>MOTOR IS OFF</strong> and the <strong>RADIO IS ON</strong>!</h4> */}
                                 <h4>Find us at <strong>314 McAdenville Rd, Belmont, NC 28012</strong>!</h4>
                                 <div className="d-flex justify-content-center">

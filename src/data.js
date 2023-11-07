@@ -9,14 +9,14 @@ const template = [
 
 export const nowPlaying = [
         {
-            title: "E.T. the Extra Terrestrial (1982)",
-            image: require("./assets/et-1982-poster.jpg"),
-            imdb: "https://www.imdb.com/title/tt0083866/",
+            title: "Smokey and the Bandit (1977)",
+            image: require("./assets/smokey-and-the-bandit-1977.jpg"),
+            imdb: "https://www.imdb.com/title/tt0076729/",
         },
         {
-            title: "Christine (1983)",
-            image: require("./assets/christine-1983-poster.jpg"),
-            imdb: "https://www.imdb.com/title/tt0085333/"
+            title: "American Graffiti (1973)",
+            image: require("./assets/american-graffiti-1973.jpg"),
+            imdb: "https://www.imdb.com/title/tt0069704/"
         }
 ]
 
@@ -47,6 +47,7 @@ export const comingSoon = [
     // }
 ]
 
+// eslint-disable-next line
 export const previousPlaying = [
     {
         title: "Paw Patrol: The Mighty Movie",
