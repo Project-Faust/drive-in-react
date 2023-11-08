@@ -30,7 +30,7 @@ export default function HomePage() {
                                 <h4><strong>No running engines</strong> once parked!</h4>
                                 <h4><strong>No pets</strong> are allowed on the premises!</h4>
                                 {/* <h4>The first feature starts at <strong>sundown</strong>!</h4> */}
-                                <h4>The first feature starts tentatively at 8:00PM!</h4>
+                                <h4>The first feature starts tentatively at 7:00PM due to daylight saving time!</h4>
                                 <h4>The second feature follows the first film with a short intermission between.</h4>
                                 <h4>All sound is done by FM radio at <strong>90.3FM</strong>!</h4>
                                 <h4><strong>Portable radios</strong> are welcomed and encouraged !</h4>
