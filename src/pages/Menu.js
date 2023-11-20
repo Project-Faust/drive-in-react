@@ -1,5 +1,3 @@
-import MenuPDF from "../assets/drive-in-menu.pdf"
-import menuJPG from "../assets/drive-in-menu.jpg"
 import updatedMenuPNG from "../assets/updated-menu.png"
 
 export default function Menu() {

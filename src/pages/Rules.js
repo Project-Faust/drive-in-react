@@ -1,4 +1,3 @@
-import rulesPDF from "../assets/drive-in-rules.pdf"
 import rulesJGP from "../assets/drive-in-rules.jpg"
 
 export default function Rules() {

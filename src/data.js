@@ -9,14 +9,14 @@ const template = [
 
 export const nowPlaying = [
         {
-            title: "Jurrasic Park (1993)",
-            image: require("./assets/jurassic-park-1993.jpg"),
-            imdb: "https://www.imdb.com/title/tt0107290/",
+            title: "Elf (2003)",
+            image: require("./assets/elf-2023.jpg"),
+            imdb: "https://www.imdb.com/title/tt0319343/",
         },
         {
-            title: "Twister (1996)",
-            image: require("./assets/twister-1996.jpg"),
-            imdb: "https://www.imdb.com/title/tt0117998/"
+            title: "National Lampoon's Christmas Vacation (1989)",
+            image: require("./assets/national-lampoons-christmas-vacation-1989.jpg"),
+            imdb: "https://www.imdb.com/title/tt0097958/"
         }
 ]
 

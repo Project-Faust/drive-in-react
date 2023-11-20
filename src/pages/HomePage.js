@@ -1,5 +1,6 @@
+// eslint-disable-next-line
 import IfYoureLookingImg from "../assets/if-youre-looking.jpg";
-import Oct2023ScheduleImg from "../assets/2023-october-schedule.jpeg";
+import closedThanksgiving from "../assets/closed-thanksgiving.png"
 
 
 export default function HomePage() {
@@ -36,10 +37,16 @@ export default function HomePage() {
                                 <h4><strong>Portable radios</strong> are welcomed and encouraged !</h4>
                                 {/* <h4>Learn how to make sure <strong>EXTERIOR h4>HTS ARE OFF</strong> when the <strong>MOTOR IS OFF</strong> and the <strong>RADIO IS ON</strong>!</h4> */}
                                 <h4>Find us at <strong>314 McAdenville Rd, Belmont, NC 28012</strong>!</h4>
-                                <div className="d-flex justify-content-center">
+                                {/* <div className="d-flex justify-content-center">
                                     <img
                                         src={IfYoureLookingImg}
                                         alt="If You're Looking"
+                                        className="justify-content-center w-50 mw-100 mh-100 border border-secondary border-3 rounded my-3"></img>
+                                </div> */}
+                                <div className="d-flex justify-content-center">
+                                    <img
+                                        src={closedThanksgiving}
+                                        alt="Closed Thanksgiving"
                                         className="justify-content-center w-50 mw-100 mh-100 border border-secondary border-3 rounded my-3"></img>
                                 </div>
                             </div>
