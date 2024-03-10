@@ -60,7 +60,7 @@ export default function HomePage() {
                     </div>
                 </section>
             </div>
-            <div>
+            <div className="d-flex justify-content-center align-items-center m-3 mw-100">
                 <iframe width="600"
                     height="450"
                     style={{ border: 0 }}
