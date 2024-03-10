@@ -1,18 +1,28 @@
 // eslint-disable-next-line
 import IfYoureLookingImg from "../assets/if-youre-looking.jpg";
+import CountdownTimer from "../helpers/Countdown";
 
 export default function HomePage() {
     return (
         <section className="mw-100 mh-100">
             <div className="text-center py-3">
-                <h1><strong>Welcome to the Belmont Drive-In Theatre!</strong></h1>
+                <h1><strong>Welcome to the Belmont Drive-In Theatre</strong></h1>
                 <h2><strong>Your affordable family entertainment center!</strong></h2>
+            </div>
+            <div className="d-flex justify-content-center align-items center mw-100 m-3">
+                <div className="text-center">
+                    <div className="border border-dark border-3 rounded bg-primary text-light p-3">
+                        <CountdownTimer />
+                    </div>
+                </div>
             </div>
             <div className="d-flex justify-content-center align-items-center mw-100">
                 <section className="row justify-content-center text-center w-100">
                     <div className="col-lg-9 col-md-12">
                         <div className="border border-dark border-3 rounded bg-dark text-light m-3">
                             <div className="d-flex flex-column justify-content-evenly align-items-center p-3">
+
+
                                 {/* <h4>We are a <strong>cash only</strong> business!</h4>
                                 <h4>Entry is <strong>$25 per car</strong>!</h4>
                                 <h4>Gates open at <strong>6:00PM</strong>!</h4>
@@ -34,7 +44,7 @@ export default function HomePage() {
                                     </h5>
                                     <h5 className="p-3 text-end">
                                         A Big Belmont Drive-In Thank You,
-                                        <br/>
+                                        <br />
                                         Melinda, Roger, Casey, Lane, and the rest of the Belmont Drive-In Crew
                                     </h5>
                                 </div>
@@ -50,6 +60,15 @@ export default function HomePage() {
                     </div>
                 </section>
             </div>
-        </section>
+            <div>
+                <iframe width="600"
+                    height="450"
+                    style={{ border: 0 }}
+                    loading="lazy"
+                    allowfullscreen
+                    src={`https://www.google.com/maps/embed/v1/place?q=place_id:ChIJqRq4HOq9VogR6duom18zqd0&key=${process.env.REACT_APP_GOOGLE_MAPS_API_KEY}`}>
+                </iframe>
+            </div>
+        </section >
     );
 };
