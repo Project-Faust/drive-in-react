@@ -17,7 +17,7 @@ class CountdownTimer extends Component {
   }
 
   updateCountdown = () => {
-    const targetDate = new Date('2024-04-12T19:00:00'); // Set your target date here
+    const targetDate = new Date('2024-04-05T19:00:00'); // Set your target date here
     const now = new Date();
     const difference = targetDate - now;
 
