@@ -2,7 +2,7 @@
 import WeekendDates from "../components/WeekendDates";
 import { nowPlaying } from "../data";
 const posterStyle = {
-    maxWidth: "800",
+    maxWidth: "95%",
     maxHeight: "1200px"
 }
 const firstFeature = nowPlaying[0].title;
