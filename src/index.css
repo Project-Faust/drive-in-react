@@ -41,14 +41,24 @@ code {
   bottom: 0;
 }
 
-.bg-halloween{
+.nav-link {
+  transition: transform 0.3s ease;
+  /* Smooth transition for scaling */
+}
+
+.nav-link:hover {
+  cursor: pointer;
+  /* or your preferred cursor style */
+  transform: scale(1.2);
+  /* Adjust scaling factor as needed */
+  font-weight: bold;
+}
+
+
+.bg-halloween {
   background-color: #F39F5A;
 }
 
 .bg-halloween-accent {
   background-color: #451952;
-}
-
-.movie-poster {
-  max-height: 1400px;
 }

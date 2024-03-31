@@ -21,9 +21,10 @@ export default function NavBar({ navLinks = [], currentLink, setCurrentLink }) {
                 <ul className={`navbar-nav ${collapsed ? 'mx-auto' : ''} text-center`}>
                     {navLinks.map((navLink) => (
                         <a key={navLink.name}
-                            className={`nav-link text-light ${currentLink === navLink ? 'active' : ''}`}
+                            className={`nav-link text-light mx-2 ${currentLink === navLink ? 'active' : ''}`}
                             href={navLink.url}
-                            onClick={() => {
+                            onClick={(e) => {
+                                e.preventDefault();
                                 setCurrentLink(navLink);
                                 setCollapsed(true);
                             }}>
