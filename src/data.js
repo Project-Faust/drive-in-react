@@ -9,14 +9,14 @@ const template = [
 
 export const nowPlaying = [
         {
-            title: "",
-            image: "",
-            imdb: "",
+            title: "Kung Fu Panda 4",
+            image: require("../src/assets/kung-fu-panda-4.jpg"),
+            imdb: "https://www.imdb.com/title/tt21692408/",
         },
         {
-            title: "",
-            image: "",
-            imdb: "",
+            title: "Ghostbusters: Frozen Empire",
+            image: require("../src/assets/ghostbusters-frozen-empire.jpg"),
+            imdb: "https://www.imdb.com/title/tt21235248/",
         }
 ]
 

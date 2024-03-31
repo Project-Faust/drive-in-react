@@ -48,3 +48,7 @@ code {
 .bg-halloween-accent {
   background-color: #451952;
 }
+
+.movie-poster {
+  max-height: 1400px;
+}

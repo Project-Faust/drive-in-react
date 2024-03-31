@@ -1,5 +1,6 @@
 // eslint-disable-next-line
 import IfYoureLookingImg from "../assets/if-youre-looking.jpg";
+import opening2024 from "../assets/2024-opening-weekend.jpg";
 import CountdownTimer from "../helpers/Countdown";
 
 export default function HomePage() {
@@ -37,10 +38,10 @@ export default function HomePage() {
                                 <h4><strong>Portable radios</strong> are welcomed and encouraged !</h4>
                                 <h4>Find us at <strong>314 McAdenville Rd, Belmont, NC 28012</strong>!</h4> */}
 
-                                <h3 className="py-3">Ladies and gentleman, that's a wrap for the grand reopening 2023 season!</h3>
+                                <h3 className="py-3">Our opening weekend for the 2024 season is just around the corner!</h3>
                                 <div>
                                     <h5 className="text-start p-3" style={{ textIndent: '50px' }}>
-                                        Thank you again to all who supported us through the past few months and those of you who will do so in the future. We are beyond blessed to serve the community and your families. We know that Bill and Peggy are looking down smiling at us and the community as a whole for all of the cooperation and support that has gone around this year. From the bottom of our hearts, we wish everyone a blessed holiday season full of love and joy. Be sure to spend time with friends, family, and loved ones this holiday season.
+                                        We're proud to say that we have had a wonderful winter with out family, just as we hope you have. We have made some updates and adjustments to our menu and rules which have been posted on our FaceBook page and will be uploaded under the corresponding sections of our website as well very soon.
                                     </h5>
                                     <h5 className="p-3 text-end">
                                         A Big Belmont Drive-In Thank You,
@@ -51,24 +52,47 @@ export default function HomePage() {
 
                                 <div className="d-flex justify-content-center">
                                     <img
+                                        src={opening2024}
+                                        alt="2024 opening weekend"
+                                        className="justify-content-center w-50 mw-100 mh-100 border border-secondary border-3 rounded my-3">
+                                    </img>
+                                </div>
+                                {/* <div className="d-flex justify-content-center">
+                                    <img
                                         src={IfYoureLookingImg}
                                         alt="If You're Looking"
                                         className="justify-content-center w-50 mw-100 mh-100 border border-secondary border-3 rounded my-3"></img>
-                                </div>
+                                </div> */}
                             </div>
                         </div>
                     </div>
                 </section>
             </div>
-            <div className="d-flex justify-content-center align-items-center m-3 mw-100">
-                <iframe width="600"
-                    height="450"
-                    style={{ border: 0 }}
-                    loading="lazy"
-                    allowfullscreen
-                    src={`https://www.google.com/maps/embed/v1/place?q=place_id:ChIJqRq4HOq9VogR6duom18zqd0&key=${process.env.REACT_APP_GOOGLE_MAPS_API_KEY}`}>
-                </iframe>
-            </div>
+            <section>
+                <div
+                    class="fb-page d-flex justify-content-center align-items-center m-3 mw-100"
+                    data-href="https://www.facebook.com/profile.php?id=100063570731472"
+                    data-tabs="timeline"
+                    data-width="600"
+                    data-height="131"
+                    data-small-header="false"
+                    data-adapt-container-width="true"
+                    data-hide-cover="false"
+                    data-show-facepile="false">
+                    <blockquote
+                        cite="https://www.facebook.com/profile.php?id=100063570731472"
+                        class="fb-xfbml-parse-ignore">
+                        <a href="https://www.facebook.com/profile.php?id=100063570731472">Belmont Drive-In</a></blockquote></div>
+                <div className="d-flex justify-content-center align-items-center m-3 mw-100">
+                    <iframe width="600"
+                        height="450"
+                        style={{ border: 0 }}
+                        loading="lazy"
+                        allowfullscreen
+                        src={`https://www.google.com/maps/embed/v1/place?q=place_id:ChIJqRq4HOq9VogR6duom18zqd0&key=${process.env.REACT_APP_GOOGLE_MAPS_API_KEY}`}>
+                    </iframe>
+                </div>
+            </section>
         </section >
     );
 };
