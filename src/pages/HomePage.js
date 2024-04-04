@@ -5,7 +5,7 @@ import CountdownTimer from "../helpers/Countdown";
 
 const rememberStyle = {
     backgroundColor: "#a3ff96",
-    fontWeight: ""
+    fontSize: "18px"
 }
 
 export default function HomePage() {
@@ -18,7 +18,7 @@ export default function HomePage() {
             <div className="d-flex justify-content-center align-items center mw-100 m-3">
                 <div className="text-center">
                     <div className="border border-dark border-3 rounded bg-primary text-light p-3">
-                        <CountdownTimer />
+                        <CountdownTimer/>
                     </div>
                 </div>
             </div>
@@ -35,7 +35,7 @@ export default function HomePage() {
                                             <li>We are a <strong>cash only</strong> business!</li>
                                             <li>Our business runs and survives on sales from the concession stand!<br/> <strong>No outside food or drink!</strong></li>
                                             <li>All of our sound, including music, movie sound, and annoucements, is broadcast locally on <strong>FM Radio!</strong><br/><strong>Please bring a portable FM radio</strong> if you are unable to turn off all vehicle lights while the engine is off!</li>
-                                            <li>For the comfort and well-being of all, please <strong>leave all pets at home</strong>!</li>
+                                            <li>Please <strong>leave pets at home</strong>!</li>
                                             <li>Once the field lights are dimmed, please <strong>turn off all exterior vehicle lights</strong>!<br/>Please come prepared to promptly extinguish your lights!</li>
                                         </ul>
                                     </div>

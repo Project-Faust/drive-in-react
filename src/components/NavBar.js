@@ -6,7 +6,7 @@ export default function NavBar({ navLinks = [], currentLink, setCurrentLink }) {
     return (
         <nav className="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
             <button
-                className="navbar-toggler"
+                className="navbar-toggler mx-2"
                 type="button"
                 data-toggle="collapse"
                 data-target="#navbarNav"
