@@ -3,7 +3,8 @@ import WeekendDates from "../components/WeekendDates";
 import { nowPlaying } from "../data";
 const posterStyle = {
     maxWidth: "95%",
-    maxHeight: "1200px"
+    maxHeight: "1000px",
+    aspectRatio: "2/3"
 }
 const firstFeature = nowPlaying[0].title;
 const secondFeature = nowPlaying[1].title;
@@ -19,7 +20,9 @@ export default function CurrentFeatures() {
             </div>
             <section className="text-center">
                 {/* <h1><strong>For our last weekend of the year, 12/01/2023 & 12/02/2023!</strong></h1> */}
-                <h1><strong>{firstFeature} & {secondFeature}</strong></h1>
+                <h1><strong>{firstFeature}</strong></h1>
+                <h1>&</h1>
+                <h1><strong>{secondFeature}</strong></h1>
                 {/* <h4>Click or tap the movie poster below to see the IMDB entry!</h4> */}
                 {/* <h1><strong>To Be Determined!</strong></h1> */}
             </section>

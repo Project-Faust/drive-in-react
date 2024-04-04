@@ -3,6 +3,11 @@ import IfYoureLookingImg from "../assets/if-youre-looking.jpg";
 import opening2024 from "../assets/2024-opening-weekend.jpg";
 import CountdownTimer from "../helpers/Countdown";
 
+const rememberStyle = {
+    backgroundColor: "#a3ff96",
+    fontWeight: ""
+}
+
 export default function HomePage() {
     return (
         <section className="mw-100 mh-100">
@@ -22,7 +27,19 @@ export default function HomePage() {
                     <div className="col-lg-9 col-md-12">
                         <div className="border border-dark border-3 rounded bg-dark text-light m-3">
                             <div className="d-flex flex-column justify-content-evenly align-items-center p-3">
-
+                                <div className="text-center">
+                                    <div className="border border-dark border-3 text-dark mw-100 p-3"
+                                    style={rememberStyle}>
+                                        <h1 >Things to remember!</h1>
+                                        <ul className="text-start p-3 m-3">
+                                            <li>We are a <strong>cash only</strong> business!</li>
+                                            <li>Our business runs and survives on sales from the concession stand!<br/> <strong>No outside food or drink!</strong></li>
+                                            <li>All of our sound, including music, movie sound, and annoucements, is broadcast locally on <strong>FM Radio!</strong><br/><strong>Please bring a portable FM radio</strong> if you are unable to turn off all vehicle lights while the engine is off!</li>
+                                            <li>For the comfort and well-being of all, please <strong>leave all pets at home</strong>!</li>
+                                            <li>Once the field lights are dimmed, please <strong>turn off all exterior vehicle lights</strong>!<br/>Please come prepared to promptly extinguish your lights!</li>
+                                        </ul>
+                                    </div>
+                                </div>
 
                                 {/* <h4>We are a <strong>cash only</strong> business!</h4>
                                 <h4>Entry is <strong>$25 per car</strong>!</h4>
@@ -38,7 +55,7 @@ export default function HomePage() {
                                 <h4><strong>Portable radios</strong> are welcomed and encouraged !</h4>
                                 <h4>Find us at <strong>314 McAdenville Rd, Belmont, NC 28012</strong>!</h4> */}
 
-                                <h3 className="py-3">Our opening weekend for the 2024 season is just around the corner!</h3>
+                                <h3 className="py-3"><strong>Our opening weekend for the 2024 season is just around the corner!</strong></h3>
                                 <div>
                                     <h5 className="text-start p-3" style={{ textIndent: '50px' }}>
                                         We're proud to say that we have had a wonderful winter with out family, just as we hope you have. We have made some updates and adjustments to our menu and rules which have been posted on our <a href="https://www.facebook.com/profile.php?id=100063570731472">Facebook</a> page and will be uploaded under the corresponding sections of our website in the near future.

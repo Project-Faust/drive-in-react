@@ -34,7 +34,9 @@ export default function App() {
           <img src={logo} alt="Belmont Drive-In logo" />
         </div>
       </header>
-      <main id="mainContainer">
+      <main 
+      id="mainContainer"
+      className="mw-100">
         {currentNav === navLinks[0] && <HomePage></HomePage>}
         {currentNav === navLinks[1] && <CurrentFeatures></CurrentFeatures>}
         {/* {currentNav === navLinks[2] && <ComingSoon></ComingSoon>} */}
