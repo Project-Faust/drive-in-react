@@ -58,7 +58,7 @@ export default function HomePage() {
                                 <h3 className="py-3"><strong>Our opening weekend for the 2024 season is just around the corner!</strong></h3>
                                 <div>
                                     <h5 className="text-start p-3" style={{ textIndent: '50px' }}>
-                                        We're proud to say that we have had a wonderful winter with out family, just as we hope you have. We have made some updates and adjustments to our menu and rules which have been posted on our <a href="https://www.facebook.com/profile.php?id=100063570731472">Facebook</a> page and will be uploaded under the corresponding sections of our website in the near future.
+                                        We're proud to say that we have had a wonderful winter with our family, just as we hope you have. We have made some updates and adjustments to our menu and rules which have been posted on our <a href="https://www.facebook.com/profile.php?id=100063570731472">Facebook</a> page and will be uploaded under the corresponding sections of our website in the near future.
                                     </h5>
                                     <h5 className="p-3 text-end">
                                         A Big Belmont Drive-In Thank You,
