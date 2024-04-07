@@ -27,15 +27,6 @@ code {
   height: 100%;
 }
 
-.pdfViewer,
-#pdfSection {
-  height: 100%
-}
-
-.pdfContainer {
-  height: 100vh;
-}
-
 .fixed-bottom {
   position: fixed;
   bottom: 0;
@@ -43,17 +34,23 @@ code {
 
 .nav-link {
   transition: transform 0.3s ease;
-  /* Smooth transition for scaling */
 }
 
 .nav-link:hover {
   cursor: pointer;
-  /* or your preferred cursor style */
   transform: scale(1.2);
-  /* Adjust scaling factor as needed */
   font-weight: bold;
 }
 
+#fb-profile-link {
+  border-color: #316FF6 !important;
+}
+
+@media (max-width: 600px) {
+  #fb-profile-link {
+    max-width: 100%;
+  }
+}
 
 .bg-halloween {
   background-color: #F39F5A;

@@ -1,7 +1,7 @@
-// eslint-disable-next-line
-import IfYoureLookingImg from "../assets/if-youre-looking.jpg";
-import opening2024 from "../assets/2024-opening-weekend.jpg";
-import CountdownTimer from "../helpers/Countdown";
+// // eslint-disable-next-line
+// import IfYoureLookingImg from "../assets/if-youre-looking.jpg";
+// import opening2024 from "../assets/2024-opening-weekend.jpg";
+// import CountdownTimer from "../helpers/Countdown";
 
 const rememberStyle = {
     backgroundColor: "#a3ff96",
@@ -27,11 +27,11 @@ export default function HomePage() {
                     <div className="col-lg-9 col-md-12">
                         <div className="border border-dark border-3 rounded bg-dark text-light m-3">
                             <div className="d-flex flex-column justify-content-evenly align-items-center p-3">
-                                <h3 className="py-3"><strong>Our opening weekend for the 2024 season is finally here!</strong></h3>
-                                <div className="text-center">
-                                    <div className="border border-dark border-3 text-dark mw-100 p-3"
-                                        style={rememberStyle}>
-                                        <h1 >Things to remember!</h1>
+                                <h3 className="h1 py-3"><strong>We're open for the 2024 season!</strong></h3>
+                                <div className="border border-3 border-secondary rounded text-dark p-3 m-3 mw-100"
+                                    style={rememberStyle}>
+                                    <div className="text-center">
+                                        <h4 className="h1">Things to remember!</h4>
                                         <ul className="text-start p-3 m-3">
                                             <li>Gates open at <strong>6:00PM</strong>!</li>
                                             <li>We are a <strong>cash only</strong> business!</li>
@@ -43,39 +43,24 @@ export default function HomePage() {
                                         </ul>
                                     </div>
                                 </div>
-
-                                {/* <h4>We are a <strong>cash only</strong> business!</h4>
-                                <h4>Entry is <strong>$25 per car</strong>!</h4>
-                                <h4>Gates open at <strong>6:00PM</strong>!</h4>
-                                <h4><strong>No outside food or drink</strong> allowed!</h4>
-                                <h4><strong>No exterior lights</strong> during showtime!</h4>
-                                <h4><strong>No running engines</strong> once parked!</h4>
-                                <h4><strong>No pets</strong> are allowed on the premises!</h4>
-                                <h4>The first feature starts at <strong>sundown</strong>!</h4>
-                                <h4>The first feature starts tentatively at 7:00PM due to daylight saving time!</h4>
-                                <h4>The second feature follows the first film with a short intermission between.</h4>
-                                <h4>All sound is done by FM radio at <strong>90.3FM</strong>!</h4>
-                                <h4><strong>Portable radios</strong> are welcomed and encouraged !</h4>
-                                <h4>Find us at <strong>314 McAdenville Rd, Belmont, NC 28012</strong>!</h4> */}
-
-                                <div>
-                                    <h5 className="text-start p-3" style={{ textIndent: '50px' }}>
+                                <div className="border border-3 rounded border-secondary bg-light text-dark m-3 mw-100">
+                                    <p className="h3 text-start p-3" style={{ textIndent: '50px' }}>
                                         We're proud to say that we have had a wonderful winter with our family, just as we hope you have. We have made some updates and adjustments to our menu and rules which have been posted on our <a href="https://www.facebook.com/profile.php?id=100063570731472">Facebook</a> page and have been updated on our website.
-                                    </h5>
-                                    <h5 className="p-3 text-end">
-                                        A Big Belmont Drive-In Thank You,
+                                    </p>
+                                    <p className="h4 p-3 text-end">
+                                        A Big Thank You,
                                         <br />
-                                        Melinda, Roger, Casey, Lane, and the rest of the Belmont Drive-In Crew
-                                    </h5>
+                                        The Belmont Drive-In Family
+                                    </p>
                                 </div>
 
-                                <div className="d-flex justify-content-center">
+                                {/* <div className="d-flex justify-content-center">
                                     <img
                                         src={opening2024}
                                         alt="2024 opening weekend"
-                                        className="justify-content-center w-50 mw-100 mh-100 border border-secondary border-3 rounded my-3">
+                                        className="justify-content-center w-50 mw-100 mh-100 border border-secondary border-3 rounded m-3">
                                     </img>
-                                </div>
+                                </div> */}
                                 {/* <div className="d-flex justify-content-center">
                                     <img
                                         src={IfYoureLookingImg}
@@ -103,7 +88,9 @@ export default function HomePage() {
                         class="fb-xfbml-parse-ignore">
                         <a href="https://www.facebook.com/profile.php?id=100063570731472">Belmont Drive-In</a></blockquote></div>
                 <div className="d-flex justify-content-center align-items-center m-3 mw-100">
-                    <iframe width="600"
+                    <iframe
+                        title="google map embed"
+                        width="600"
                         height="450"
                         style={{ border: 0 }}
                         loading="lazy"
