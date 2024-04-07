@@ -2,7 +2,7 @@
 // import IfYoureLookingImg from "../assets/if-youre-looking.jpg";
 // import opening2024 from "../assets/2024-opening-weekend.jpg";
 // import CountdownTimer from "../helpers/Countdown";
-
+import logo from "../assets/logo.png"
 const rememberStyle = {
     backgroundColor: "#a3ff96",
     fontSize: "18px"
@@ -11,6 +11,9 @@ const rememberStyle = {
 export default function HomePage() {
     return (
         <section className="mw-100 mh-100">
+            <div id="banner" className=" mw-100 mh-100 text-center py-3">
+                <img src={logo} alt="Belmont Drive-In logo" />
+            </div>
             <div className="text-center py-3">
                 <h1><strong>Welcome to the Belmont Drive-In Theatre</strong></h1>
                 <h2><strong>Your affordable family entertainment center!</strong></h2>
