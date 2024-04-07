@@ -2,7 +2,7 @@
 // import IfYoureLookingImg from "../assets/if-youre-looking.jpg";
 // import opening2024 from "../assets/2024-opening-weekend.jpg";
 // import CountdownTimer from "../helpers/Countdown";
-import logo from "../assets/logo.png"
+import logo from "../assets/logo.webp"
 const rememberStyle = {
     backgroundColor: "#a3ff96",
     fontSize: "18px"
