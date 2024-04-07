@@ -36,6 +36,7 @@ export default function HomePage() {
                                             <li>Gates open at <strong>6:00PM</strong>!</li>
                                             <li>We are a <strong>cash only</strong> business!</li>
                                             <li>Our business runs and survives on sales from the concession stand!<br /> <strong>No outside food or drink!</strong></li>
+                                            <li>Alongside not bring outside food and drink, we have a <strong>zero-tolerance no alcohol policy.</strong></li>
                                             <li>All of our sound, including music, movie sound, and annoucements, is broadcast locally on <strong>FM Radio!</strong><br /><strong>Please bring a portable FM radio</strong> if you are unable to turn off all vehicle lights while the engine is off!</li>
                                             <li>Please <strong>leave pets at home</strong>!</li>
                                             <li>Once the field lights are dimmed, please <strong>turn off all exterior vehicle lights</strong>!<br />Please come prepared to promptly extinguish your lights!</li>
