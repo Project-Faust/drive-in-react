@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import usePreloadImage from "../helpers/usePreloadImage";
 import ifYoureLooking from "../assets/if-youre-looking.webp";
 import logo from "../assets/logo.webp"
@@ -5,6 +6,11 @@ import starryBG from "../assets/star-background.webp"
 
 export default function HomePage() {
     usePreloadImage([starryBG, logo, ifYoureLooking])
+    useEffect(() => {
+        if (window.FB) {
+            window.FB.XFBML.parse(); // Re-parse the DOM to render Facebook widgets
+        }
+    }, []);
     return (
         <section
             className="mw-100 mh-100"
