@@ -23,7 +23,7 @@ export default function HomePage() {
             <div id="banner" className=" mw-100 mh-100 text-center py-3">
                 <img src={logo} alt="Belmont Drive-In logo" />
             </div>
-            <div className="text-center">
+            <div className="text-center m-3">
                 <section className="d-inline-flex border border-3 rounded border-secondary bg-dark mw-100">
                     <div className="text-center text-light p-3">
                         <h1><strong>Welcome to the Belmont Drive-In Theatre</strong></h1>
@@ -34,7 +34,7 @@ export default function HomePage() {
             <div className="d-flex justify-content-center align-items-center mw-100">
                 <section className="row justify-content-center text-center w-100">
                     <div className="col-lg-9 col-md-12">
-                        <div className="border border-secondary border-3 rounded bg-dark text-light m-3">
+                        <div className="border border-secondary border-3 rounded bg-dark text-light">
                             <div className="d-flex flex-column justify-content-evenly align-items-center p-3">
                                 <h3 className="h1 py-3"><strong>We're open for the 2024 season!</strong></h3>
                                 <div className="row">
