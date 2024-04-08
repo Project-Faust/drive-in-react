@@ -42,6 +42,16 @@ code {
   font-weight: bold;
 }
 
+.nav-link.active {
+  transform: scale(1.2);
+  font-weight: bold;
+}
+
+li, p {
+  font-size: 26px;
+  text-shadow: black 2px 2px !important;
+}
+
 #fb-profile-link {
   border-color: #316FF6 !important;
 }

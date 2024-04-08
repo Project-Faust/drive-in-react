@@ -18,7 +18,8 @@ export default function CurrentFeatures() {
                 {/* <h1><strong>We are closed the weekend of 11/24/2023 & 11/25/2023!</strong></h1> */}
                 {/* <h3>We will be open for the first weekend of December as the last showing of the season!</h3> */}
             </div>
-            <section className="text-center">
+            <section className="text-center"
+            style={{textDecoration:"none"}}>
                 {/* <h1><strong>For our last weekend of the year, 12/01/2023 & 12/02/2023!</strong></h1> */}
                 <h1><strong>{firstFeature}</strong></h1>
                 <h1>&</h1>
@@ -30,9 +31,9 @@ export default function CurrentFeatures() {
                 <section className="row text-center w-100">
                     {nowPlaying.map((res) => (
                         <div className="justify-content-center my-3 py-3 col-lg-6 col-md-12">
-                            <div className="border border-dark border-3 rounded m-3 bg-dark">
+                            <div className="border border-dark border-3 rounded py-3 m-3 bg-dark">
                                 <a href={res.imdb} target="_blank" rel="noreferrer" className="text-dark text-decoration-none">
-                                    <h1 className="text-decoration-underline text-light"><strong>{res.title}</strong></h1>
+                                    <h1 className="text-decoration-none text-light"><strong>{res.title}</strong></h1>
                                 </a>
                                 <div className="container">
                                     <a

@@ -1,4 +1,4 @@
-import rulesJGP from "../assets/drive-in-rules.jpg"
+import rulesJGP from "../assets/drive-in-rules.webp"
 
 export default function Rules() {
     return (

@@ -1,20 +1,17 @@
-import menu2024 from "../assets/2024-menu.png"
-import allergy2024 from "../assets/2024-food-allergies.png"
+import menu2024 from "../assets/2024-menu.webp"
+import allergy2024 from "../assets/2024-food-allergies.webp"
 
 const menuStyle = {
     maxWidth: "90%",
 };
 
-const menuBackground = {
-    backgroundColor: "#E9573F"
-}
-
-
 export default function Menu() {
     return (
-        <section className="pdfSection d-flex flex-column justify-content-center align-items-center container-fluid mw-100 mh-100">
+        <section 
+        className="pdfSection d-flex flex-column justify-content-center align-items-center container-fluid mw-100 mh-100"
+        style={{backgroundColor:"#005CB4"}}>
             <div className="row text-center p-3">
-                <div className="border border-dark border-3 rounded bg-dark text-light p-3">
+                <div className="border border-dark border-3 rounded bg-secondary-subtle text-dark p-3 m-3">
                     <h1><strong>Our Concession Stand is Open!</strong></h1>
                 </div>
             </div>
@@ -23,7 +20,7 @@ export default function Menu() {
             </div> */}
             <div
                 className="row justify-content-center border-top border-dark border-3 border-rounded mw-90"
-                style={menuBackground}>
+                style={{backgroundColor:"#C9002B"}}>
                 <img
                     src={menu2024}
                     alt="menu"
