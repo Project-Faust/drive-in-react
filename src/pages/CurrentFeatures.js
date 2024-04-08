@@ -1,13 +1,15 @@
 // eslint-disable-next-line
 import WeekendDates from "../components/WeekendDates";
 import { nowPlaying } from "../data";
+
+const firstFeature = nowPlaying[0].title;
+const secondFeature = nowPlaying[1].title;
+
 const posterStyle = {
     maxWidth: "95%",
     maxHeight: "1000px",
     aspectRatio: "2/3"
 }
-const firstFeature = nowPlaying[0].title;
-const secondFeature = nowPlaying[1].title;
 
 export default function CurrentFeatures() {
     return (
@@ -15,17 +17,12 @@ export default function CurrentFeatures() {
             <div className="text-center p-3">
                 <h1><strong>Now Playing!</strong></h1>
                 <h2><WeekendDates/></h2>
-                {/* <h1><strong>We are closed the weekend of 11/24/2023 & 11/25/2023!</strong></h1> */}
-                {/* <h3>We will be open for the first weekend of December as the last showing of the season!</h3> */}
             </div>
             <section className="text-center"
-            style={{textDecoration:"none"}}>
-                {/* <h1><strong>For our last weekend of the year, 12/01/2023 & 12/02/2023!</strong></h1> */}
+                style={{ textDecoration: "none" }}>
                 <h1><strong>{firstFeature}</strong></h1>
                 <h1>&</h1>
                 <h1><strong>{secondFeature}</strong></h1>
-                {/* <h4>Click or tap the movie poster below to see the IMDB entry!</h4> */}
-                {/* <h1><strong>To Be Determined!</strong></h1> */}
             </section>
             <div className="d-flex justify-content-center">
                 <section className="row text-center w-100">

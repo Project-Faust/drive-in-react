@@ -1,23 +1,18 @@
-// // eslint-disable-next-line
-import IfYoureLookingImg from "../assets/if-youre-looking.jpg";
-// import opening2024 from "../assets/2024-opening-weekend.jpg";
-// import CountdownTimer from "../helpers/Countdown";
+import usePreloadImage from "../helpers/usePreloadImage";
+import ifYoureLooking from "../assets/if-youre-looking.webp";
 import logo from "../assets/logo.webp"
 import starryBG from "../assets/star-background.webp"
-const rememberStyle = {
-    backgroundColor: "#E72929",
-    fontSize: "18px"
-}
 
 export default function HomePage() {
+    usePreloadImage([starryBG, logo, ifYoureLooking])
     return (
         <section
             className="mw-100 mh-100"
             style={{
                 backgroundImage: `url(${starryBG})`,
-                backgroundSize: 'cover', // Cover the entire page
-                backgroundPosition: 'center', // Center the background image
-                // height: '100vh', // Example: set to full viewport height
+                backgroundSize: 'cover',
+                backgroundPosition: 'center',
+                // height: '100vh'
             }}>
             <div id="banner" className=" mw-100 mh-100 text-center py-3">
                 <img src={logo} alt="Belmont Drive-In logo" />
@@ -30,13 +25,6 @@ export default function HomePage() {
                     </div>
                 </section>
             </div>
-            {/* <div className="d-flex justify-content-center align-items center mw-100 m-3">
-                <div className="text-center">
-                    <div className="border border-dark border-3 rounded bg-primary text-light p-3">
-                        <CountdownTimer/>
-                    </div>
-                </div>
-            </div> */}
             <div className="d-flex justify-content-center align-items-center mw-100">
                 <section className="row justify-content-center text-center w-100">
                     <div className="col-lg-9 col-md-12">
@@ -44,12 +32,16 @@ export default function HomePage() {
                             <div className="d-flex flex-column justify-content-evenly align-items-center p-3">
                                 <h3 className="h1 py-3"><strong>We're open for the 2024 season!</strong></h3>
                                 <div className="row">
-                                    <div className="col border border-3 border-secondary-subtle rounded text-light p-3 m-3 mw-100"
-                                        style={rememberStyle}>
+                                    <div
+                                        className="col border border-3 border-secondary-subtle rounded text-light p-3 m-3 mw-100"
+                                        style={{
+                                            backgroundColor: "#C9002B",
+                                            fontSize: "22px"
+                                        }}>
                                         <div className="text-center">
-                                            <h4 className="h1"
-                                                style={{ textShadow: "2px 2px black" }}><strong>Things to remember!</strong></h4>
-                                            <ul className="text-start p-3 m-3">
+                                            <h4 className="h1 remember-header shadow-2b"
+                                            ><strong>Things to remember!</strong></h4>
+                                            <ul className="text-start shadow-2b p-3 m-3">
                                                 <li>Gates open at <strong>6:00PM</strong>!</li>
                                                 <li>We are a <strong>cash only</strong> business!</li>
                                                 <li>Our business runs and survives on sales from the concession stand!<br /> <strong>No outside food or drink!</strong></li>
@@ -60,7 +52,7 @@ export default function HomePage() {
                                             </ul>
                                         </div>
                                     </div>
-                                    <div className=" col border border-3 rounded border-secondary-subtle m-3 mw-100"
+                                    <div className=" col border border-3 rounded border-secondary-subtle shadow-2b m-3 mw-100"
                                         style={{ backgroundColor: "#005CB4" }}>
                                         <p className="h3 text-light text-start p-3" style={{ textIndent: '50px' }}>
                                             We're proud to say that we had a wonderful winter with our family, just as we hope you have. We have made some updates and adjustments to our menu and rules which have been posted on our <a href="https://www.facebook.com/profile.php?id=100063570731472" className="text-light">Facebook</a> page and have been updated on our website.
@@ -72,20 +64,12 @@ export default function HomePage() {
                                         </p>
                                         <div className="d-flex justify-content-center">
                                             <img
-                                                src={IfYoureLookingImg}
+                                                src={ifYoureLooking}
                                                 alt="If You're Looking"
                                                 className="justify-content-center w-50 mw-100 mh-100 border border-secondary border-3 rounded my-3"></img>
                                         </div>
                                     </div>
                                 </div>
-
-                                {/* <div className="d-flex justify-content-center">
-                                    <img
-                                        src={opening2024}
-                                        alt="2024 opening weekend"
-                                        className="justify-content-center w-50 mw-100 mh-100 border border-secondary border-3 rounded m-3">
-                                    </img>
-                                </div> */}
                             </div>
                         </div>
                     </div>
@@ -106,7 +90,7 @@ export default function HomePage() {
                         cite="https://www.facebook.com/profile.php?id=100063570731472"
                         class="fb-xfbml-parse-ignore">
                         <a href="https://www.facebook.com/profile.php?id=100063570731472">Belmont Drive-In</a></blockquote></div>
-                <div className="d-flex justify-content-center align-items-center mx-3 mw-100">
+                <div className="d-flex justify-content-center align-items-center mx-3 mt-3 mw-100">
                     <iframe
                         title="google map embed"
                         width="600"

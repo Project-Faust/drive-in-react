@@ -47,8 +47,11 @@ code {
   font-weight: bold;
 }
 
-li, p {
+.remember-header {
   font-size: 26px;
+}
+
+.shadow-2b {
   text-shadow: black 2px 2px !important;
 }
 
