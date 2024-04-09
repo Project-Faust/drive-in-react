@@ -23,7 +23,7 @@ export default function CurrentFeatures() {
                 backgroundPosition: "center"
             }}>
             <div className="text-center">
-                <div className="d-inline-flex border border-3 rounded border-dark bg-secondary text-light shadow-2b m-3">
+                <div className="d-inline-flex border border-3 rounded border-secondary bg-dark text-light shadow-2b m-3">
                     <div className="text-center p-3">
                         <h1><strong>Now Playing!</strong></h1>
                         <h2><WeekendDates /></h2>

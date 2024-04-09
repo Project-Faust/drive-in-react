@@ -9,9 +9,9 @@ const template = [
 
 export const nowPlaying = [
         {
-            title: "To Be Determined",
-            image: require("../src/assets/to-be-determined.jpg"),
-            imdb: "",
+            title: "Migration",
+            image: require("../src/assets/migration.webp"),
+            imdb: "https://www.imdb.com/title/tt6495056/",
         },
         {
             title: "Ghostbusters: Frozen Empire",

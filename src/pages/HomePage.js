@@ -3,6 +3,7 @@ import usePreloadImage from "../helpers/usePreloadImage";
 import ifYoureLooking from "../assets/if-youre-looking.webp";
 import logo from "../assets/logo.webp"
 import starryBG from "../assets/star-background.webp"
+import weekend412 from "../assets/weekend-412.webp"
 
 export default function HomePage() {
     usePreloadImage([starryBG, logo, ifYoureLooking])
@@ -31,6 +32,13 @@ export default function HomePage() {
                     </div>
                 </section>
             </div>
+            <section className="row justify-content-center m-3">
+                <img
+                alt="Playing weekend of 4/12 & 4/13"
+                    src={weekend412}
+                    className="col-lg-6 border border-secondary border-3 rounded p-0 m-0"
+                />
+            </section>
             <div className="d-flex justify-content-center align-items-center mw-100">
                 <section className="row justify-content-center text-center w-100">
                     <div className="col-lg-9 col-md-12">
@@ -41,7 +49,7 @@ export default function HomePage() {
                                     <div
                                         className="col border border-3 border-secondary-subtle rounded text-light p-3 m-3 mw-100"
                                         style={{
-                                            backgroundColor: "#C9002B",
+                                            backgroundColor: "#8a001e",
                                             fontSize: "22px"
                                         }}>
                                         <div className="text-center">
@@ -50,8 +58,9 @@ export default function HomePage() {
                                             <ul className="text-start shadow-2b p-3 m-3">
                                                 <li>Gates open at <strong>6:00PM</strong>!</li>
                                                 <li>We are a <strong>cash only</strong> business!</li>
+                                                <li>Admission is <strong>$25 per carload</strong>.<br />After leaving, you must pay to reenter.</li>
                                                 <li>Our business runs and survives on sales from the concession stand!<br /> <strong>No outside food or drink!</strong></li>
-                                                <li>Alongside not bring outside food and drink, we have a <strong>zero-tolerance no alcohol policy</strong>.</li>
+                                                <li>Alongside not bringing outside food and drink, we have a <strong>zero-tolerance no alcohol policy</strong>.</li>
                                                 <li>All of our sound, including music, movie sound, and annoucements, is broadcast locally on <strong>FM Radio!</strong><br /><strong>Please bring a portable FM radio</strong> if you are unable to turn off all vehicle lights while the engine is off!</li>
                                                 <li>Please <strong>leave pets at home</strong>!</li>
                                                 <li>Once the field lights are dimmed, please <strong>turn off all exterior vehicle lights</strong>!<br />Please come prepared to promptly extinguish your lights!</li>
@@ -59,7 +68,7 @@ export default function HomePage() {
                                         </div>
                                     </div>
                                     <div className=" col border border-3 rounded border-secondary-subtle shadow-2b m-3 mw-100"
-                                        style={{ backgroundColor: "#005CB4" }}>
+                                        style={{ backgroundColor: "#004280" }}>
                                         <p className="h3 text-light text-start p-3" style={{ textIndent: '50px' }}>
                                             We're proud to say that we had a wonderful winter with our family, just as we hope you have. We have made some updates and adjustments to our menu and rules which have been posted on our <a href="https://www.facebook.com/profile.php?id=100063570731472" className="text-light">Facebook</a> page and have been updated on our website.
                                         </p>
@@ -94,7 +103,7 @@ export default function HomePage() {
                     data-show-facepile="false">
                     <blockquote
                         cite="https://www.facebook.com/profile.php?id=100063570731472"
-                        class="fb-xfbml-parse-ignore">
+                        class="fb-xfbml-parse-ignore mw-100">
                         <a href="https://www.facebook.com/profile.php?id=100063570731472">Belmont Drive-In</a></blockquote></div>
                 <div className="d-flex justify-content-center align-items-center mx-3 mt-3 mw-100">
                     <iframe
