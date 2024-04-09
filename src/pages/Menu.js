@@ -19,7 +19,7 @@ export default function Menu() {
                 <iframe className="pdfViewer border border-3 border-dark rounded mb-0" src={MenuPDF} title="Menu PDF" width="100%" height="100%"></iframe>
             </div> */}
             <div
-                className="row justify-content-center border-top border-dark border-3 border-rounded mw-90"
+                className="row justify-content-evenly border-top border-dark border-3 border-rounded mw-90 py-3"
                 style={{backgroundColor:"#C9002B"}}>
                 <img
                     src={menu2024}
