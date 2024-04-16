@@ -9,14 +9,14 @@ const template = [
 
 export const nowPlaying = [
         {
-            title: "Migration",
-            image: require("../src/assets/migration.webp"),
-            imdb: "https://www.imdb.com/title/tt6495056/",
+            title: "Wonka",
+            image: require("../src/assets/wonka-2024.webp"),
+            imdb: "https://www.imdb.com/title/tt6166392/",
         },
         {
-            title: "Ghostbusters: Frozen Empire",
-            image: require("../src/assets/ghostbusters-frozen-empire.jpg"),
-            imdb: "https://www.imdb.com/title/tt21235248/",
+            title: "Godzilla x Kong: The New Empire",
+            image: require("../src/assets/godzillaxkong.webp"),
+            imdb: "https://www.imdb.com/title/tt14539740/",
         }
 ]
 

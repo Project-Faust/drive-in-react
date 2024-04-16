@@ -8,7 +8,7 @@ import redCurtain from "../assets/red-curtain.webp"
 
 const posterStyle = {
     maxWidth: "95%",
-    maxHeight: "900px",
+    maxHeight: "800px",
     aspectRatio: "2/3"
 }
 

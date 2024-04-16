@@ -3,7 +3,6 @@ import usePreloadImage from "../helpers/usePreloadImage";
 import ifYoureLooking from "../assets/if-youre-looking.webp";
 import logo from "../assets/logo.webp"
 import starryBG from "../assets/star-background.webp"
-import weekend412 from "../assets/weekend-412.webp"
 
 export default function HomePage() {
     usePreloadImage([starryBG, logo, ifYoureLooking])
@@ -32,13 +31,13 @@ export default function HomePage() {
                     </div>
                 </section>
             </div>
-            <section className="row justify-content-center m-3">
+            {/* <section className="row justify-content-center m-3">
                 <img
                 alt="Playing weekend of 4/12 & 4/13"
                     src={weekend412}
                     className="col-lg-6 border border-secondary border-3 rounded p-0 m-0"
                 />
-            </section>
+            </section> */}
             <div className="d-flex justify-content-center align-items-center mw-100">
                 <section className="row justify-content-center text-center w-100">
                     <div className="col-lg-9 col-md-12">
@@ -91,7 +90,7 @@ export default function HomePage() {
                 </section>
             </div>
             <section>
-                <div
+                {/* <div
                     class="fb-page d-flex justify-content-center align-items-center m-3 mw-100"
                     data-href="https://www.facebook.com/profile.php?id=100063570731472"
                     data-tabs="timeline"
@@ -104,7 +103,9 @@ export default function HomePage() {
                     <blockquote
                         cite="https://www.facebook.com/profile.php?id=100063570731472"
                         class="fb-xfbml-parse-ignore mw-100">
-                        <a href="https://www.facebook.com/profile.php?id=100063570731472">Belmont Drive-In</a></blockquote></div>
+                        <a href="https://www.facebook.com/profile.php?id=100063570731472">Belmont Drive-In</a>
+                    </blockquote>
+                </div> */}
                 <div className="d-flex justify-content-center align-items-center mx-3 mt-3 mw-100">
                     <iframe
                         title="google map embed"
