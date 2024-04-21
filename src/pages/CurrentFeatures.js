@@ -1,6 +1,6 @@
 // eslint-disable-next-line
 import WeekendDates from "../components/WeekendDates";
-import { nowPlaying } from "../data";
+import { nowPlaying, toBeDetermined } from "../data";
 import redCurtain from "../assets/red-curtain.webp"
 
 // const firstFeature = nowPlaying[0].title;
@@ -38,7 +38,7 @@ export default function CurrentFeatures() {
             </section> */}
             <div className="d-flex justify-content-center">
                 <section className="row justify-content-evenly text-center w-100 m-3">
-                    {nowPlaying.map((res) => (
+                    {toBeDetermined.map((res) => (
                         <div className="col-lg-5 col-md-12">
                             <div className="border border-secondary border-3 rounded bg-dark mb-3">
                                 <a href={res.imdb} target="_blank" rel="noreferrer" className="text-dark text-decoration-none">
