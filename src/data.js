@@ -9,14 +9,14 @@ const template = [
 
 export const nowPlaying = [
         {
-            title: "Wonka",
-            image: require("../src/assets/wonka-2024.webp"),
-            imdb: "https://www.imdb.com/title/tt6166392/",
+            title: "Shrek (2001)",
+            image: require("../src/assets/shrek2001.webp"),
+            imdb: "https://www.imdb.com/title/tt0126029/",
         },
         {
-            title: "Godzilla x Kong: The New Empire",
-            image: require("../src/assets/godzillaxkong.webp"),
-            imdb: "https://www.imdb.com/title/tt14539740/",
+            title: "Monkey Man (2024)",
+            image: require("../src/assets/monkey-man2024.webp"),
+            imdb: "https://www.imdb.com/title/tt9214772/",
         }
 ]
 

@@ -3,6 +3,7 @@ import usePreloadImage from "../helpers/usePreloadImage";
 import ifYoureLooking from "../assets/if-youre-looking.webp";
 import logo from "../assets/logo.webp"
 import starryBG from "../assets/star-background.webp"
+import weekend426 from "../assets/weekend426.webp"
 
 export default function HomePage() {
     usePreloadImage([starryBG, logo, ifYoureLooking])
@@ -31,13 +32,13 @@ export default function HomePage() {
                     </div>
                 </section>
             </div>
-            {/* <section className="row justify-content-center m-3">
+            <section className="row justify-content-center m-3">
                 <img
                 alt="Playing weekend of 4/12 & 4/13"
-                    src={weekend412}
+                    src={weekend426}
                     className="col-lg-6 border border-secondary border-3 rounded p-0 m-0"
                 />
-            </section> */}
+            </section>
             <div className="d-flex justify-content-center align-items-center mw-100">
                 <section className="row justify-content-center text-center w-100">
                     <div className="col-lg-9 col-md-12">
