@@ -1,4 +1,4 @@
-import rulesJGP from "../assets/drive-in-rules.webp"
+import rulesWebp from "../assets/2024-rules.webp"
 
 export default function Rules() {
     return (
@@ -11,7 +11,7 @@ export default function Rules() {
             </div> */}
             <div className="d-flex justify-content-center row mw-100 p-3">
                 <img
-                    src={rulesJGP}
+                    src={rulesWebp}
                     alt="rules"
                     className="col-lg-6 col-md-12 border border-3 border-dark p-0" />
             </div>
