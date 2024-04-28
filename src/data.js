@@ -9,14 +9,14 @@ const template = [
 
 export const nowPlaying = [
         {
-            title: "Shrek (2001)",
-            image: require("../src/assets/shrek2001.webp"),
-            imdb: "https://www.imdb.com/title/tt0126029/",
+            title: "American Graffiti (1973)",
+            image: require("../src/assets/american-graffiti.webp"),
+            imdb: "https://www.imdb.com/title/tt0069704/",
         },
         {
-            title: "Monkey Man (2024)",
-            image: require("../src/assets/monkey-man2024.webp"),
-            imdb: "https://www.imdb.com/title/tt9214772/",
+            title: "Two-Lane Blacktop (1971)",
+            // image: require("../src/assets/two-lane-blacktop-1971.webp"),
+            imdb: "https://www.imdb.com/title/tt0067893/",
         }
 ]
 
