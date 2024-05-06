@@ -9,14 +9,14 @@ const template = [
 
 export const nowPlaying = [
         {
-            title: "American Graffiti (1973)",
-            image: require("../src/assets/american-graffiti.webp"),
-            imdb: "https://www.imdb.com/title/tt0069704/",
+            title: "The Lion King (1994)",
+            image: require("../src/assets/the-lion-king-1994.webp"),
+            imdb: "https://www.imdb.com/title/tt0110357/",
         },
         {
-            title: "Two-Lane Blacktop (1971)",
-            // image: require("../src/assets/two-lane-blacktop-1971.webp"),
-            imdb: "https://www.imdb.com/title/tt0067893/",
+            title: "The Mummy (1999)",
+            image: require("../src/assets/the-mummy-1999.webp"),
+            imdb: "https://www.imdb.com/title/tt0120616/",
         }
 ]
 
