@@ -57,7 +57,7 @@ export default function HomePage() {
                     <div className="col-lg-9 col-md-12">
                         <div className="border border-secondary border-3 rounded bg-dark text-light">
                             <div className="d-flex flex-column justify-content-evenly align-items-center p-3">
-                                <h3 className="h1 py-3"><strong>We're open for the 2024 season!</strong></h3>
+                                <h3 className="h1 py-3"><strong>Temporarily Closed!</strong></h3>
                                 <div className="row">
                                     <div
                                         className="col border border-3 border-secondary-subtle rounded text-light p-3 m-3 mw-100"
