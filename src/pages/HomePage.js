@@ -3,16 +3,15 @@ import usePreloadImage from "../helpers/usePreloadImage";
 import ifYoureLooking from "../assets/if-youre-looking.webp";
 import logo from "../assets/logo.webp"
 import starryBG from "../assets/star-background.webp"
-import weekend510 from "../assets/weekend510.webp"
-import maySchedule from "../assets/may-schedule.webp"
+import stormReopening from "../assets/reopening-storm-weekend.webp"
 
 export default function HomePage() {
     usePreloadImage([starryBG, logo, ifYoureLooking])
-    useEffect(() => {
-        if (window.FB) {
-            window.FB.XFBML.parse(); // Re-parse the DOM to render Facebook widgets
-        }
-    }, []);
+    // useEffect(() => {
+    //     if (window.FB) {
+    //         window.FB.XFBML.parse();
+    //     }
+    // }, []);
     return (
         <section
             className="mw-100 mh-100"
@@ -35,29 +34,29 @@ export default function HomePage() {
             </div>
 
 
-            {/* <section className="row justify-content-center m-3">
+            <section className="row justify-content-center m-3">
                 <img
-                    alt="Playing weekend of 4/12 & 4/13"
-                    src={weekend510}
+                    alt="Playing weekend of 6/7 & 6/8"
+                    src={stormReopening}
                     className="col-lg-6 border border-secondary border-3 rounded p-0 m-0"
                 />
-            </section> */}
+            </section>
 
-            <div className="text-center m-3">
+            {/* <div className="text-center m-3">
                 <section className="d-inline-flex border border-3 rounded border-secondary bg-dark mw-100">
                     <div className="text-center text-light p-3">
                         <h3><strong>Temporarily Closed</strong></h3>
                         <p>Unfortunately, due to the severe weather that has passed through the area recently, we have suffered damage to the screen and are currently without full operating power. We will keep everyone updated with our progress and re-opening date to the best of our ability. We sincerely thank all of our patrons and the community for helping support not only us but also each other, as we know that we weren't the only ones affected by mother nature. We are both grateful and humbled by the volume of people and businesses that have reached out and expressed their concerns, well-wishes, and offers for support in order to keep our business going so that we can continue to give back to the community that has continued to support us without fail since our grand re-opening last year. We again want to thank each and every one of you, and we promise one thing: in the words of Arnold Schwarzenegger, the Terminator himself, "We'll be back."</p>
                     </div>
                 </section>
-            </div>
+            </div> */}
 
             <div className="d-flex justify-content-center align-items-center mw-100">
                 <section className="row justify-content-center text-center w-100">
                     <div className="col-lg-9 col-md-12">
                         <div className="border border-secondary border-3 rounded bg-dark text-light">
                             <div className="d-flex flex-column justify-content-evenly align-items-center p-3">
-                                <h3 className="h1 py-3"><strong>Temporarily Closed!</strong></h3>
+                                <h3 className="h1 py-3"><strong>We're Open!</strong></h3>
                                 <div className="row">
                                     <div
                                         className="col border border-3 border-secondary-subtle rounded text-light p-3 m-3 mw-100"
@@ -83,7 +82,7 @@ export default function HomePage() {
                                     <div className=" col border border-3 rounded border-secondary-subtle shadow-2b m-3 mw-100"
                                         style={{ backgroundColor: "#004280" }}>
                                         <p className="h3 text-light text-start p-3" style={{ textIndent: '50px' }}>
-                                            We're proud to say that we had a wonderful winter with our family, just as we hope you have. We have made some updates and adjustments to our menu and rules which have been posted on our <a href="https://www.facebook.com/profile.php?id=100063570731472" className="text-light">Facebook</a> page and have been updated on our website.
+                                            Many of us were impacted from the heavy storms that came through the area recently. Although it has been a minor setback in our plans for this season, we have made repairs to the screen and are proud to present to you a picture that is cleaner than it has ever been. We look forward to seeing everyone soon and want to extend our sincerest thanks to those who reached out to us and one another. We have made some updates and adjustments to our menu and rules this season which have been posted on our <a href="https://www.facebook.com/profile.php?id=100063570731472" className="text-light">Facebook</a> page and have been updated on our website.
                                         </p>
                                         <p className="h4 text-light text-end p-3">
                                             A Big Thank You,

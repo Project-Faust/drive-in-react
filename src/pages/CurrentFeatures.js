@@ -38,7 +38,7 @@ export default function CurrentFeatures() {
             </section> */}
             <div className="d-flex justify-content-center">
                 <section className="row justify-content-evenly text-center w-100 m-3">
-                    {toBeDetermined.map((res) => (
+                    {nowPlaying.map((res) => (
                         <div className="col-lg-5 col-md-12">
                             <div className="border border-secondary border-3 rounded bg-dark mb-3">
                                 <a href={res.imdb} target="_blank" rel="noreferrer" className="text-dark text-decoration-none">
