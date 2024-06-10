@@ -1,9 +1,9 @@
+// eslint-disable-next-line
 import { useEffect } from "react";
 import usePreloadImage from "../helpers/usePreloadImage";
 import ifYoureLooking from "../assets/if-youre-looking.webp";
 import logo from "../assets/logo.webp"
 import starryBG from "../assets/star-background.webp"
-import stormReopening from "../assets/reopening-storm-weekend.webp"
 
 export default function HomePage() {
     usePreloadImage([starryBG, logo, ifYoureLooking])
@@ -34,13 +34,13 @@ export default function HomePage() {
             </div>
 
 
-            <section className="row justify-content-center m-3">
+            {/* <section className="row justify-content-center m-3">
                 <img
                     alt="Playing weekend of 6/7 & 6/8"
                     src={stormReopening}
                     className="col-lg-6 border border-secondary border-3 rounded p-0 m-0"
                 />
-            </section>
+            </section> */}
 
             {/* <div className="text-center m-3">
                 <section className="d-inline-flex border border-3 rounded border-secondary bg-dark mw-100">
