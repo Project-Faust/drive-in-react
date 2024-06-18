@@ -9,14 +9,14 @@ const template = [
 
 export const nowPlaying = [
         {
-            title: "Toy Story (1995)",
-            image: require("../src/assets/toy-story-1995.webp"),
-            imdb: "https://www.imdb.com/title/tt0114709/",
+            title: "IF (2024)",
+            image: require("../src/assets/if-2024.webp"),
+            imdb: "https://www.imdb.com/title/tt11152168/",
         },
         {
             title: "The Fall Guy (2024)",
-            image: require("../src/assets/the-fall-guy-2024.webp"),
-            imdb: "https://www.imdb.com/title/tt1684562/",
+            image: require("../src/assets/wizard-of-oz-1939.webp"),
+            imdb: "https://www.imdb.com/title/tt0032138/",
         }
 ]
 

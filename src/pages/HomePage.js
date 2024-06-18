@@ -57,6 +57,7 @@ export default function HomePage() {
                         <div className="border border-secondary border-3 rounded bg-dark text-light">
                             <div className="d-flex flex-column justify-content-evenly align-items-center p-3">
                                 <h3 className="h1 py-3"><strong>We're Open!</strong></h3>
+                                <h4 className="h2"><strong>Find us at 314 McAdenville Rd, Belmont, NC 28012</strong></h4>
                                 <div className="row">
                                     <div
                                         className="col border border-3 border-secondary-subtle rounded text-light p-3 m-3 mw-100"
