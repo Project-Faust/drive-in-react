@@ -9,14 +9,14 @@ const template = [
 
 export const nowPlaying = [
         {
-            title: "IF (2024)",
-            image: require("../src/assets/if-2024.webp"),
-            imdb: "https://www.imdb.com/title/tt11152168/",
+            title: "The Garfield Movie (2024)",
+            image: require("../src/assets/garfield-2024.webp"),
+            imdb: "https://www.imdb.com/title/tt5779228/",
         },
         {
-            title: "The Fall Guy (2024)",
-            image: require("../src/assets/wizard-of-oz-1939.webp"),
-            imdb: "https://www.imdb.com/title/tt0032138/",
+            title: "Bad Boys: Ride or Die (2024)",
+            image: require("../src/assets/bad-boys-2024.webp"),
+            imdb: "https://www.imdb.com/title/tt4919268/",
         }
 ]
 

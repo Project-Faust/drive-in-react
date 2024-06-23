@@ -70,6 +70,7 @@ export default function HomePage() {
                                             ><strong>Things to remember!</strong></h4>
                                             <ul className="text-start shadow-2b p-3 m-3">
                                                 <li>Gates open at <strong>6:00PM</strong>!</li>
+                                                <li>Our <strong>first</strong> movie starts at <strong>sundown</strong>!</li>
                                                 <li>We are a <strong>cash only</strong> business!</li>
                                                 <li>Admission is <strong>$25 per carload</strong>.<br />After leaving, you must pay to reenter.</li>
                                                 <li>Our business runs and survives on sales from the concession stand!<br /> <strong>No outside food or drink!</strong></li>
