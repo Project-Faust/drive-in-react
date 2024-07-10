@@ -9,14 +9,14 @@ const template = [
 
 export const nowPlaying = [
         {
-            title: "The Garfield Movie (2024)",
-            image: require("../src/assets/garfield-2024.webp"),
-            imdb: "https://www.imdb.com/title/tt5779228/",
+            title: "Star Wars: Episode IV - A New Hope (1977)",
+            image: require("../src/assets/star-wars-ep4.webp"),
+            imdb: "https://www.imdb.com/title/tt0076759/",
         },
         {
-            title: "Bad Boys: Ride or Die (2024)",
-            image: require("../src/assets/bad-boys-2024.webp"),
-            imdb: "https://www.imdb.com/title/tt4919268/",
+            title: "Star Wars: Episode V - The Empire Strikes Back (1980)",
+            image: require("../src/assets/star-wars-ep5.webp"),
+            imdb: "https://www.imdb.com/title/tt0080684/",
         }
 ]
 
