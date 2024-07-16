@@ -9,14 +9,14 @@ const template = [
 
 export const nowPlaying = [
         {
-            title: "Star Wars: Episode IV - A New Hope (1977)",
-            image: require("../src/assets/star-wars-ep4.webp"),
-            imdb: "https://www.imdb.com/title/tt0076759/",
+            title: "Despicable Me 4 (2024)",
+            image: require("../src/assets/despicable-me-4.webp"),
+            imdb: "https://www.imdb.com/title/tt7510222/",
         },
         {
-            title: "Star Wars: Episode V - The Empire Strikes Back (1980)",
-            image: require("../src/assets/star-wars-ep5.webp"),
-            imdb: "https://www.imdb.com/title/tt0080684/",
+            title: "Twisters (2024)",
+            image: require("../src/assets/twisters.webp"),
+            imdb: "https://www.imdb.com/title/tt12584954/",
         }
 ]
 
