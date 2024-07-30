@@ -9,9 +9,9 @@ const template = [
 
 export const nowPlaying = [
         {
-            title: "Despicable Me 4 (2024)",
-            image: require("../src/assets/despicable-me-4.webp"),
-            imdb: "https://www.imdb.com/title/tt7510222/",
+            title: "Harold and the Purple Crayon (2024)",
+            image: require("../src/assets/harold-and-the-purple-crayon.webp"),
+            imdb: "https://www.imdb.com/title/tt1609486/",
         },
         {
             title: "Twisters (2024)",
