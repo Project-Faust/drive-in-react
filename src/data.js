@@ -14,9 +14,9 @@ export const nowPlaying = [
             imdb: "https://www.imdb.com/title/tt1609486/",
         },
         {
-            title: "Twisters (2024)",
-            image: require("../src/assets/twisters.webp"),
-            imdb: "https://www.imdb.com/title/tt12584954/",
+            title: "National Lampoon's Vacation (1983)",
+            image: require("../src/assets/vacation.webp"),
+            imdb: "https://www.imdb.com/title/tt0085995/",
         }
 ]
 
