@@ -25,7 +25,7 @@ export default function CurrentFeatures() {
             <div className="text-center">
                 <div className="d-inline-flex border border-3 rounded border-secondary bg-dark text-light shadow-2b m-3">
                     <div className="text-center p-3">
-                        <h1><strong>8/9/2024 & 8/10/2024</strong></h1>
+                        <h1><strong>8/16/2024 & 8/17/2024</strong></h1>
                         {/* <h2></h2> */}
                     </div>
                 </div>
@@ -42,7 +42,7 @@ export default function CurrentFeatures() {
                         <div className="col-lg-5 col-md-12">
                             <div className="border border-secondary border-3 rounded bg-dark mb-3">
                                 <a href={res.imdb} target="_blank" rel="noreferrer" className="text-dark text-decoration-none">
-                                    <h1 className="text-decoration-none text-light"><strong>{res.title}</strong></h1>
+                                    <h1 className="text-decoration-none text-light pt-2"><strong>{res.title}</strong></h1>
                                 </a>
                                 <div className="container">
                                     <a

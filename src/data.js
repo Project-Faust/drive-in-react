@@ -9,14 +9,14 @@ const template = [
 
 export const nowPlaying = [
         {
-            title: "Harold and the Purple Crayon (2024)",
-            image: require("../src/assets/harold-and-the-purple-crayon.webp"),
-            imdb: "https://www.imdb.com/title/tt1609486/",
+            title: "Twister (1996)",
+            image: require("../src/assets/twister-1996.webp"),
+            imdb: "https://www.imdb.com/title/tt0117998/",
         },
         {
-            title: "National Lampoon's Vacation (1983)",
-            image: require("../src/assets/vacation.webp"),
-            imdb: "https://www.imdb.com/title/tt0085995/",
+            title: "Twisters (2024)",
+            image: require("../src/assets/twisters.webp"),
+            imdb: "https://www.imdb.com/title/tt12584954/",
         }
 ]
 
