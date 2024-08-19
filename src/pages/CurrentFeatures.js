@@ -26,7 +26,7 @@ export default function CurrentFeatures() {
                 <div className="d-inline-flex border border-3 rounded border-secondary bg-dark text-light shadow-2b m-3">
                     <div className="text-center p-3">
                         <h1><strong>8/16/2024 & 8/17/2024</strong></h1>
-                        <h2><strong>Saturday August 17th, Twisters (2024) will play first, followed by Twister (1996)!</strong></h2>
+                        <h2><strong>Friday and Saturday, Mean Girls (2004) will be followed by It Ends With Us (2024)!</strong></h2>
                         {/* <h2></h2> */}
                     </div>
                 </div>
