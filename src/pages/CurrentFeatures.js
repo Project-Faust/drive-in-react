@@ -26,8 +26,8 @@ export default function CurrentFeatures() {
                 <div className="d-inline-flex border border-3 rounded border-secondary bg-dark text-light shadow-2b m-3">
                     <div className="text-center p-3">
                         <h1><strong>8/23/2024 & 8/24/2024</strong></h1>
-                        <h2><strong>Friday and Saturday, Mean Girls (2004) will be followed by It Ends With Us (2024)!</strong></h2>
-                        {/* <h2></h2> */}
+                        <h2><strong><u>Friday</u> & <u>Saturday</u></strong></h2>
+                        <h3><strong><u>Mean Girls (2004)</u> will be followed by <u>It Ends With Us (2024)</u>!</strong></h3>
                     </div>
                 </div>
             </div>
