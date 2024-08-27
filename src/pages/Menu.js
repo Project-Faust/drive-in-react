@@ -1,4 +1,4 @@
-import menu2024 from "../assets/2024-menu.webp"
+import menu2024 from "../assets/menu-updated-2024.webp"
 import allergy2024 from "../assets/2024-food-allergies.webp"
 
 const menuStyle = {

@@ -57,7 +57,7 @@ export default function HomePage() {
                         <div className="border border-secondary border-3 rounded bg-dark text-light">
                             <div className="d-flex flex-column justify-content-evenly align-items-center p-3">
                                 <h3 className="h1 py-3"><strong>We are open Friday and Saturday!</strong></h3>
-                                <h4 className="h2 py-3">Remember that we are a <strong>cash only</strong> business and that <strong>our first movie starts at sundown!</strong></h4>
+                                <h4 className="h2 py-3">Remember that we are a <strong><u>cash only</u></strong> business and that <strong><u>our first movie starts at sundown</u>!</strong></h4>
                                 <h4 className="h2"><strong>Find us at 314 McAdenville Rd, Belmont, NC 28012</strong></h4>
                                 <div className="row">
                                     <div

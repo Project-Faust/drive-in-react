@@ -3,8 +3,8 @@ import WeekendDates from "../components/WeekendDates";
 import { nowPlaying, toBeDetermined } from "../data";
 import redCurtain from "../assets/red-curtain.webp"
 
-// const firstFeature = nowPlaying[0].title;
-// const secondFeature = nowPlaying[1].title;
+const firstFeature = nowPlaying[0].title;
+const secondFeature = nowPlaying[1].title;
 
 const posterStyle = {
     maxWidth: "95%",
@@ -25,9 +25,9 @@ export default function CurrentFeatures() {
             <div className="text-center">
                 <div className="d-inline-flex border border-3 rounded border-secondary bg-dark text-light shadow-2b m-3">
                     <div className="text-center p-3">
-                        <h1><strong>8/23/2024 & 8/24/2024</strong></h1>
+                        <h1><strong>8/30/2024 & 8/31/2024</strong></h1>
                         <h2><strong><u>Friday</u> & <u>Saturday</u></strong></h2>
-                        <h3><strong><u>Mean Girls (2004)</u> will be followed by <u>It Ends With Us (2024)</u>!</strong></h3>
+                        <h3><strong><u>{firstFeature}</u> will be followed by <u>{secondFeature}</u>!</strong></h3>
                     </div>
                 </div>
             </div>
