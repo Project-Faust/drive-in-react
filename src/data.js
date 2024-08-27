@@ -9,14 +9,14 @@ const template = [
 
 export const nowPlaying = [
     {
-        title: "Mean Girls (2004)",
-        image: require("../src/assets/mean-girls-2004.webp"),
-        imdb: "https://www.imdb.com/title/tt11762114/",
+        title: "Grease (1978)",
+        image: require("../src/assets/grease-1978.webp"),
+        imdb: "https://www.imdb.com/title/tt0077631/",
     },
     {
-        title: "It Ends with Us (2024)",
-        image: require("../src/assets/it-ends-with-us.webp"),
-        imdb: "https://www.imdb.com/title/tt10655524/",
+        title: "Jaws (1975)",
+        image: require("../src/assets/jaws-1975.webp"),
+        imdb: "https://www.imdb.com/title/tt0073195/",
     },
 ]
 
