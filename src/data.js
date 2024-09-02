@@ -9,14 +9,14 @@ const template = [
 
 export const nowPlaying = [
     {
-        title: "Grease (1978)",
-        image: require("../src/assets/grease-1978.webp"),
-        imdb: "https://www.imdb.com/title/tt0077631/",
+        title: "The Fast and the Furious (2001)",
+        image: require("../src/assets/fast-and-furious-2001.webp"),
+        imdb: "https://www.imdb.com/title/tt0232500/",
     },
     {
-        title: "Jaws (1975)",
-        image: require("../src/assets/jaws-1975.webp"),
-        imdb: "https://www.imdb.com/title/tt0073195/",
+        title: "2 Fast 2 Furious (2003)",
+        image: require("../src/assets/2-fast-2-furious-2003.webp"),
+        imdb: "https://www.imdb.com/title/tt0322259/",
     },
 ]
 
