@@ -57,7 +57,7 @@ export default function CurrentFeatures() {
                                             className="border border-dark"
                                             style={posterStyle}
                                         />
-                                        <p className="text-decoration-none text-light">Image source: IMDB</p>
+                                        <p className="text-decoration-none text-light">Image source: IMDb</p>
                                     </a>
                                 </div>
                             </div>

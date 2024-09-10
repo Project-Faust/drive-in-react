@@ -35,14 +35,14 @@ export const toBeDetermined = [
 
 // eslint-disable-next-line
 export const comingSoon = [
-    // {
-    //     title: "",
-    //     image: require(""),
-    //     imdb: "",
-    // },
-    // {
-    //     title: "",
-    //     image: require(""),
-    //     imdb: "",
-    // }
+    {
+        title: "Transformers One (2024)",
+        image: require("../src/assets/transformers-one-2024.webp"),
+        imdb: "https://www.imdb.com/title/tt8864596/"
+    },
+    {
+        title: "To Be Determined",
+        image: require("../src/assets/to-be-determined.jpg"),
+        imdb: "",
+    }
 ]
