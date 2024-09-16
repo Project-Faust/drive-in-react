@@ -11,7 +11,7 @@ export default function Menu() {
         className="d-flex flex-column justify-content-center align-items-center container-fluid mw-100 mh-100"
         style={{backgroundColor:"#005CB4"}}>
             <div className="row text-center p-3">
-                <div className="col border border-dark border-3 rounded bg-secondary-subtle text-dark p-3 m-3">
+                <div className="col border border-dark border-4 rounded bg-secondary-subtle text-dark p-4 m-3">
                     <h1><strong>Our Concession Stand is Open!</strong></h1>
                 </div>
             </div>

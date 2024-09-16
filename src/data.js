@@ -9,15 +9,15 @@ const template = [
 
 export const nowPlaying = [
     {
-        title: "Friday the 13th (1980)",
-        image: require("../src/assets/friday-the-13th-1980.webp"),
-        imdb: "https://www.imdb.com/title/tt0080761/",
+        title: "Transformers One (2024)",
+        image: require("../src/assets/transformers-one-2024.webp"),
+        imdb: "https://www.imdb.com/title/tt8864596/"
     },
     {
-        title: "Friday the 13th: Part 2 (1981)",
-        image: require("../src/assets/friday-the-13th-part-2-1981.webp"),
-        imdb: "https://www.imdb.com/title/tt0082418/",
-    },
+        title: "Beetlejuice Beetlejuice (2024)",
+        image: require("../src/assets/beetlejuice-beetlejuice.webp"),
+        imdb: "https://www.imdb.com/title/tt2049403/",
+    }
 ]
 
 export const toBeDetermined = [
@@ -36,9 +36,9 @@ export const toBeDetermined = [
 // eslint-disable-next-line
 export const comingSoon = [
     {
-        title: "Transformers One (2024)",
-        image: require("../src/assets/transformers-one-2024.webp"),
-        imdb: "https://www.imdb.com/title/tt8864596/"
+        title: "To Be Determined",
+        image: require("../src/assets/to-be-determined.jpg"),
+        imdb: "",
     },
     {
         title: "To Be Determined",
