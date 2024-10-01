@@ -9,14 +9,14 @@ const template = [
 
 export const nowPlaying = [
     {
-        title: "Transformers One (2024)",
-        image: require("../src/assets/transformers-one-2024.webp"),
-        imdb: "https://www.imdb.com/title/tt8864596/"
+        title: "Hocus Pocus (1993)",
+        image: require("../src/assets/hocus-pocus.webp"),
+        imdb: "https://www.imdb.com/title/tt0107120/"
     },
     {
-        title: "Beetlejuice Beetlejuice (2024)",
-        image: require("../src/assets/beetlejuice-beetlejuice.webp"),
-        imdb: "https://www.imdb.com/title/tt2049403/",
+        title: "Poltergeist (1982)",
+        image: require("../src/assets/poltergeist.webp"),
+        imdb: "https://www.imdb.com/title/tt0084516/",
     }
 ]
 
