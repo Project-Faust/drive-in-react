@@ -57,8 +57,10 @@ export default function HomePage() {
                         <div className="border border-secondary border-3 rounded bg-dark text-light">
                             <div className="d-flex flex-column justify-content-evenly align-items-center p-3">
                                 <h3 className="h1 py-3"><strong>We are open Friday and Saturday!</strong></h3>
-                                <h4 className="h2 py-3">Remember that we are a <strong><u>cash only</u></strong> business and that <strong><u>our first movie starts at sundown</u>!</strong></h4>
-                                <h4 className="h2"><strong>Find us at 314 McAdenville Rd, Belmont, NC 28012</strong></h4>
+                                <h4 className="h2 pt-3 pb-1">Remember that we are a <strong><u>cash only</u></strong> business!</h4>
+                                <h4 className="h2 py-1">We recommend bringing a <strong><u>portable FM radio</u>!</strong></h4>
+                                <h4 className="h2 pt-1 pb-3">Unfortunately, radio apps on mobile devices <strong><u>do not work</u></strong>!</h4>
+                                <h4 className="h2 py-3"><strong>Find us at 314 McAdenville Rd, Belmont, NC 28012</strong></h4>
                                 <div className="row">
                                     <div
                                         className="col border border-3 border-secondary-subtle rounded text-light p-3 m-3 mw-100"
@@ -71,7 +73,7 @@ export default function HomePage() {
                                             ><strong>Things to remember!</strong></h4>
                                             <ul className="text-start shadow-2b p-3 m-3">
                                                 <li>Gates open at <strong>6:00PM</strong>!</li>
-                                                <li>Our <strong>first</strong> movie starts at <strong>sundown</strong>!</li>
+                                                {/* <li>Our <strong>first</strong> movie starts at <strong>sundown</strong>!</li> */}
                                                 <li>We are a <strong>cash only</strong> business!</li>
                                                 <li>Admission is <strong>$25 per carload</strong>.<br />After leaving, you must pay to reenter.</li>
                                                 <li>Our business runs and survives on sales from the concession stand!<br /> <strong>No outside food or drink!</strong></li>
