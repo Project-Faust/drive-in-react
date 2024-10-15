@@ -9,14 +9,14 @@ const template = [
 
 export const nowPlaying = [
     {
-        title: "Casper (1995)",
-        image: require("../src/assets/casper-1995.webp"),
-        imdb: "https://www.imdb.com/title/tt0112642/"
+        title: "Haunted Mansion (2003)",
+        image: require("../src/assets/haunted-mansion-2003.webp"),
+        imdb: "https://www.imdb.com/title/tt0338094/"
     },
     {
-        title: "It (2017)",
-        image: require("../src/assets/it-2017.webp"),
-        imdb: "https://www.imdb.com/title/tt1396484/",
+        title: "The Texas Chainsaw Massacre (1974)",
+        image: require("../src/assets/the-texas-chainsaw-massacre-1974.webp"),
+        imdb: "https://www.imdb.com/title/tt0072271/",
     }
 ]
 
