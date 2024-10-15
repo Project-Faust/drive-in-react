@@ -25,7 +25,7 @@ export default function CurrentFeatures() {
             <div className="text-center">
                 <div className="d-inline-flex border border-3 rounded border-secondary bg-dark text-light shadow-2b m-3">
                     <div className="text-center p-3">
-                        <h1><strong>10/11/2024 & 10/12/2024</strong></h1>
+                        <h1><strong>10/18/2024 & 10/19/2024</strong></h1>
                         <h2><strong><u>Friday</u> & <u>Saturday</u></strong></h2>
                         <h3><strong><u>{firstFeature}</u> will be followed by <u>{secondFeature}</u>!</strong></h3>
                     </div>
@@ -40,7 +40,7 @@ export default function CurrentFeatures() {
             <div className="d-flex justify-content-center">
                 <section className="row justify-content-evenly text-center w-100 m-3">
                     {nowPlaying.map((res) => (
-                        <div className="col-lg-5 col-md-12">
+                        <div className="col-lg-5 col-md-12" key={res.imdb}>
                             <div className="border border-secondary border-3 rounded bg-dark mb-3">
                                 <a href={res.imdb} target="_blank" rel="noreferrer" className="text-dark text-decoration-none">
                                     <h1 className="text-decoration-none text-light pt-2"><strong>{res.title}</strong></h1>
