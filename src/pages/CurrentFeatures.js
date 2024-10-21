@@ -25,18 +25,13 @@ export default function CurrentFeatures() {
             <div className="text-center">
                 <div className="d-inline-flex border border-3 rounded border-secondary bg-dark text-light shadow-2b m-3">
                     <div className="text-center p-3">
-                        <h1><strong>10/18/2024 & 10/19/2024</strong></h1>
+                        <h1><strong>10/25/2024 & 10/26/2024</strong></h1>
                         <h2><strong><u>Friday</u> & <u>Saturday</u></strong></h2>
                         <h3><strong><u>{firstFeature}</u> will be followed by <u>{secondFeature}</u>!</strong></h3>
                     </div>
                 </div>
             </div>
-            {/* <section className="text-center"
-                style={{ textDecoration: "none" }}>
-                <h1><strong>{firstFeature}</strong></h1>
-                <h1>&</h1>
-                <h1><strong>{secondFeature}</strong></h1>
-            </section> */}
+
             <div className="d-flex justify-content-center">
                 <section className="row justify-content-evenly text-center w-100 m-3">
                     {nowPlaying.map((res) => (

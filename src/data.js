@@ -9,14 +9,14 @@ const template = [
 
 export const nowPlaying = [
     {
-        title: "Haunted Mansion (2003)",
-        image: require("../src/assets/haunted-mansion-2003.webp"),
-        imdb: "https://www.imdb.com/title/tt0338094/"
+        title: "Halloween (1978)",
+        image: require("../src/assets/halloween-1978.webp"),
+        imdb: "https://www.imdb.com/title/tt0077651/"
     },
     {
-        title: "The Texas Chainsaw Massacre (1974)",
-        image: require("../src/assets/the-texas-chainsaw-massacre-1974.webp"),
-        imdb: "https://www.imdb.com/title/tt0072271/",
+        title: "A Nightmare on Elm Street (1984)",
+        image: require("../src/assets/a-nightmare-on-elm-street-1984.webp"),
+        imdb: "https://www.imdb.com/title/tt0087800/",
     }
 ]
 

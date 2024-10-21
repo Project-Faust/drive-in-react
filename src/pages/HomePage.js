@@ -57,9 +57,19 @@ export default function HomePage() {
                         <div className="border border-secondary border-3 rounded bg-dark text-light">
                             <div className="d-flex flex-column justify-content-evenly align-items-center p-3">
                                 <h3 className="h1 py-3"><strong>We are open Friday and Saturday!</strong></h3>
-                                <h4 className="h2 pt-3 pb-1">Remember that we are a <strong><u>cash only</u></strong> business!</h4>
-                                <h4 className="h2 py-1">We recommend bringing a <strong><u>portable FM radio</u>!</strong></h4>
-                                <h4 className="h2 pt-1 pb-3">Unfortunately, radio apps on mobile devices <strong><u>do not work</u></strong>!</h4>
+                                <div>
+                                    <h4 className="h2 pt-3 pb-1">Remember that we are a <strong><u>cash only</u></strong> business!</h4>
+                                    <h5 className="h3 py-1">This includes both <strong>admission</strong> and <strong>concessions</strong>!</h5>
+                                </div>
+                                <div className="border-top border-light">
+                                    <h4 className="h2 py-1">We open the gates for parking spots at <strong>6:00PM</strong>!</h4>
+                                    <h5 className="h3 py-1">Our first movie begins at <strong>7:30PM</strong>!</h5>
+                                </div>
+                                <div className="border-top border-light">
+
+                                    <h4 className="h2 py-1">We recommend bringing a <strong><u>portable FM radio</u>!</strong></h4>
+                                    <h4 className="h2 pt-1 pb-3">Unfortunately, radio apps on mobile devices <strong><u>do not work</u></strong>!</h4>
+                                </div>
                                 <h4 className="h2 py-3"><strong>Find us at 314 McAdenville Rd, Belmont, NC 28012</strong></h4>
                                 <div className="row">
                                     <div
