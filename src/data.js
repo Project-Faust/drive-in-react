@@ -9,14 +9,14 @@ const template = [
 
 export const nowPlaying = [
     {
-        title: "Beetlejuice (1988)",
-        image: require("../src/assets/beetlejuice.webp"),
-        imdb: "https://www.imdb.com/title/tt0094721/"
+        title: "Cars (2006)",
+        image: require("../src/assets/cars-2006.webp"),
+        imdb: "https://www.imdb.com/title/tt0317219/"
     },
     {
-        title: "Beetlejuice Beetlejuice (2024)",
-        image: require("../src/assets/beetlejuice-beetlejuice.webp"),
-        imdb: "https://www.imdb.com/title/tt2049403/",
+        title: "Deadpool (2016)",
+        image: require("../src/assets/deadpool-2016.webp"),
+        imdb: "https://www.imdb.com/title/tt1431045/",
     }
 ]
 
