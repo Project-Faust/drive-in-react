@@ -26,7 +26,7 @@ export default function CurrentFeatures() {
                     <div>
                         <div className="d-inline-flex border border-3 border-secondary rounded bg-dark shadow-lg mt-4 mb-3">
                             <div className="text-center p-3">
-                                <h2>Weekend of <strong>11/15/2024</strong> & <strong>11/16/2024</strong>!</h2>
+                                <h2>Weekend of <strong>11/22/2024</strong> & <strong>11/23/2024</strong>!</h2>
                                 <h3 className="my-3"><strong>{comingSoon[0].title}</strong> will be followed by <strong>{comingSoon[1].title}</strong>!</h3>
                             </div>
                         </div>
