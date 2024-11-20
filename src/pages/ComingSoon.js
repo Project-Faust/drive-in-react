@@ -1,11 +1,10 @@
-import { comingSoon } from "../data";
+// eslint-disable-next-line
+import { comingSoon, toBeDetermined } from "../data";
 const posterStyle = {
     maxWidth: "95%",
     maxHeight: "800px",
     aspectRatio: "2/3"
 }
-// const comingSoonFirst = comingSoon[0].title;
-// const comingSoonSecond = comingSoon[1].title;
 
 export default function CurrentFeatures() {
     return (
@@ -20,20 +19,20 @@ export default function CurrentFeatures() {
                     </div>
                 </div>
             </div>
-            {/* <h1><strong>{comingSoonFirst} & {comingSoonSecond}</strong></h1> */}
             <div className="d-flex justify-content-center text-light">
                 <section className="row justify-content-evenly text-center w-100 mt-4 mb-3">
                     <div>
                         <div className="d-inline-flex border border-3 border-secondary rounded bg-dark shadow-lg mt-4 mb-3">
                             <div className="text-center p-3">
-                                <h2>Weekend of <strong>11/22/2024</strong> & <strong>11/23/2024</strong>!</h2>
-                                <h3 className="my-3"><strong>{comingSoon[0].title}</strong> will be followed by <strong>{comingSoon[1].title}</strong>!</h3>
+                                <h2>Weekend of <strong>11/29/2024</strong> & <strong>11/30/2024</strong>!</h2>
+                                <h3 className="my-3">We will be <strong>closed</strong> for Thanksgiving!</h3>
+                                {/* <h3 className="my-3"><strong>{toBeDetermined[0].title}</strong> will be followed by <strong>{toBeDetermined[1].title}</strong>!</h3> */}
                             </div>
                         </div>
                     </div>
                     <div className="d-flex justify-content-evenly mt-4 mb-3">
                         <section className="row justify-content-evenly text-center w-100 m-3">
-                            {comingSoon.map((res) => (
+                            {toBeDetermined.map((res) => (
                                 <div className="col-lg-5 col-md-12">
                                     <div className="border border-danger border-3 rounded bg-dark shadow-lg mt-4 mb-3">
                                         <a href={res.imdb} target="_blank" rel="noreferrer" className="text-dark text-decoration-none">

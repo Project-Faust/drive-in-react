@@ -7,11 +7,6 @@ import starryBG from "../assets/star-background.webp"
 
 export default function HomePage() {
     usePreloadImage([starryBG, logo, ifYoureLooking])
-    // useEffect(() => {
-    //     if (window.FB) {
-    //         window.FB.XFBML.parse();
-    //     }
-    // }, []);
     return (
         <section
             className="mw-100 mh-100"
@@ -32,25 +27,6 @@ export default function HomePage() {
                     </div>
                 </section>
             </div>
-
-
-            {/* <section className="row justify-content-center m-3">
-                <img
-                    alt="Playing weekend of 6/7 & 6/8"
-                    src={stormReopening}
-                    className="col-lg-6 border border-secondary border-3 rounded p-0 m-0"
-                />
-            </section> */}
-
-            {/* <div className="text-center m-3">
-                <section className="d-inline-flex border border-3 rounded border-secondary bg-dark mw-100">
-                    <div className="text-center text-light p-3">
-                        <h3><strong>Temporarily Closed</strong></h3>
-                        <p>Unfortunately, due to the severe weather that has passed through the area recently, we have suffered damage to the screen and are currently without full operating power. We will keep everyone updated with our progress and re-opening date to the best of our ability. We sincerely thank all of our patrons and the community for helping support not only us but also each other, as we know that we weren't the only ones affected by mother nature. We are both grateful and humbled by the volume of people and businesses that have reached out and expressed their concerns, well-wishes, and offers for support in order to keep our business going so that we can continue to give back to the community that has continued to support us without fail since our grand re-opening last year. We again want to thank each and every one of you, and we promise one thing: in the words of Arnold Schwarzenegger, the Terminator himself, "We'll be back."</p>
-                    </div>
-                </section>
-            </div> */}
-
             <div className="d-flex justify-content-center align-items-center mw-100">
                 <section className="row justify-content-center text-center w-100">
                     <div className="col-lg-9 col-md-12">
@@ -66,7 +42,6 @@ export default function HomePage() {
                                     <h5 className="h3 py-1">Our first movie begins at <strong>7:30PM</strong>!</h5>
                                 </div>
                                 <div className="border-top border-light">
-
                                     <h4 className="h2 py-1">We recommend bringing a <strong><u>portable FM radio</u>!</strong></h4>
                                     <h5 className="h3 pt-1 pb-3">Unfortunately, radio apps on mobile devices <strong><u>do not work</u></strong>!</h5>
                                 </div>
@@ -117,30 +92,7 @@ export default function HomePage() {
                     </div>
                 </section>
             </div>
-            {/* <section className="row justify-content-center m-3">
-                <img
-                    alt="Playing weekend of 4/12 & 4/13"
-                    src={maySchedule}
-                    className="col-lg-6 border border-secondary border-3 rounded p-0 m-0"
-                />
-            </section> */}
             <section>
-                {/* <div
-                    class="fb-page d-flex justify-content-center align-items-center m-3 mw-100"
-                    data-href="https://www.facebook.com/profile.php?id=100063570731472"
-                    data-tabs="timeline"
-                    data-width="600"
-                    data-height="131"
-                    data-small-header="false"
-                    data-adapt-container-width="true"
-                    data-hide-cover="false"
-                    data-show-facepile="false">
-                    <blockquote
-                        cite="https://www.facebook.com/profile.php?id=100063570731472"
-                        class="fb-xfbml-parse-ignore mw-100">
-                        <a href="https://www.facebook.com/profile.php?id=100063570731472">Belmont Drive-In</a>
-                    </blockquote>
-                </div> */}
                 <div className="d-flex justify-content-center align-items-center mx-3 mt-3 mw-100">
                     <iframe
                         title="google map embed"
