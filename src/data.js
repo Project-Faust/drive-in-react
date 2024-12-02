@@ -9,14 +9,14 @@ const template = [
 
 export const nowPlaying = [
     {
-        title: "How the Grinch Stole Christmas (2000)",
-        image: require("../src/assets/how-the-grinch-stole-christmas-2000.webp"),
-        imdb: "https://www.imdb.com/title/tt0170016/",
+        title: "Elf (2003)",
+        image: require("../src/assets/elf-2003.webp"),
+        imdb: "https://www.imdb.com/title/tt0319343/",
     },
     {
-        title: "Home Alone (1990)",
-        image: require("../src/assets/home-alone-1990.webp"),
-        imdb: "https://www.imdb.com/title/tt0099785/    ",
+        title: "National Lampoon's Christmas Vacation (1989)",
+        image: require("../src/assets/national-lampoon-christmas-1989.webp"),
+        imdb: "https://www.imdb.com/title/tt0097958/",
     }
 ]
 
@@ -36,13 +36,13 @@ export const toBeDetermined = [
 // eslint-disable-next-line
 export const comingSoon = [
     {
-        title: "How the Grinch Stole Christmas (2000)",
-        image: require("../src/assets/how-the-grinch-stole-christmas-2000.webp"),
-        imdb: "https://www.imdb.com/title/tt0170016/",
+        title: "To Be Determined",
+        image: require("./assets/to-be-determined.jpg"),
+        imdb: "",
     },
     {
-        title: "Home Alone (1990)",
-        image: require("../src/assets/home-alone-1990.webp"),
-        imdb: "https://www.imdb.com/title/tt0099785/    ",
+        title: "To Be Determined",
+        image: require("../src/assets/to-be-determined.jpg"),
+        imdb: "",
     }
 ]

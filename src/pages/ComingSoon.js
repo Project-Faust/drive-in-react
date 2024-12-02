@@ -24,8 +24,8 @@ export default function CurrentFeatures() {
                     <div>
                         <div className="d-inline-flex border border-3 border-secondary rounded bg-dark shadow-lg mt-4 mb-3">
                             <div className="text-center p-3">
-                                <h2>Weekend of <strong>11/29/2024</strong> & <strong>11/30/2024</strong>!</h2>
-                                <h3 className="my-3">We will be <strong>closed</strong> for Thanksgiving!</h3>
+                                {/* <h2>Weekend of <strong>11/29/2024</strong> & <strong>11/30/2024</strong>!</h2> */}
+                                <h3 className="my-3">We will be <strong>closed</strong> until <u>Spring 2025</u>!</h3>
                                 {/* <h3 className="my-3"><strong>{toBeDetermined[0].title}</strong> will be followed by <strong>{toBeDetermined[1].title}</strong>!</h3> */}
                             </div>
                         </div>
