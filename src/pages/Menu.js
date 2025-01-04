@@ -12,7 +12,8 @@ export default function Menu() {
         style={{backgroundColor:"#005CB4"}}>
             <div className="row text-center p-3">
                 <div className="col border border-dark border-4 rounded bg-secondary-subtle text-dark p-4 m-3">
-                    <h1><strong>Our Concession Stand is Open!</strong></h1>
+                    {/* <h1><strong>Our Concession Stand is Open!</strong></h1> */}
+                    <h1><strong>Our Concession Stand is Currently Closed for the Winter!</strong></h1>
                 </div>
             </div>
             {/* <div className="pdfContainer text-center p-3">
