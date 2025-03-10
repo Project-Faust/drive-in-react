@@ -11,10 +11,10 @@
 
 export default function Footer() {
     return (
-        <p className="text-center bg-dark text-light mw-100 my-0 py-1"
+        <p className="text-center bg-secondary-subtle text-dark mw-100 my-0 py-1"
         style={{
             textShadow: "0px",
             fontSize:"18px"
-        }}>© 2024 Belmont Drive-In</p>
+        }}>© 2025 Belmont Drive-In. All rights reserved.</p>
     )
 }

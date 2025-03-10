@@ -4,7 +4,7 @@ export default function NavBar({ navLinks = [], currentLink, setCurrentLink }) {
     const [collapsed, setCollapsed] = useState(true);
 
     return (
-        <nav className="navbar navbar-expand-lg navbar-dark bg-dark sticky-top mw-100">
+        <nav className="navbar navbar-expand-lg navbar-light bg-secondary-subtle sticky-top mw-100">
             <button
                 className="navbar-toggler mx-2"
                 type="button"
@@ -21,7 +21,7 @@ export default function NavBar({ navLinks = [], currentLink, setCurrentLink }) {
                 <ul className={`navbar-nav ${collapsed ? 'mx-auto' : ''} text-center`}>
                     {navLinks.map((navLink) => (
                         <a key={navLink.name}
-                            className={`nav-link text-light mx-2 ${currentLink.name === navLink.name ? 'active' : ''}`}
+                            className={`nav-link text-dark mx-2 ${currentLink.name === navLink.name ? 'active' : ''}`}
                             href={navLink.url}
                             onClick={(e) => {
                                 e.preventDefault();

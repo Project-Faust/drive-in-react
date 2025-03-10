@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import './App.css';
 import NavBar from "./components/NavBar.js";
-import Footer from "./components/Footer";
+import Footer from "./components/Footer.js";
 import HomePage from './pages/HomePage.js';
 import CurrentFeatures from './pages/CurrentFeatures.js';
 import ComingSoon from './pages/ComingSoon.js'

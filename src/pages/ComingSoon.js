@@ -8,7 +8,7 @@ const posterStyle = {
 
 export default function CurrentFeatures() {
     return (
-        <section id="currentFeaturesParent" className="bg-secondary-subtle mw-100 mh-100">
+        <section id="currentFeaturesParent" className="bg-dark mw-100 mh-100">
             <div className="text-center">
                 <div className="d-inline-flex border border-3 rounded border-primary bg-dark text-light shadow-lg m-3">
                     <div className="text-center p-3">
@@ -22,7 +22,7 @@ export default function CurrentFeatures() {
             <div className="d-flex justify-content-center text-light">
                 <section className="row justify-content-evenly text-center w-100 mt-4 mb-3">
                     <div>
-                        <div className="d-inline-flex border border-3 border-secondary rounded bg-dark shadow-lg mt-4 mb-3">
+                        <div className="d-inline-flex border border-3 border-light rounded bg-dark shadow-lg mt-4 mb-3">
                             <div className="text-center p-3">
                                 {/* <h2>Weekend of <strong>11/29/2024</strong> & <strong>11/30/2024</strong>!</h2> */}
                                 <h3 className="my-3">We will be <strong>closed</strong> until <u>Spring 2025</u>!</h3>

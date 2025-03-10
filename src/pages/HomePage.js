@@ -34,7 +34,7 @@ export default function HomePage() {
                             <div className="d-flex flex-column justify-content-evenly align-items-center p-3">
                                 <div className="d-inline-flex border border-3 rounded border-secondary bg-danger text-light shadow-2b m-3 flex-column">
                                     <h3 className="h1 p-3"><strong>We are Currently Closed for the Winter!</strong></h3>
-                                    <h3 className="h1 p-3"><strong>We Will Reopen for the 2025 Season in the Spring!</strong></h3>
+                                    <h3 className="h1 p-3"><strong>Our first weekend of the 2025 Season will be <br />4/11/2025 & 4/12/2025!</strong></h3>
                                 </div>
 
                                 <div>
@@ -76,7 +76,9 @@ export default function HomePage() {
                                     <div className=" col border border-3 rounded border-secondary-subtle shadow-2b m-3 mw-100"
                                         style={{ backgroundColor: "#004280" }}>
                                         <p className="h3 text-light text-start p-3" style={{ textIndent: '50px' }}>
-                                            Many of us were impacted from the heavy storms that came through the area recently. Although it has been a minor setback in our plans for this season, we have made repairs to the screen and are proud to present to you a picture that is cleaner than it has ever been. We look forward to seeing everyone soon and want to extend our sincerest thanks to those who reached out to us and one another. We have made some updates and adjustments to our menu and rules this season which have been posted on our <a href="https://www.facebook.com/profile.php?id=100063570731472" className="text-light"><strong>Facebook</strong></a> page and have been updated on our website.
+                                            
+                                            <br />
+                                            Please continue to check in with us for updates and adjustments to our menu and rules this season which have been posted on our <a href="https://www.facebook.com/profile.php?id=100063570731472" className="text-light"><strong>Facebook</strong></a> page and have been updated on our website.
                                         </p>
                                         <p className="h4 text-light text-end p-3">
                                             A Big Thank You,
@@ -105,7 +107,8 @@ export default function HomePage() {
                         style={{ border: 0 }}
                         loading="lazy"
                         allowfullscreen
-                        src={`https://www.google.com/maps/embed/v1/place?q=place_id:ChIJqRq4HOq9VogR6duom18zqd0&key=${process.env.REACT_APP_GOOGLE_MAPS_API_KEY}`}>
+                        src={`https://www.google.com/maps/embed/v1/place?q=place_id:ChIJqRq4HOq9VogR6duom18zqd0&key=${process.env.REACT_APP_GOOGLE_MAPS_API_KEY}`}
+                        className="rounded bg-dark">
                     </iframe>
                 </div>
             </section>

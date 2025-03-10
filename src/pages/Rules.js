@@ -2,7 +2,7 @@ import rulesWebp from "../assets/2024-rules.webp"
 
 export default function Rules() {
     return (
-        <section className="pdfSection d-flex flex-column justify-content-center align-items-center container-fluid bg-dark mw-100 mh-100">
+        <section className="pdfSection d-flex flex-column justify-content-center align-items-center container-fluid bg-dark mw-100 mh-100 min-vh-100">
             <div className="row text-center p-3">
                 <div className="col border border-light border-4 rounded bg-dark text-light p-4 m-3">
                     <h1><strong>Please be Mindful of Our Rules and Regulations!</strong></h1>
