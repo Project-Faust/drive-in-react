@@ -33,8 +33,8 @@ export default function HomePage() {
                         <div className="border border-secondary border-3 rounded bg-dark text-light">
                             <div className="d-flex flex-column justify-content-evenly align-items-center p-3">
                                 <div className="d-inline-flex border border-3 rounded border-secondary bg-danger text-light shadow-2b m-3 flex-column">
-                                    <h3 className="h1 p-3"><strong>We are Currently Closed for the Winter!</strong></h3>
-                                    <h3 className="h1 p-3"><strong>Our first weekend of the 2025 Season will be <br />4/11/2025 & 4/12/2025!</strong></h3>
+                                    {/* <h3 className="h1 p-3"><strong>We are Currently Closed for the Winter!</strong></h3> */}
+                                    <h3 className="h1 p-3"><strong>Our opening weekend of the 2025 Season will be <br />4/11/2025 & 4/12/2025!</strong></h3>
                                 </div>
 
                                 <div>
