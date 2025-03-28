@@ -9,14 +9,14 @@ const template = [
 
 export const nowPlaying = [
     {
-        title: "To Be Determined",
-        image: require("./assets/to-be-determined.jpg"),
-        imdb: "",
+        title: "A Minecraft Movie",
+        image: require("./assets/a-minecraft-movie-2025.webp"),
+        imdb: "https://www.imdb.com/title/tt3566834/",
     },
     {
-        title: "To Be Determined",
-        image: require("../src/assets/to-be-determined.jpg"),
-        imdb: "",
+        title: "Mickey 17",
+        image: require("../src/assets/mickey-17-2025.webp"),
+        imdb: "https://www.imdb.com/title/tt12299608/",
     }
 ]
 
