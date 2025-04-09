@@ -45,7 +45,7 @@ export default function HomePage() {
                                 </div>
                                 <div className="border-top border-light">
                                     <h4 className="h2 py-1">We open the gates for parking spots at <strong>6:00PM</strong>!</h4>
-                                    <h5 className="h3 py-1">Our first movie begins at <strong>7:30PM</strong>!</h5>
+                                    <h5 className="h3 py-1">Our first movie begins <strong>just after sundown</strong>!</h5>
                                 </div>
                                 <div className="border-top border-light">
                                     <h4 className="h2 py-1">We recommend bringing a <strong><u>portable FM radio</u>!</strong></h4>
@@ -64,7 +64,7 @@ export default function HomePage() {
                                             ><strong>Things to remember!</strong></h4>
                                             <ul className="text-start shadow-2b p-3 m-3">
                                                 <li>Gates open at <strong>6:00PM</strong>!</li>
-                                                <li>Our <strong>first</strong> movie starts at <strong>7:30PM</strong>!</li>
+                                                <li>Our <strong>first</strong> movie starts <strong>just after sundown</strong>!</li>
                                                 <li>We are a <strong>cash only</strong> business!</li>
                                                 <li>Admission is <strong>$25 per carload</strong>.<br />After leaving, you must pay to reenter.</li>
                                                 <li>Our business runs and survives on sales from the concession stand!<br /> <strong>No outside food or drink!</strong></li>
