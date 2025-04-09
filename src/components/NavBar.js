@@ -4,7 +4,7 @@ export default function NavBar({ navLinks = [], currentLink, setCurrentLink }) {
     const [collapsed, setCollapsed] = useState(true);
 
     return (
-        <nav className="navbar navbar-expand-lg navbar-light bg-secondary-subtle sticky-top mw-100">
+        <nav className="navbar navbar-expand-lg navbar-light bg-secondary-subtle border-bottom border-dark sticky-top mw-100">
             <button
                 className="navbar-toggler mx-2"
                 type="button"

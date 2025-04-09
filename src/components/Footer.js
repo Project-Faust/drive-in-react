@@ -11,7 +11,7 @@
 
 export default function Footer() {
     return (
-        <p className="text-center bg-secondary-subtle text-dark mw-100 my-0 py-1"
+        <p className="text-center bg-secondary-subtle text-dark border-top border-dark mw-100 my-0 py-1"
         style={{
             textShadow: "0px",
             fontSize:"18px"

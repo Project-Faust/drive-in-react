@@ -33,13 +33,15 @@ export default function HomePage() {
                         <div className="border border-secondary border-3 rounded bg-dark text-light">
                             <div className="d-flex flex-column justify-content-evenly align-items-center p-3">
                                 <div className="d-inline-flex border border-3 rounded border-secondary bg-danger text-light shadow-2b m-3 flex-column">
-                                    {/* <h3 className="h1 p-3"><strong>We are Currently Closed for the Winter!</strong></h3> */}
                                     <h3 className="h1 p-3"><strong>Our opening weekend of the 2025 Season will be <br />4/11/2025 & 4/12/2025!</strong></h3>
                                 </div>
 
                                 <div>
                                     <h4 className="h2 pt-3 pb-1">Remember that we are a <strong><u>cash only</u></strong> business!</h4>
-                                    <h5 className="h3 py-1">This includes both <strong>admission</strong> and <strong>concessions</strong>!</h5>
+                                    <h5 className="h3 py-1">This includes both <strong>admission</strong> and <strong>concessions</strong>!
+                                        <br />
+                                        We <strong>do not</strong> have any ATM on site currently!
+                                    </h5>
                                 </div>
                                 <div className="border-top border-light">
                                     <h4 className="h2 py-1">We open the gates for parking spots at <strong>6:00PM</strong>!</h4>
@@ -62,7 +64,7 @@ export default function HomePage() {
                                             ><strong>Things to remember!</strong></h4>
                                             <ul className="text-start shadow-2b p-3 m-3">
                                                 <li>Gates open at <strong>6:00PM</strong>!</li>
-                                                {/* <li>Our <strong>first</strong> movie starts at <strong>sundown</strong>!</li> */}
+                                                <li>Our <strong>first</strong> movie starts at <strong>7:30PM</strong>!</li>
                                                 <li>We are a <strong>cash only</strong> business!</li>
                                                 <li>Admission is <strong>$25 per carload</strong>.<br />After leaving, you must pay to reenter.</li>
                                                 <li>Our business runs and survives on sales from the concession stand!<br /> <strong>No outside food or drink!</strong></li>
@@ -76,7 +78,7 @@ export default function HomePage() {
                                     <div className=" col border border-3 rounded border-secondary-subtle shadow-2b m-3 mw-100"
                                         style={{ backgroundColor: "#004280" }}>
                                         <p className="h3 text-light text-start p-3" style={{ textIndent: '50px' }}>
-                                            
+
                                             <br />
                                             Please continue to check in with us for updates and adjustments to our menu and rules this season which have been posted on our <a href="https://www.facebook.com/profile.php?id=100063570731472" className="text-light"><strong>Facebook</strong></a> page and have been updated on our website.
                                         </p>

@@ -23,17 +23,15 @@ export default function CurrentFeatures() {
                 backgroundPosition: "center"
             }}>
             <div className="text-center">
-                <div className="d-inline-flex border border-3 rounded border-secondary bg-dark text-light shadow-2b m-3">
+                <div className="d-inline-flex shadow border border-3 rounded border-light bg-dark text-light m-3">
                     <div className="text-center p-3">
-                        {/* <h1><strong>12/06/2024 & 12/07/2024</strong></h1> */}
-                        {/* <h2><strong>Our final show of 2024!</strong></h2> */}
-                        {/* <h2><strong><u>Friday</u> & <u>Saturday</u></strong></h2> */}
                     </div>
                     <div className="text-center p-3">
                         <h2>Weekend of <strong>04/11/2025</strong> & <strong>04/12/2025</strong>!</h2>
-                        {/* <h3 className="my-3">We will be <strong>closed</strong> until <u>Spring 2025</u>!</h3> */}
                         {/* <h3 className="my-3"><strong>{toBeDetermined[0].title}</strong> will be followed by <strong>{toBeDetermined[1].title}</strong>!</h3> */}
-                        <h3><strong>{firstFeature}</strong><br />will be followed by<br /><strong>{secondFeature}!</strong></h3>
+                        <h1><strong>{firstFeature}</strong></h1>
+                        <h4>will be followed by</h4>
+                        <h1><strong>{secondFeature}!</strong></h1>
                     </div>
                 </div>
             </div>
@@ -55,7 +53,7 @@ export default function CurrentFeatures() {
                                         <img
                                             src={res.image}
                                             alt="preview"
-                                            className="border border-dark"
+                                            className="shadow border border-light rounded"
                                             style={posterStyle}
                                         />
                                         <p className="text-decoration-none text-light">Image source: IMDb</p>

@@ -1,4 +1,4 @@
-import rulesWebp from "../assets/2024-rules.webp"
+import rulesWebp from "../assets/2025-rules.webp"
 
 export default function Rules() {
     return (
@@ -8,6 +8,7 @@ export default function Rules() {
                     <h1><strong>Please be Mindful of Our Rules and Regulations!</strong></h1>
                 </div>
             </div>
+            {/* Old content from trying to make PDF work */}
             {/* <div className="pdfContainer text-center p-3">
                 <iframe className="pdfViewer border border-3 border-dark rounded" src={rulesPDF} title="Rules PDF" width="100%" height="100%"></iframe>
             </div> */}
@@ -15,7 +16,7 @@ export default function Rules() {
                 <img
                     src={rulesWebp}
                     alt="rules"
-                    className="col-lg-6 col-md-12 border border-3 rounded border-primary bg-danger p-3" />
+                    className="col-lg-12 col-md-12 border border-3 rounded border-primary bg-danger p-3" />
             </div>
         </section>
     );
