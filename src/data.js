@@ -9,15 +9,15 @@ const template = [
 
 export const nowPlaying = [
     {
+        title: "King of Kings",
+        image: require("../src/assets/king-of-kings-2025.webp"),
+        imdb: "https://www.imdb.com/title/tt7967302/",
+    },
+    {
         title: "A Minecraft Movie",
         image: require("./assets/a-minecraft-movie-2025.webp"),
         imdb: "https://www.imdb.com/title/tt3566834/",
     },
-    {
-        title: "Mickey 17",
-        image: require("../src/assets/mickey-17-2025.webp"),
-        imdb: "https://www.imdb.com/title/tt12299608/",
-    }
 ]
 
 export const toBeDetermined = [
