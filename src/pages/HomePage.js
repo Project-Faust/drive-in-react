@@ -4,6 +4,7 @@ import usePreloadImage from "../helpers/usePreloadImage";
 import ifYoureLooking from "../assets/if-youre-looking.webp";
 import logo from "../assets/logo.webp"
 import starryBG from "../assets/star-background.webp"
+import starryBGport from "../assets/star-background-portrait.jpg"
 
 export default function HomePage() {
     usePreloadImage([starryBG, logo, ifYoureLooking])
@@ -11,7 +12,7 @@ export default function HomePage() {
         <section
             className="mw-100 mh-100"
             style={{
-                backgroundImage: `url(${starryBG})`,
+                backgroundImage: `url(${starryBGport})`,
                 backgroundSize: 'cover',
                 backgroundPosition: 'center',
                 // height: '100vh'

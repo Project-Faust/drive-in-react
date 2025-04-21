@@ -22,7 +22,7 @@ export default function App() {
   const [currentNav, setCurrentNav] = useState(navLinks[0]);
 
   return (
-    <div>
+    <div className="bg-dark">
       <NavBar
         navLinks={navLinks}
         currentLink={currentNav}
