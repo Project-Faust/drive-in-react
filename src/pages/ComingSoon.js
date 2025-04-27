@@ -1,5 +1,5 @@
 // eslint-disable-next-line
-import { comingSoon, toBeDetermined } from "../data";
+import { comingSoon, nowPlaying, toBeDetermined } from "../data";
 
 const posterStyle = {
     maxWidth: "95%",
@@ -8,19 +8,25 @@ const posterStyle = {
 };
 
 export default function ComingSoon() {
-    // Define the upcoming weekends and their corresponding movies
-    const upcomingWeekends = [
+    const currentWeekend = [
         {
             dates: { start: "5/2/2025", end: "5/3/2025" },
-            movies: [comingSoon[0], comingSoon[1]] // Thunderbolts & Captain America
-        },
+            movies: [nowPlaying[0], nowPlaying[1]]
+        }
+    ]
+
+    const upcomingWeekends = [
         {
             dates: { start: "5/9/2025", end: "5/10/2025" },
-            movies: [comingSoon[2], comingSoon[3]] // Mufasa & Thunderbolts (duplicate)
+            movies: [comingSoon[0], comingSoon[1]]
         },
         {
-            dates: { start: "5/16/2025", end: "5/23/2025" },
-            movies: [comingSoon[4], comingSoon[5]] // Twister & Twisters
+            dates: { start: "5/16/2025", end: "5/17/2025" },
+            movies: [comingSoon[2], comingSoon[3]]
+        },
+        {
+            dates: { start: "5/23/2025", end: "5/24/2025" },
+            movies: [comingSoon[4], comingSoon[5]]
         }
     ];
 
