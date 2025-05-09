@@ -31,10 +31,10 @@ export default function ComingSoon() {
     ];
 
     return (
-        <section id="currentFeaturesParent" className="bg-dark min-vh100">
+        <section id="currentFeaturesParent" className="bg-secondary min-vh100 mb-0">
             <div className="text-center">
                 {/* Header Card */}
-                <div className="d-inline-flex text-center border border-3 border-primary rounded text-light shadow-lg m-3">
+                <div className="d-inline-flex text-center border border-3 border-primary rounded text-light shadow-lg m-5 mb-0">
                     <div className="" style={{ backgroundColor: "#000000" }}>
                         <h1><strong>Coming Soon!</strong></h1>
                         <p>Click or tap the movie poster below to see the IMDb entry!</p>
@@ -48,7 +48,7 @@ export default function ComingSoon() {
                     {upcomingWeekends.map((weekend, weekendIndex) => (
                         <section
                             key={`weekend-${weekendIndex}`}
-                            className="row text-center border border-light border-3 rounded m-3"
+                            className="row text-center bg-dark rounded m-5"
                         >
                             {/* Date Header */}
                             <div className="d-inline-flex justify-content-center m-3 mx-auto">
@@ -101,7 +101,7 @@ export default function ComingSoon() {
                     ))}
 
                     {/* TBD Weekend Section */}
-                    <section className="row text-center border border-light border-3 rounded mx-3 mb-3">
+                    <section className="row text-center bg-dark rounded mx-5">
                         <div className="d-inline-flex justify-content-center my-4 mx-auto">
                             <div className="text-center border border-3 border-primary rounded p-3" style={{ backgroundColor: "#000000" }}>
                                 <h2>Weekend of <strong>6/6/2025</strong> & <strong>6/7/2025</strong>!</h2>
