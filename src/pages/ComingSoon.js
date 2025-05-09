@@ -10,24 +10,24 @@ const posterStyle = {
 export default function ComingSoon() {
     const currentWeekend = [
         {
-            dates: { start: "5/2/2025", end: "5/3/2025" },
+            dates: { start: "5/9/2025", end: "5/10/2025" },
             movies: [nowPlaying[0], nowPlaying[1]]
         }
     ]
 
     const upcomingWeekends = [
         {
-            dates: { start: "5/9/2025", end: "5/10/2025" },
+            dates: { start: "5/16/2025", end: "5/17/2025" },
             movies: [comingSoon[0], comingSoon[1]]
         },
         {
-            dates: { start: "5/16/2025", end: "5/17/2025" },
+            dates: { start: "5/23/2025", end: "5/24/2025" },
             movies: [comingSoon[2], comingSoon[3]]
         },
-        {
-            dates: { start: "5/23/2025", end: "5/24/2025" },
-            movies: [comingSoon[4], comingSoon[5]]
-        }
+        // {
+            // dates: { start: "5/30/2025", end: "5/31/2025" },
+            // movies: [comingSoon[0], comingSoon[1]]
+        // },
     ];
 
     return (
