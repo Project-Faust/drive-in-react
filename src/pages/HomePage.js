@@ -52,7 +52,7 @@ export default function HomePage() {
                                     <h4 className="h2 py-1">We recommend bringing a <strong><u>portable FM radio</u>!</strong></h4>
                                     <h5 className="h3 pt-1 pb-3">Unfortunately, radio apps on mobile devices <strong><u>do not work</u></strong>!</h5>
                                 </div>
-                                <h4 className="h2 py-3"><strong>Find us at 314 McAdenville Rd, Belmont, NC 28012</strong></h4>
+                                <h4 className="h2 py-3"><strong>Find us at <a href="#google-map-embed">314 McAdenville Rd, Belmont, NC 28012</a></strong></h4>
                                 <div className="row">
                                     <div
                                         className="col border border-3 border-secondary-subtle rounded text-light p-3 m-3 mw-100"
@@ -102,7 +102,7 @@ export default function HomePage() {
                 </section>
             </div>
             <section>
-                <div className="d-flex justify-content-center align-items-center mx-3 mt-3 mw-100">
+                <div id="google-map-embed" className="d-flex justify-content-center align-items-center mx-3 mt-3 mw-100">
                     <iframe
                         title="google map embed"
                         width="600"
