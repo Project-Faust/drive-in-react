@@ -24,10 +24,10 @@ export default function ComingSoon() {
             dates: { start: "5/23/2025", end: "5/24/2025" },
             movies: [comingSoon[2], comingSoon[3]]
         },
-        // {
-            // dates: { start: "5/30/2025", end: "5/31/2025" },
-            // movies: [comingSoon[0], comingSoon[1]]
-        // },
+        {
+            dates: { start: "5/30/2025", end: "5/31/2025" },
+            movies: [comingSoon[2], comingSoon[4]]
+        },
     ];
 
     return (
@@ -104,7 +104,7 @@ export default function ComingSoon() {
                     <section className="row text-center border border-light border-3 rounded mx-3 mb-3">
                         <div className="d-inline-flex justify-content-center my-4 mx-auto">
                             <div className="text-center border border-3 border-primary rounded p-3" style={{ backgroundColor: "#000000" }}>
-                                <h2>Weekend of <strong>5/30/2025</strong> & <strong>5/31/2025</strong>!</h2>
+                                <h2>Weekend of <strong>6/6/2025</strong> & <strong>6/7/2025</strong>!</h2>
                                 <h3 className="my-3">
                                     <strong>To Be Announced</strong>
                                 </h3>
