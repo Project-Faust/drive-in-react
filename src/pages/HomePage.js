@@ -38,7 +38,7 @@ export default function HomePage() {
                                 </div> */}
 
                                 <div>
-                                    <h4 className="h2 pt-3 pb-1">Remember that we are a <strong><u>cash only</u></strong> business!</h4>
+                                    <h4 className="h2 pt-3 pb-1">Please remember that we are a <strong><u>cash only</u></strong> business!</h4>
                                     <h5 className="h3 py-1">This includes both <strong>admission</strong> and <strong>concessions</strong>!
                                         <br />
                                         We <strong>do not</strong> have any ATM on site currently!
