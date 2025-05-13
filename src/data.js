@@ -34,18 +34,18 @@ export const toBeDetermined = [
 
 // eslint-disable-next-line
 export const comingSoon = [
-
     {
         title: "Lilo & Stitch",
         image: require("./assets/movie-posters/lilo-and-stitch-2025.webp"),
         imdb: "https://www.imdb.com/title/tt11655566/"
     }, {
-        title: "Karate Kid: Legends",
-        image: require("../src/assets/movie-posters/karate-kid-legends-2025.webp"),
-        imdb: "https://www.imdb.com/title/tt1674782/",
-    }, {
         title: "The Last Rodeo",
         image: require("../src/assets/movie-posters/the-last-rodeo-2025.webp"),
         imdb: "https://www.imdb.com/title/tt30908405/",
-    }
+    }, {
+        title: "Karate Kid: Legends",
+        image: require("../src/assets/movie-posters/karate-kid-legends-2025.webp"),
+        imdb: "https://www.imdb.com/title/tt1674782/",
+    },
+
 ]

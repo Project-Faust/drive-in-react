@@ -8,7 +8,7 @@ const posterStyle = {
 };
 
 export default function ComingSoon() {
-    // eslint-disable-next-line
+    //eslint-disable-next-line
     const currentWeekend = [
         {
             dates: { start: "5/9/2025", end: "5/10/2025" },
@@ -49,7 +49,7 @@ export default function ComingSoon() {
                     {upcomingWeekends.map((weekend, weekendIndex) => (
                         <section
                             key={`weekend-${weekendIndex}`}
-                            className="row text-center bg-dark rounded lg:m-5 m-2"
+                            className="row text-center bg-dark rounded m-5"
                         >
                             {/* Date Header */}
                             <div className="d-inline-flex justify-content-center m-3 mx-auto">
@@ -102,7 +102,7 @@ export default function ComingSoon() {
                     ))}
 
                     {/* TBD Weekend Section */}
-                    <section className="row text-center bg-dark rounded lg:mx-5 mx-2">
+                    <section className="row text-center bg-dark rounded mx-5">
                         <div className="d-inline-flex justify-content-center my-4 mx-auto">
                             <div className="text-center border border-3 border-primary rounded p-3" style={{ backgroundColor: "#000000" }}>
                                 <h2>Weekend of <strong>6/6/2025</strong> & <strong>6/7/2025</strong>!</h2>
