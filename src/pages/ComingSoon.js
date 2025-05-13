@@ -8,6 +8,7 @@ const posterStyle = {
 };
 
 export default function ComingSoon() {
+    // eslint-disable-next-line
     const currentWeekend = [
         {
             dates: { start: "5/9/2025", end: "5/10/2025" },
@@ -17,24 +18,24 @@ export default function ComingSoon() {
 
     const upcomingWeekends = [
         {
-            dates: { start: "5/16/2025", end: "5/17/2025" },
-            movies: [comingSoon[0], comingSoon[1]]
-        },
-        {
             dates: { start: "5/23/2025", end: "5/24/2025" },
-            movies: [comingSoon[2], comingSoon[3]]
+            movies: [comingSoon[0], comingSoon[2]]
         },
         {
             dates: { start: "5/30/2025", end: "5/31/2025" },
-            movies: [comingSoon[2], comingSoon[4]]
+            movies: [comingSoon[0], comingSoon[1]]
         },
+        // {
+        //     dates: { start: "6/6/2025", end: "6/7/2025" },
+        //     movies: [comingSoon[2], comingSoon[4]]
+        // },
     ];
 
     return (
         <section id="currentFeaturesParent" className="bg-secondary min-vh100 mb-0">
             <div className="text-center">
                 {/* Header Card */}
-                <div className="d-inline-flex text-center border border-3 border-primary rounded text-light shadow-lg m-5 mb-0">
+                <div className="d-inline-flex text-center border border-3 border-primary rounded text-light shadow-lg lg:m-5 m-2 mb-0">
                     <div className="" style={{ backgroundColor: "#000000" }}>
                         <h1><strong>Coming Soon!</strong></h1>
                         <p>Click or tap the movie poster below to see the IMDb entry!</p>
@@ -48,7 +49,7 @@ export default function ComingSoon() {
                     {upcomingWeekends.map((weekend, weekendIndex) => (
                         <section
                             key={`weekend-${weekendIndex}`}
-                            className="row text-center bg-dark rounded m-5"
+                            className="row text-center bg-dark rounded lg:m-5 m-2"
                         >
                             {/* Date Header */}
                             <div className="d-inline-flex justify-content-center m-3 mx-auto">
@@ -101,7 +102,7 @@ export default function ComingSoon() {
                     ))}
 
                     {/* TBD Weekend Section */}
-                    <section className="row text-center bg-dark rounded mx-5">
+                    <section className="row text-center bg-dark rounded lg:mx-5 mx-2">
                         <div className="d-inline-flex justify-content-center my-4 mx-auto">
                             <div className="text-center border border-3 border-primary rounded p-3" style={{ backgroundColor: "#000000" }}>
                                 <h2>Weekend of <strong>6/6/2025</strong> & <strong>6/7/2025</strong>!</h2>
