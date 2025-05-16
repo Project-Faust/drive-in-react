@@ -16,6 +16,7 @@ export default function ComingSoon() {
         }
     ]
 
+    
     const upcomingWeekends = [
         {
             dates: { start: "5/16/2025", end: "5/17/2025" },
