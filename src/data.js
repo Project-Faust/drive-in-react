@@ -9,13 +9,13 @@ const template = [
 
 export const nowPlaying = [
     {
-        title: "Mufasa: The Lion King",
-        image: require("./assets/movie-posters/mufasa-2024.webp"),
-        imdb: "https://www.imdb.com/title/tt13186482/",
+        title: "Twister",
+        image: require("./assets/movie-posters/twister-1996.webp"),
+        imdb: "https://www.imdb.com/title/tt0117998/",
     }, {
-        title: "Thunderbolts",
-        image: require("./assets/movie-posters/thunderbolts-2025.webp"),
-        imdb: "https://www.imdb.com/title/tt20969586/",
+        title: "Twisters",
+        image: require("./assets/movie-posters/twisters-2024.webp"),
+        imdb: "https://www.imdb.com/title/tt12584954/",
     },
 ]
 
@@ -36,14 +36,6 @@ export const toBeDetermined = [
 // eslint-disable-next-line
 export const comingSoon = [
     {
-        title: "Twister",
-        image: require("./assets/movie-posters/twister-1996.webp"),
-        imdb: "https://www.imdb.com/title/tt0117998/",
-    }, {
-        title: "Twisters",
-        image: require("./assets/movie-posters/twisters-2024.webp"),
-        imdb: "https://www.imdb.com/title/tt12584954/",
-    }, {
         title: "Lilo & Stitch",
         image: require("./assets/movie-posters/lilo-and-stitch-2025.webp"),
         imdb: "https://www.imdb.com/title/tt11655566/"

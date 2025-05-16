@@ -27,7 +27,7 @@ export default function CurrentFeatures() {
                     <div className="text-center p-3">
                     </div>
                     <div className="text-center p-3">
-                        <h2>Weekend of <strong>5/9/2025</strong> & <strong>5/10/2025</strong>!</h2>
+                        <h2>Weekend of <strong>5/16/2025</strong> & <strong>5/17/2025</strong>!</h2>
                         {/* <h3 className="my-3"><strong>{toBeDetermined[0].title}</strong> will be followed by <strong>{toBeDetermined[1].title}</strong>!</h3> */}
                         <h1><strong>{firstFeature}</strong></h1>
                         <h4>will be followed by</h4>
