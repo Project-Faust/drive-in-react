@@ -9,7 +9,7 @@ import './AdCarousel.css';
 
 import allPro from "../assets/advertisements/all-pro-banner.jpg";
 import andrewBrodsky from '../assets/advertisements/andrew-brodsky.webp';
-import doodyCalls from "../assets/advertisements/all-pro-banner.jpg";
+import doodyCalls from "../assets/advertisements/doody-calls.jpg";
 import eppsHvac from '../assets/advertisements/epps-hvac.webp';
 import gastonCoHd from "../assets/advertisements/gaston-co-hd.jpg";
 import gastonRoofing from "../assets/advertisements/gaston-roofing.jpg";
@@ -27,14 +27,64 @@ const AdCarousel = ({
     partners = [
         {
             id: 1,
-            name: 'Andrew Brodsky',
-            logo: andrewBrodsky
+            name: "All Pro Enviro",
+            logo: allPro
         },
         {
             id: 2,
-            name: 'Epps HVAC',
+            name: 'Andrew Brodsky, Allstate Agent',
+            logo: andrewBrodsky
+        },
+        {
+            id: 3,
+            name: "Doody Calls",
+            logo: doodyCalls
+        },
+        {
+            id: 4,
+            name: 'Epps HVAC Co',
             logo: eppsHvac
         },
+        {
+            id: 5,
+            name: "Gaston County Public Health",
+            logo: gastonCoHd
+        },
+        {
+            id: 6,
+            name: "Gaston Roofing",
+            logo: gastonRoofing
+        },
+        {
+            id: 7,
+            name: "Groovy Beast",
+            logo: groovyBeast
+        },
+        {
+            id: 8, 
+            name: "Kanwisher Law, PLLC",
+            logo: kanwisher
+        },
+        {
+            id: 9,
+            name: "Moose's Grading Inc",
+            logo: moosesGrading
+        },
+        {
+            id: 10,
+            name: "Retrieve Air",
+            logo: retrieveAir
+        },
+        {
+            id: 11,
+            name: "Sake Express (Mt Holly)",
+            logo: sakeExpress
+        },
+        {
+            id: 12,
+            name: "Sunny Beauty Co",
+            logo: sunnyBeauty
+        }
         // {
         //     id: 3,
         //     name: 'Business 3',
