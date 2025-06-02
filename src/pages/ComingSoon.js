@@ -11,17 +11,14 @@ export default function ComingSoon() {
     //eslint-disable-next-line
     const currentWeekend = [
         {
-            dates: { start: "5/9/2025", end: "5/10/2025" },
-            movies: [nowPlaying[0], nowPlaying[1]]
-        }
+            dates: { start: "6/6/2025", end: "6/7/2025" },
+            movies: [comingSoon[0], comingSoon[2]]
+        },
     ]
 
 
     const upcomingWeekends = [
-        {
-            dates: { start: "6/6/2025", end: "6/7/2025" },
-            movies: [comingSoon[0], comingSoon[2]]
-        },
+
         {
             dates: { start: "6/13/2025", end: "6/14/2025" },
             movies: [comingSoon[3], comingSoon[4]]
