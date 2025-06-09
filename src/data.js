@@ -9,14 +9,14 @@ const template = [
 
 export const nowPlaying = [
     {
-        title: "Lilo & Stitch",
-        image: require("./assets/movie-posters/lilo-and-stitch-2025.webp"),
-        imdb: "https://www.imdb.com/title/tt11655566/"
+        title: "How to Train Your Dragon (2025)",
+        image: require("../src/assets/movie-posters/how-to-train-your-dragon-2025.webp"),
+        imdb: "https://www.imdb.com/title/tt26743210/",
     }, {
-        title: "Karate Kid: Legends (2025)",
-        image: require("../src/assets/movie-posters/karate-kid-legends-2025.webp"),
-        imdb: "https://www.imdb.com/title/tt1674782/",
-    },
+        title: "Friday the 13th (1980)",
+        image: require("../src/assets/movie-posters/friday-the-13th-1980.webp"),
+        imdb: "https://www.imdb.com/title/tt0080761/",
+    }
 ]
 
 export const toBeDetermined = [
@@ -36,18 +36,6 @@ export const toBeDetermined = [
 // eslint-disable-next-line
 export const comingSoon = [
     {
-        title: "Lilo & Stitch (2025)",
-        image: require("./assets/movie-posters/lilo-and-stitch-2025.webp"),
-        imdb: "https://www.imdb.com/title/tt11655566/"
-    }, {
-        title: "The Last Rodeo",
-        image: require("../src/assets/movie-posters/the-last-rodeo-2025.webp"),
-        imdb: "https://www.imdb.com/title/tt30908405/",
-    }, {
-        title: "Karate Kid: Legends (2025)",
-        image: require("../src/assets/movie-posters/karate-kid-legends-2025.webp"),
-        imdb: "https://www.imdb.com/title/tt1674782/",
-    }, {
         title: "How to Train Your Dragon (2025)",
         image: require("../src/assets/movie-posters/how-to-train-your-dragon-2025.webp"),
         imdb: "https://www.imdb.com/title/tt26743210/",
