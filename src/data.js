@@ -13,9 +13,9 @@ export const nowPlaying = [
         image: require("../src/assets/movie-posters/how-to-train-your-dragon-2025.webp"),
         imdb: "https://www.imdb.com/title/tt26743210/",
     }, {
-        title: "Friday the 13th (1980)",
-        image: require("../src/assets/movie-posters/friday-the-13th-1980.webp"),
-        imdb: "https://www.imdb.com/title/tt0080761/",
+        title: "Final Destination: BloodLines (2025)",
+        image: require("../src/assets/movie-posters/final-destination-bloodlines-2025.webp"),
+        imdb: "https://www.imdb.com/title/tt9619824/",
     }
 ]
 
@@ -40,8 +40,8 @@ export const comingSoon = [
         image: require("../src/assets/movie-posters/how-to-train-your-dragon-2025.webp"),
         imdb: "https://www.imdb.com/title/tt26743210/",
     }, {
-        title: "Friday the 13th (1980)",
-        image: require("../src/assets/movie-posters/friday-the-13th-1980.webp"),
-        imdb: "https://www.imdb.com/title/tt0080761/",
+        title: "Final Destination: BloodLines (2025)",
+        image: require("../src/assets/movie-posters/final-destination-bloodlines-2025.webp"),
+        imdb: "https://www.imdb.com/title/tt9619824/",
     },
 ]
