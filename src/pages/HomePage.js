@@ -29,6 +29,11 @@ export default function HomePage() {
                     </div>
                 </section>
             </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-6 text-center alert alert-danger" role="alert">
+                    We will be closed July 4th and 5th, 2025 in observance of Independence Day.
+                </div>
+            </div>
             <div className="d-flex justify-content-center align-items-center mw-100">
                 <section className="row justify-content-center text-center w-100">
                     <div className="col-lg-9 col-md-12">
