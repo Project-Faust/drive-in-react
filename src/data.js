@@ -9,9 +9,9 @@ const template = [
 
 export const nowPlaying = [
     {
-        title: "How to Train Your Dragon (2025)",
-        image: require("../src/assets/movie-posters/how-to-train-your-dragon-2025.webp"),
-        imdb: "https://www.imdb.com/title/tt26743210/",
+        title: "The Goonies (1985)",
+        image: require("../src/assets/movie-posters/the-goonies-1985.webp"),
+        imdb: "https://www.imdb.com/title/tt0089218/",
     }, {
         title: "Final Destination: BloodLines (2025)",
         image: require("../src/assets/movie-posters/final-destination-bloodlines-2025.webp"),
