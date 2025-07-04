@@ -1,10 +1,10 @@
 // eslint-disable-next-line
 import WeekendDates from "../components/WeekendDates";
-import { nowPlaying } from "../data";
+import { nowPlaying, toBeDetermined } from "../data";
 import redCurtain from "../assets/red-curtain.webp"
 
-const firstFeature = nowPlaying[0].title;
-const secondFeature = nowPlaying[1].title;
+const firstFeature = toBeDetermined[0].title;
+const secondFeature = toBeDetermined[1].title;
 
 const posterStyle = {
     maxWidth: "95%",
@@ -27,7 +27,7 @@ export default function CurrentFeatures() {
                     <div className="text-center p-3">
                     </div>
                     <div className="text-center p-3">
-                        <h2>Weekend of <strong>6/27/2025</strong> & <strong>6/28/2025</strong>!</h2>
+                        <h2>Weekend of <strong>7/11/2025</strong> & <strong>7/12/2025</strong>!</h2>
                         {/* <h3 className="my-3"><strong>{toBeDetermined[0].title}</strong> will be followed by <strong>{toBeDetermined[1].title}</strong>!</h3> */}
                         <h1><strong>{firstFeature}</strong></h1>
                         <h4>will be followed by</h4>
@@ -38,7 +38,7 @@ export default function CurrentFeatures() {
 
             <div className="d-flex justify-content-center">
                 <section className="row justify-content-evenly text-center w-100 m-3">
-                    {nowPlaying.map((res) => (
+                    {toBeDetermined.map((res) => (
                         <div className="col-lg-5 col-md-12" key={res.imdb}>
                             <div className="border border-secondary border-3 rounded bg-dark mb-3">
                                 <a href={res.imdb} target="_blank" rel="noreferrer" className="text-dark text-decoration-none">
