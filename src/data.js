@@ -9,13 +9,13 @@ const template = [
 
 export const nowPlaying = [
     {
-        title: "The Goonies (1985)",
-        image: require("../src/assets/movie-posters/the-goonies-1985.webp"),
-        imdb: "https://www.imdb.com/title/tt0089218/",
+        title: "Elio (2025)",
+        image: require("../src/assets/movie-posters/elio-2025.webp"),
+        imdb: "https://www.imdb.com/title/tt4900148/",
     }, {
-        title: "Final Destination: BloodLines (2025)",
-        image: require("../src/assets/movie-posters/final-destination-bloodlines-2025.webp"),
-        imdb: "https://www.imdb.com/title/tt9619824/",
+        title: "Jurassic World: Rebirth (2025)",
+        image: require("../src/assets/movie-posters/jurassic-world-rebirth-2025.webp"),
+        imdb: "https://www.imdb.com/title/tt31036941/",
     }
 ]
 
