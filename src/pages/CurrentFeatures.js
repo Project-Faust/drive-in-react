@@ -3,8 +3,8 @@ import WeekendDates from "../components/WeekendDates";
 import { nowPlaying, toBeDetermined } from "../data";
 import redCurtain from "../assets/red-curtain.webp"
 
-const firstFeature = toBeDetermined[0].title;
-const secondFeature = toBeDetermined[1].title;
+const firstFeature = nowPlaying[0].title;
+const secondFeature = nowPlaying[1].title;
 
 const posterStyle = {
     maxWidth: "95%",
@@ -38,7 +38,7 @@ export default function CurrentFeatures() {
 
             <div className="d-flex justify-content-center">
                 <section className="row justify-content-evenly text-center w-100 m-3">
-                    {toBeDetermined.map((res) => (
+                    {nowPlaying.map((res) => (
                         <div className="col-lg-5 col-md-12" key={res.imdb}>
                             <div className="border border-secondary border-3 rounded bg-dark mb-3">
                                 <a href={res.imdb} target="_blank" rel="noreferrer" className="text-dark text-decoration-none">

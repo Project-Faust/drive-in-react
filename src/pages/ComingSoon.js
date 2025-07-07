@@ -20,7 +20,7 @@ export default function ComingSoon() {
     const upcomingWeekends = [
 
         {
-            dates: { start: "7/11/2025", end: "7/12/2025" },
+            dates: { start: "7/18/2025", end: "7/19/2025" },
             movies: [toBeDetermined[0], toBeDetermined[0]]
         },
     ];
@@ -96,7 +96,7 @@ export default function ComingSoon() {
                     ))}
 
                     {/* TBD Weekend Section */}
-                    <section className="row text-center bg-dark rounded mx-5">
+                    {/* <section className="row text-center bg-dark rounded mx-5">
                         <div className="d-inline-flex justify-content-center my-4 mx-auto">
                             <div className="text-center border border-3 border-primary rounded p-3" style={{ backgroundColor: "#000000" }}>
                                 <h2>Weekend of <strong>6/27/2025</strong> & <strong>6/28/2025</strong>!</h2>
@@ -129,7 +129,7 @@ export default function ComingSoon() {
                                 ))}
                             </section>
                         </div>
-                    </section>
+                    </section> */}
                 </div>
             </div>
         </section>
