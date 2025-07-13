@@ -36,9 +36,9 @@ export const toBeDetermined = [
 // eslint-disable-next-line
 export const comingSoon = [
     {
-        title: "How to Train Your Dragon (2025)",
-        image: require("../src/assets/movie-posters/how-to-train-your-dragon-2025.webp"),
-        imdb: "https://www.imdb.com/title/tt26743210/",
+        title: "M3GAN 2.0 (2025)",
+        image: require("../src/assets/movie-posters/m3gan-2.0-2025.webp"),
+        imdb: "https://www.imdb.com/title/tt26342662/",
     }, {
         title: "Final Destination: BloodLines (2025)",
         image: require("../src/assets/movie-posters/final-destination-bloodlines-2025.webp"),
