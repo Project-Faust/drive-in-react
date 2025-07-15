@@ -9,13 +9,13 @@ const template = [
 
 export const nowPlaying = [
     {
-        title: "Elio (2025)",
-        image: require("../src/assets/movie-posters/elio-2025.webp"),
-        imdb: "https://www.imdb.com/title/tt4900148/",
-    }, {
         title: "Jurassic World: Rebirth (2025)",
         image: require("../src/assets/movie-posters/jurassic-world-rebirth-2025.webp"),
         imdb: "https://www.imdb.com/title/tt31036941/",
+    }, {
+        title: "M3GAN 2.0 (2025)",
+        image: require("../src/assets/movie-posters/m3gan-2.0-2025.webp"),
+        imdb: "https://www.imdb.com/title/tt26342662/",
     }
 ]
 

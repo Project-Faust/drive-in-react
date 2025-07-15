@@ -20,8 +20,8 @@ export default function ComingSoon() {
     const upcomingWeekends = [
 
         {
-            dates: { start: "7/18/2025", end: "7/19/2025" },
-            movies: [nowPlaying[1], comingSoon[0]]
+            dates: { start: "7/25/2025", end: "7/26/2025" },
+            movies: [toBeDetermined[1], toBeDetermined[0]]
         },
     ];
 

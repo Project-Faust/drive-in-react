@@ -1,5 +1,6 @@
 // eslint-disable-next-line
 import WeekendDates from "../components/WeekendDates";
+// eslint-disable-next-line
 import { nowPlaying, toBeDetermined } from "../data";
 import redCurtain from "../assets/red-curtain.webp"
 
@@ -27,7 +28,7 @@ export default function CurrentFeatures() {
                     <div className="text-center p-3">
                     </div>
                     <div className="text-center p-3">
-                        <h2>Weekend of <strong>7/11/2025</strong> & <strong>7/12/2025</strong>!</h2>
+                        <h2>Weekend of <strong>7/18/2025</strong> & <strong>7/19/2025</strong>!</h2>
                         {/* <h3 className="my-3"><strong>{toBeDetermined[0].title}</strong> will be followed by <strong>{toBeDetermined[1].title}</strong>!</h3> */}
                         <h1><strong>{firstFeature}</strong></h1>
                         <h4>will be followed by</h4>
