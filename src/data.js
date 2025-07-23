@@ -9,13 +9,13 @@ const template = [
 
 export const nowPlaying = [
     {
-        title: "Jurassic World: Rebirth (2025)",
-        image: require("../src/assets/movie-posters/jurassic-world-rebirth-2025.webp"),
-        imdb: "https://www.imdb.com/title/tt31036941/",
+        title: "Superman (2025)",
+        image: require("../src/assets/movie-posters/superman-2025.webp"),
+        imdb: "https://www.imdb.com/title/tt5950044",
     }, {
-        title: "M3GAN 2.0 (2025)",
-        image: require("../src/assets/movie-posters/m3gan-2.0-2025.webp"),
-        imdb: "https://www.imdb.com/title/tt26342662/",
+        title: "The Fantastic Four: First Steps (2025)",
+        image: require("../src/assets/movie-posters/fantastic-four-2025.webp"),
+        imdb: "https://www.imdb.com/title/tt10676052",
     }
 ]
 
@@ -36,12 +36,13 @@ export const toBeDetermined = [
 // eslint-disable-next-line
 export const comingSoon = [
     {
-        title: "M3GAN 2.0 (2025)",
-        image: require("../src/assets/movie-posters/m3gan-2.0-2025.webp"),
-        imdb: "https://www.imdb.com/title/tt26342662/",
-    }, {
-        title: "Final Destination: BloodLines (2025)",
-        image: require("../src/assets/movie-posters/final-destination-bloodlines-2025.webp"),
-        imdb: "https://www.imdb.com/title/tt9619824/",
+        title: "To Be Determined",
+        image: require("./assets/to-be-determined.jpg"),
+        imdb: "",
     },
+    {
+        title: "To Be Determined",
+        image: require("../src/assets/to-be-determined.jpg"),
+        imdb: "",
+    }
 ]
