@@ -9,14 +9,15 @@ const template = [
 
 export const nowPlaying = [
     {
-        title: "Superman (2025)",
-        image: require("../src/assets/movie-posters/superman-2025.webp"),
-        imdb: "https://www.imdb.com/title/tt5950044",
-    }, {
         title: "The Fantastic Four: First Steps (2025)",
         image: require("../src/assets/movie-posters/fantastic-four-2025.webp"),
         imdb: "https://www.imdb.com/title/tt10676052",
-    }
+    },
+    {
+        title: "I Know What You Did Last Summer (2025)",
+        image: require("../src/assets/movie-posters/ikwydls-2025.webp"),
+        imdb: "https://www.imdb.com/title/tt4045450/",
+    }, 
 ]
 
 export const toBeDetermined = [
