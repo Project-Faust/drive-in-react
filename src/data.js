@@ -9,14 +9,14 @@ const template = [
 
 export const nowPlaying = [
     {
-        title: "The Fantastic Four: First Steps (2025)",
-        image: require("../src/assets/movie-posters/fantastic-four-2025.webp"),
-        imdb: "https://www.imdb.com/title/tt10676052",
+        title: "Smurfs (2025)",
+        image: require("../src/assets/movie-posters/smurfs-2025.webp"),
+        imdb: "https://www.imdb.com/title/tt18069420",
     },
     {
-        title: "I Know What You Did Last Summer (2025)",
-        image: require("../src/assets/movie-posters/ikwydls-2025.webp"),
-        imdb: "https://www.imdb.com/title/tt4045450/",
+        title: "Raiders of the Lost Ark (1981)",
+        image: require("../src/assets/movie-posters/raiders-of-the-lost-ark-1981.webp"),
+        imdb: "https://www.imdb.com/title/tt0082971/",
     }, 
 ]
 
