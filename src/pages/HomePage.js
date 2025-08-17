@@ -29,11 +29,6 @@ export default function HomePage() {
           </div>
         </section>
       </div>
-      <section class="d-flex justify-content-center">
-        <div class="alert alert-info col-lg-6 text-center m-3" role="alert">
-          We will be closed <strong>temporarily</strong> for the weekend of August 15th and 16th, 2025 due to a private family occasion! 
-        </div>
-      </section>
       <div className="d-flex justify-content-center align-items-center mw-100">
         <section className="row justify-content-center text-center w-100">
           <div className="col-lg-9 col-md-12">
