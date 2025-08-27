@@ -8,14 +8,6 @@ const posterStyle = {
 };
 
 export default function ComingSoon() {
-  //eslint-disable-next-line
-  const currentWeekend = [
-    {
-      dates: { start: "6/6/2025", end: "6/7/2025" },
-      movies: [comingSoon[0], comingSoon[1]]
-    },
-  ]
-
 
   const upcomingWeekends = [
 
@@ -24,8 +16,8 @@ export default function ComingSoon() {
     //  movies: [comingSoon[2], comingSoon[3]]
     //    },
     {
-      dates: {start: "8/29/2025", end: "8/30/2025" },
-      movies: [comingSoon[2], comingSoon[3]]
+      dates: {start: "9/12/2025", end: "9/13/2025" },
+      movies: [comingSoon[0], comingSoon[1]]
     },
   ];
 
