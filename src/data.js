@@ -9,9 +9,9 @@ const template = [
 
 export const nowPlaying = [
   {
-    title: "The Bad Guys 2 (2025)",
-    image: require("../src/assets/movie-posters/bad-guys-2-2025.webp"),
-    imdb: "https://www.imdb.com/title/tt30017619/"
+    title: "Freakier Friday (2025)",
+    image: require("../src/assets/movie-posters/freakier-friday-2025.webp"),
+    imdb: "https://www.imdb.com/title/tt31956415/",
   },
   {
     title: "Jaws (1975)",
@@ -38,9 +38,9 @@ export const toBeDetermined = [
 // eslint-disable-next-line
 export const comingSoon = [
   {
-    title: "Freakier Friday (2025)",
-    image: require("../src/assets/movie-posters/freakier-friday-2025.webp"),
-    imdb: "https://www.imdb.com/title/tt31956415/",
+    title: "To Be Determined",
+    image: require("../src/assets/to-be-determined.jpg"),
+    imdb: "",
   },
   {
     title: "To Be Determined",
