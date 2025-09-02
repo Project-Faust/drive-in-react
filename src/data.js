@@ -14,9 +14,9 @@ export const nowPlaying = [
     imdb: "https://www.imdb.com/title/tt31956415/",
   },
   {
-    title: "Jaws (1975)",
-    image: require("../src/assets/movie-posters/jaws-1975.webp"),
-    imdb: "https://www.imdb.com/title/tt0073195/"
+    title: "The Naked Gun (2025)",
+    image: require("../src/assets/movie-posters/naked-gun-2025.webp"),
+    imdb: "https://www.imdb.com/title/tt3402138/"
   }
 
 ]
