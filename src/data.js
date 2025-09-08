@@ -9,14 +9,14 @@ const template = [
 
 export const nowPlaying = [
   {
-    title: "Freakier Friday (2025)",
-    image: require("../src/assets/movie-posters/freakier-friday-2025.webp"),
-    imdb: "https://www.imdb.com/title/tt31956415/",
+    title: "American Graffiti (1973)",
+    image: require("../src/assets/movie-posters/american-graffiti-1973.webp"),
+    imdb: "https://www.imdb.com/title/tt0069704/",
   },
   {
-    title: "The Naked Gun (2025)",
-    image: require("../src/assets/movie-posters/naked-gun-2025.webp"),
-    imdb: "https://www.imdb.com/title/tt3402138/"
+    title: "The Blues Brothers (1980)",
+    image: require("../src/assets/movie-posters/blues-brothers-1980.webp"),
+    imdb: "https://www.imdb.com/title/tt0080455/"
   }
 
 ]
@@ -46,6 +46,5 @@ export const comingSoon = [
     title: "To Be Determined",
     image: require("../src/assets/to-be-determined.jpg"),
     imdb: "",
-  }
-
+  },
 ]

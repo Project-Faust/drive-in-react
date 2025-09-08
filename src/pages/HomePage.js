@@ -6,6 +6,7 @@ import logo from "../assets/logo.webp"
 import starryBG from "../assets/star-background.webp"
 import starryBGport from "../assets/star-background-portrait.jpg"
 import AdCarousel from "../components/AdCarousel";
+import SpecialEventAnnouncement from "../components/specialAnnouncement";
 
 export default function HomePage() {
   usePreloadImage([starryBG, logo, ifYoureLooking])
@@ -98,7 +99,20 @@ export default function HomePage() {
           </div>
         </section>
       </div>
-      <AdCarousel></AdCarousel>
+      <SpecialEventAnnouncement
+        variant="dark"
+        wrapInCard
+        infoBullets={[
+          "Gates 6:00 PM · Show at dusk",
+          "Limited capacity",
+          "Concessions open · No outside food please"
+        ]}
+        hero={{
+          imageUrl: "https://images.unsplash.com/photo-1517604931442-7e0c8ed2963c?q=80&w=1200&auto=format&fit=crop",
+          overlay: true
+        }}
+      />
+      <AdCarousel />
       <section>
         <div id="google-map-embed" className="d-flex justify-content-center align-items-center mx-3 mt-3 mw-100">
           <iframe
@@ -107,7 +121,7 @@ export default function HomePage() {
             height="450"
             style={{ border: 0 }}
             loading="lazy"
-            allowfullscreen
+            allowFullScreen
             src={`https://www.google.com/maps/embed/v1/place?q=place_id:ChIJqRq4HOq9VogR6duom18zqd0&key=${process.env.REACT_APP_GOOGLE_MAPS_API_KEY}`}
             className="rounded bg-dark">
           </iframe>
