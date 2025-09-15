@@ -9,14 +9,14 @@ const template = [
 
 export const nowPlaying = [
   {
-    title: "American Graffiti (1973)",
-    image: require("../src/assets/movie-posters/american-graffiti-1973.webp"),
-    imdb: "https://www.imdb.com/title/tt0069704/",
+    title: "Teenage Mutant Ninja Turtles (1990)",
+    image: "https://m.media-amazon.com/images/M/MV5BNzg3NTQ4NDk5NV5BMl5BanBnXkFtZTgwNzMzNDg4NjE@._V1_.jpg",
+    imdb: "https://www.imdb.com/title/tt0100758/",
   },
   {
-    title: "The Blues Brothers (1980)",
-    image: require("../src/assets/movie-posters/blues-brothers-1980.webp"),
-    imdb: "https://www.imdb.com/title/tt0080455/"
+    title: "The Conjuring: Last Rites (2025)",
+    image: "https://m.media-amazon.com/images/M/MV5BM2VmMzRkYzgtMzg2ZC00OTFkLTkwMTYtNTMxNjM2YzI1MjgyXkEyXkFqcGc@._V1_.jpg",
+    imdb: "https://www.imdb.com/title/tt22898462/"
   }
 
 ]
