@@ -9,14 +9,14 @@ const template = [
 
 export const nowPlaying = [
   {
-    title: "Teenage Mutant Ninja Turtles (1990)",
-    image: "https://m.media-amazon.com/images/M/MV5BNzg3NTQ4NDk5NV5BMl5BanBnXkFtZTgwNzMzNDg4NjE@._V1_.jpg",
-    imdb: "https://www.imdb.com/title/tt0100758/",
+    title: "Casper (1995)",
+    image: "https://m.media-amazon.com/images/M/MV5BZjYzZWZlYzYtZWZkYy00YjRkLWIxN2EtNjY1MGZmYmQxYTIxXkEyXkFqcGc@._V1_.jpg",
+    imdb: "https://www.imdb.com/title/tt0112642/",
   },
   {
-    title: "The Conjuring: Last Rites (2025)",
-    image: "https://m.media-amazon.com/images/M/MV5BM2VmMzRkYzgtMzg2ZC00OTFkLTkwMTYtNTMxNjM2YzI1MjgyXkEyXkFqcGc@._V1_.jpg",
-    imdb: "https://www.imdb.com/title/tt22898462/"
+    title: "Halloween II (1981)",
+    image: "https://m.media-amazon.com/images/M/MV5BY2M5ZGEwZjItODgwOC00OWM3LTliYmQtNzlmY2NmODE1MzAwXkEyXkFqcGc@._V1_.jpg",
+    imdb: "https://www.imdb.com/title/tt0082495/"
   }
 
 ]
