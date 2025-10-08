@@ -9,14 +9,14 @@ const template = [
 
 export const nowPlaying = [
   {
-    title: "Casper (1995)",
-    image: "https://m.media-amazon.com/images/M/MV5BZjYzZWZlYzYtZWZkYy00YjRkLWIxN2EtNjY1MGZmYmQxYTIxXkEyXkFqcGc@._V1_.jpg",
-    imdb: "https://www.imdb.com/title/tt0112642/",
+    title: "Beetlejuice (1988)",
+    image: "https://m.media-amazon.com/images/M/MV5BYjkwNzVlNDEtMTJlNy00OTdlLTljYWItM2RkZmZkYzY3YjM2XkEyXkFqcGc@._V1_.jpg",
+    imdb: "https://www.imdb.com/title/tt0094721/",
   },
   {
-    title: "Halloween II (1981)",
-    image: "https://m.media-amazon.com/images/M/MV5BY2M5ZGEwZjItODgwOC00OWM3LTliYmQtNzlmY2NmODE1MzAwXkEyXkFqcGc@._V1_.jpg",
-    imdb: "https://www.imdb.com/title/tt0082495/"
+    title: "Beetlejuice Beetlejuice (2024)",
+    image: "https://m.media-amazon.com/images/M/MV5BNTQ4Y2MzY2MtYzQyMS00ZTQ3LWIzZGQtNjVjYzgwYzA1MDkzXkEyXkFqcGc@._V1_.jpg",
+    imdb: "https://www.imdb.com/title/tt2049403/"
   }
 
 ]
