@@ -16,9 +16,13 @@ export default function ComingSoon() {
     //  movies: [comingSoon[2], comingSoon[3]]
     //    },
     {
-      dates: {start: "10/10/2025", end: "10/11/2025" },
+      dates: {start: "10/24/2025", end: "10/25/2025" },
       movies: [comingSoon[0], comingSoon[1]]
     },
+    {
+      dates: {start: "10/31/2025", end: "11/1/2025" },
+      movies: [comingSoon[2], comingSoon[3]]
+    }
   ];
 
   return (
