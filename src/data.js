@@ -9,13 +9,13 @@ const template = [
 
 export const nowPlaying = [
   {
-    title: "Corpse Bride (2005)",
-    image: "https://m.media-amazon.com/images/M/MV5BMTk1MTY1NjU4MF5BMl5BanBnXkFtZTcwNjIzMTEzMw@@._V1_.jpg",
-    imdb: "://www.imdb.com/title/tt0094721/",
+    title: "Casper (1995)",
+    image: "https://m.media-amazon.com/images/M/MV5BZjYzZWZlYzYtZWZkYy00YjRkLWIxN2EtNjY1MGZmYmQxYTIxXkEyXkFqcGc@._V1_.jpg",
+    imdb: "https://www.imdb.com/title/tt0112642/",
   },
   {
-    title: "Freddy vs Jason (2003)",
-    image: "https://m.media-amazon.com/images/M/MV5BOTc4ODQ3YTAtNDJiZi00NTUzLTllOWUtYjE3NjYyNjdlNDlmXkEyXkFqcGc@._V1_.jpg",
+    title: "Night of the Living Dead (1968)",
+    image: "https://m.media-amazon.com/images/M/MV5BZGMyZTA0MWEtZjczMS00ZDE5LTk1OTQtNmIxNGYzNDA2NDVhXkEyXkFqcGc@._V1_.jpg",
     imdb: "https://www.imdb.com/title/tt0329101/"
   }
 
@@ -37,16 +37,6 @@ export const toBeDetermined = [
 
 // eslint-disable-next-line
 export const comingSoon = [
-  {
-    title: "To Be Determined",
-    image: require("../src/assets/to-be-determined.jpg"),
-    imdb: "",
-  },
-  {
-    title: "To Be Determined",
-    image: require("../src/assets/to-be-determined.jpg"),
-    imdb: "",
-  },
   {
     title: "Halloween (1978)",
     image: "https://m.media-amazon.com/images/M/MV5BMzZiNTdiYTgtYjNkMS00MmJmLWEwZGQtNmY0NGJkMGE0YmYzXkEyXkFqcGc@._V1_.jpg",
