@@ -9,16 +9,15 @@ const template = [
 
 export const nowPlaying = [
   {
-    title: "Casper (1995)",
-    image: "https://m.media-amazon.com/images/M/MV5BZjYzZWZlYzYtZWZkYy00YjRkLWIxN2EtNjY1MGZmYmQxYTIxXkEyXkFqcGc@._V1_.jpg",
-    imdb: "https://www.imdb.com/title/tt0112642/",
+    title: "Halloween (1978)",
+    image: "https://m.media-amazon.com/images/M/MV5BMzZiNTdiYTgtYjNkMS00MmJmLWEwZGQtNmY0NGJkMGE0YmYzXkEyXkFqcGc@._V1_.jpg",
+    imdb: "https://www.imdb.com/title/tt0077651/",
   },
   {
-    title: "Night of the Living Dead (1968)",
-    image: "https://m.media-amazon.com/images/M/MV5BZGMyZTA0MWEtZjczMS00ZDE5LTk1OTQtNmIxNGYzNDA2NDVhXkEyXkFqcGc@._V1_.jpg",
-    imdb: "https://www.imdb.com/title/tt0329101/"
+    title: "Nightmare on Elm Street (1984)",
+    image: "https://m.media-amazon.com/images/M/MV5BNTZmN2VlMWMtMTdlMi00NDBhLWIyODMtODEwMzM0ODMwMWYwXkEyXkFqcGc@._V1_.jpg",
+    imdb: "https://www.imdb.com/title/tt0087800/"
   }
-
 ]
 
 export const toBeDetermined = [
@@ -37,14 +36,4 @@ export const toBeDetermined = [
 
 // eslint-disable-next-line
 export const comingSoon = [
-  {
-    title: "Halloween (1978)",
-    image: "https://m.media-amazon.com/images/M/MV5BMzZiNTdiYTgtYjNkMS00MmJmLWEwZGQtNmY0NGJkMGE0YmYzXkEyXkFqcGc@._V1_.jpg",
-    imdb: "https://www.imdb.com/title/tt0077651/",
-  },
-  {
-    title: "Nightmare on Elm Street (1984)",
-    image: "https://m.media-amazon.com/images/M/MV5BNTZmN2VlMWMtMTdlMi00NDBhLWIyODMtODEwMzM0ODMwMWYwXkEyXkFqcGc@._V1_.jpg",
-    imdb: "https://www.imdb.com/title/tt0087800/"
-  }
 ]

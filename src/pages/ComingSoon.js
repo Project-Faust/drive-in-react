@@ -11,8 +11,8 @@ export default function ComingSoon() {
 
   const upcomingWeekends = [
     {
-      dates: {start: "10/31/2025", end: "11/1/2025" },
-      movies: [comingSoon[0], comingSoon[1]]
+      dates: {start: "11/7/2025", end: "11/8/2025" },
+      movies: [toBeDetermined[0], toBeDetermined[1]]
     }
   ];
 
