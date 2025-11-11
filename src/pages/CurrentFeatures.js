@@ -7,9 +7,6 @@ import redCurtain from "../assets/red-curtain.webp"
 const firstFeature = nowPlaying[0].title;
 const secondFeature = nowPlaying[1].title;
 
-const bonusFeature1 = nowPlaying[2].title;
-const bonusFeature2 = nowPlaying[3].title;
-
 const posterStyle = {
   maxWidth: "95%",
   maxHeight: "800px",
@@ -27,28 +24,17 @@ export default function CurrentFeatures() {
         backgroundPosition: "center"
       }}>
 
-      <section className="">
+                  <div className="text-center">
 
-        <div className="row shadow border border-3 rounded border-light bg-dark text-light m-3">
-          <div className="text-center p-3">
-            <h2><strong>Friday 11/7</strong></h2>
-            <h1><strong>{firstFeature}</strong></h1>
-            <h4>will be followed by</h4>
-            <h1><strong>{secondFeature}!</strong></h1>
-          </div>
-
-        </div>
-
-        <div className="row shadow border border-3 rounded border-light bg-dark text-light m-3">
-          <div className="text-center p-3">
-            <h2><strong>Saturday 11/8</strong></h2>
-            <h1><strong>{bonusFeature1}</strong></h1>
-            <h4>will be followed by</h4>
-            <h1><strong>{bonusFeature2}!</strong></h1>
-          </div>
-        </div>
-
-      </section>
+                <div className="d-inline-flex shadow border border-3 rounded border-light bg-dark text-light m-3">
+                    <div className="text-center p-3">
+                        <h2>Weekend of <strong>8/29/2025</strong> & <strong>8/30/2025</strong>!</h2>
+                        <h1><strong>{firstFeature}</strong></h1>
+                        <h4>will be followed by</h4>
+                        <h1><strong>{secondFeature}!</strong></h1>
+                    </div>
+                </div>
+            </div>
 
       <div className="d-flex justify-content-center">
         <section className="row justify-content-evenly text-center w-100 m-3">

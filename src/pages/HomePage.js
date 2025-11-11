@@ -30,6 +30,22 @@ export default function HomePage() {
           </div>
         </section>
       </div>
+
+      <div>
+        <section className="d-flex justify-content-center">
+          <div className="col-lg-6 col-md-9 alert alert-success text-center mx-3" role="alert">
+            <p>Join us November 21st and 22nd for our Ugly Christmas Sweater weekend!</p>
+          </div>
+        </section>
+      </div>
+
+      <div>
+        <section className="d-flex justify-content-center">
+          <div className="col-lg-6 alert col-md-9 alert-danger text-center mx-3" role="alert">
+            <p>Our final weekend of the season will be December 5th and 6th!<br/>Join us for our annual Christmas pajama party!<br/>Our final weekend will feature Elf and National Lampoon's Christmas Vacation!</p>
+          </div>
+        </section>
+      </div>
       <div className="d-flex justify-content-center align-items-center mw-100">
         <section className="row justify-content-center text-center w-100">
           <div className="col-lg-9 col-md-12">
@@ -44,7 +60,7 @@ export default function HomePage() {
                 </div>
                 <div className="border-top border-light">
                   <h4 className="h2 py-1">We open the gates for parking spots at <strong>6:00PM</strong>!</h4>
-                  <h5 className="h3 py-1">Our first movie begins <strong>just after sundown</strong>!</h5>
+                  <h5 className="h3 py-1">Our first movie starts at <strong>7:30PM</strong>!</h5>
                 </div>
                 <div className="border-top border-light">
                   <h4 className="h2 py-1">We recommend bringing a <strong><u>portable FM radio</u>!</strong></h4>
@@ -63,7 +79,7 @@ export default function HomePage() {
                       ><strong>Things to remember!</strong></h4>
                       <ul className="text-start shadow-2b p-3 m-3">
                         <li>Gates open at <strong>6:00PM</strong>!</li>
-                        <li>Our <strong>first</strong> movie starts <strong>just after sundown</strong>!</li>
+                        <li>Our <strong>first</strong> movie starts at <strong>7:30PM</strong>!</li>
                         <li>We are a <strong>cash only</strong> business!</li>
                         <li>Admission is <strong>$25 per carload</strong>.<br />After leaving, you must pay to reenter.</li>
                         <li>Our business runs and survives on sales from the concession stand!<br /> <strong>No outside food or drink!</strong></li>
