@@ -11,8 +11,8 @@ export default function ComingSoon() {
 
   const upcomingWeekends = [
     {
-      dates: {start: "11/21/2025", end: "11/22/2025" },
-      movies: [comingSoon[0], toBeDetermined[0]]
+      dates: {start: "12/5/2025", end: "12/6/2025" },
+      movies: [comingSoon[0], comingSoon[1]]
     }
   ];
 
@@ -28,6 +28,14 @@ export default function ComingSoon() {
             <p>If there is a "To Be Determined" placeholder, our booking has not yet been confirmed for that movie.</p>
           </div>
         </div>
+
+      <div>
+        <section className="d-flex justify-content-center m-3">
+          <div className="col-lg-6 col-md-9 alert alert-danger text-center mx-3" role="alert">
+            <p>We will be <strong>closed</strong> for Thanksgiving during the weekend of 11/28/2025 &amp; 11/29/2025!</p>
+          </div>
+        </section>
+      </div>
 
         {/* Movies Sections - One for each weekend */}
         <div className="text-light">
