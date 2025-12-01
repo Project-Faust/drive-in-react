@@ -34,22 +34,6 @@ export default function HomePage() {
 
       <div>
         <section className="d-flex justify-content-center">
-          <div className="col-lg-6 col-md-9 alert alert-danger text-center mx-3" role="alert">
-            <p>We will be <strong>closed</strong> for Thanksgiving the weekend of 11/28/2025 &amp; 11/29/2025!</p>
-          </div>
-        </section>
-      </div>
-      
-      <div>
-        <section className="d-flex justify-content-center">
-          <div className="col-lg-6 col-md-9 alert alert-info text-center mx-3" role="alert">
-            <p>Join us November 21st and 22nd for our Ugly Christmas Sweater weekend!</p>
-          </div>
-        </section>
-      </div>
-
-      <div>
-        <section className="d-flex justify-content-center">
           <div className="col-lg-6 alert col-md-9 alert-success text-center mx-3" role="alert">
             <p>Our final weekend of the season will be December 5th and 6th!<br/>Join us for our annual Christmas pajama party!<br/>Our final weekend will feature Elf and National Lampoon's Christmas Vacation!</p>
           </div>
