@@ -26,7 +26,7 @@ export default function HomePage() {
       <div>
         <section className="d-flex justify-content-center">
           <div className="col-lg-6 alert col-md-9 alert-danger text-center mx-3" role="alert">
-            <h2>We are closed until Spring 2025!</h2>
+            <h2>We are closed until Spring 2026!</h2>
           </div>
         </section>
       </div>
