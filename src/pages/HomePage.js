@@ -23,6 +23,14 @@ export default function HomePage() {
         <img src={logo} alt="Belmont Drive-In logo" />
       </div>
 
+      <div>
+        <section className="d-flex justify-content-center">
+          <div className="col-lg-6 alert col-md-9 alert-danger text-center mx-3" role="alert">
+            <h2>We are closed until Spring 2025!</h2>
+          </div>
+        </section>
+      </div>
+
       <div className="text-center m-3">
         <section className="d-inline-flex border border-3 rounded border-secondary bg-dark mw-100">
           <div className="text-center text-light p-3">
@@ -32,13 +40,6 @@ export default function HomePage() {
         </section>
       </div>
 
-      <div>
-        <section className="d-flex justify-content-center">
-          <div className="col-lg-6 alert col-md-9 alert-success text-center mx-3" role="alert">
-            <p>Our final weekend of the season will be December 5th and 6th!<br/>Join us for our annual Christmas pajama party!<br/>Our final weekend will feature Elf and National Lampoon's Christmas Vacation!</p>
-          </div>
-        </section>
-      </div>
       <div className="d-flex justify-content-center align-items-center mw-100">
         <section className="row justify-content-center text-center w-100">
           <div className="col-lg-9 col-md-12">
