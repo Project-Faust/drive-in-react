@@ -27,6 +27,7 @@ export default function HomePage() {
         <section className="d-flex justify-content-center">
           <div className="col-lg-6 alert col-md-9 alert-danger text-center mx-3" role="alert">
             <h2>We are closed until Spring 2026!</h2>
+            <h2>Our first weekend of 2026 will be the weekend of April 10th & 11th!</h2>
           </div>
         </section>
       </div>
@@ -54,7 +55,7 @@ export default function HomePage() {
                 </div>
                 <div className="border-top border-light">
                   <h4 className="h2 py-1">We open the gates for parking spots at <strong>6:00PM</strong>!</h4>
-                  <h5 className="h3 py-1">Our first movie starts at <strong>7:30PM</strong>!</h5>
+                  <h5 className="h3 py-1">Our first movie starts at <strong>SUNDOWN</strong>!</h5>
                 </div>
                 <div className="border-top border-light">
                   <h4 className="h2 py-1">We recommend bringing a <strong><u>portable FM radio</u>!</strong></h4>
