@@ -24,8 +24,17 @@ export default function CurrentFeatures() {
         backgroundPosition: "center"
       }}>
 
-                  <div className="text-center">
+    <div className="text-center">
+      <div className="d-inline-flex shadow border border-3 rounded border-light bg-dark text-light m-3">
+        <div className="text-center p-3">
+          <h1>Our First Weekend of the 2026 Season Will be the Weekend of 4/10/2026 & 4/11/2026!</h1>
+        </div>
+      </div>
+    </div>
 
+
+    {/* 
+            <div className="text-center">
                 <div className="d-inline-flex shadow border border-3 rounded border-light bg-dark text-light m-3">
                     <div className="text-center p-3">
                         <h2>Weekend of <strong>12/5/2025</strong> & <strong>12/6/2025</strong>!</h2>
@@ -35,6 +44,7 @@ export default function CurrentFeatures() {
                     </div>
                 </div>
             </div>
+      */}
 
       <div className="d-flex justify-content-center">
         <section className="row justify-content-evenly text-center w-100 m-3">

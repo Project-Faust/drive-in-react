@@ -11,7 +11,7 @@ export default function ComingSoon() {
 
   const upcomingWeekends = [
     {
-      dates: {start: "12/5/2025", end: "12/6/2025" },
+      dates: {start: "4/10/2026", end: "4/11/2026" },
       movies: [comingSoon[0], comingSoon[1]]
     }
   ];
@@ -21,21 +21,13 @@ export default function ComingSoon() {
       <div className="text-center">
         {/* Header Card */}
         <div className="d-inline-flex text-center border border-3 border-primary rounded text-light shadow-lg lg:m-5 m-3 mb-0">
-          <div className="" style={{ backgroundColor: "#000000" }}>
+          <div className="p-3" style={{ backgroundColor: "#000000" }}>
             <h1><strong>Coming Soon!</strong></h1>
             <p>Click or tap the movie poster below to see the IMDb entry!</p>
             <p>If there is no date posted, our booking has not yet been confirmed for that date.</p>
             <p>If there is a "To Be Determined" placeholder, our booking has not yet been confirmed for that movie.</p>
           </div>
         </div>
-
-      <div>
-        <section className="d-flex justify-content-center m-3">
-          <div className="col-lg-6 col-md-9 alert alert-danger text-center mx-3" role="alert">
-            <p>We will be <strong>closed</strong> for Thanksgiving during the weekend of 11/28/2025 &amp; 11/29/2025!</p>
-          </div>
-        </section>
-      </div>
 
         {/* Movies Sections - One for each weekend */}
         <div className="text-light">
