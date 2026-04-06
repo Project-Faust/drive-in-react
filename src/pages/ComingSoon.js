@@ -11,7 +11,7 @@ export default function ComingSoon() {
 
   const upcomingWeekends = [
     {
-      dates: {start: "4/10/2026", end: "4/11/2026" },
+      dates: {start: "4/17/2026", end: "4/18/2026" },
       movies: [comingSoon[0], comingSoon[1]]
     }
   ];

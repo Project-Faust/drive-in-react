@@ -25,9 +25,6 @@ export default function HomePage() {
 
       <div>
         <section className="d-flex flex-column align-items-center">
-          <div className="col-lg-6 alert col-md-9 alert-danger text-center mx-3" role="alert">
-            <h2>We are closed until Spring 2026!</h2>
-          </div>
           <div className="col-lg-6 alert col-md-9 alert-success text-center mx-3" role="alert">
             <h2>Our first weekend of 2026 will be the weekend of April 10th & 11th!</h2>
           </div>
