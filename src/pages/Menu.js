@@ -1,4 +1,4 @@
-import menu2025 from "../assets/menu-2026-front.pdf";
+import menu2025 from "../assets/menu-2026-front.webp";
 import allergy2024 from "../assets/2024-food-allergies.webp";
 
 const menuStyle = {
@@ -38,4 +38,3 @@ export default function Menu() {
     </section>
   );
 }
-

@@ -1,4 +1,4 @@
-import rulesWebp from "../assets/menu-2026-back.pdf";
+import rulesWebp from "../assets/menu-2026-back.webp";
 
 export default function Rules() {
   return (
@@ -18,10 +18,9 @@ export default function Rules() {
         <img
           src={rulesWebp}
           alt="rules"
-          className="col-lg-12 col-md-12 border border-3 rounded border-primary bg-danger p-3"
+          className="col-lg-9 col-md-12 border border-3 rounded border-primary bg-danger p-3"
         />
       </div>
     </section>
   );
 }
-
