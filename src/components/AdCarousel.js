@@ -8,18 +8,10 @@ import Col from 'react-bootstrap/Col';
 import './AdCarousel.css';
 
 import allPro from "../assets/advertisements/all-pro-banner.jpg";
-import andrewBrodsky from '../assets/advertisements/andrew-brodsky.webp';
-import doodyCalls from "../assets/advertisements/doody-calls.jpg";
 import eppsHvac from '../assets/advertisements/epps-hvac.webp';
-import gastonCoHd from "../assets/advertisements/gaston-co-hd.jpg";
-import gastonRoofing from "../assets/advertisements/gaston-roofing.jpg";
 import groovyBeast from "../assets/advertisements/groovy-beast.jpg";
-import kanwisher from "../assets/advertisements/kanwisher.jpg";
-import moosesGrading from "../assets/advertisements/mooses-grading.jpg";
-import retrieveAir from "../assets/advertisements/retrieve-air.jpg";
-import sakeExpress from "../assets/advertisements/sake-express.jpg";
-import sunnyBeauty from "../assets/advertisements/sunny-beauty-banner.jpg";
-// import business3Logo from '../assets/advertisements/business3.png';
+import mavericks from "../assets/advertisements/Mavericks Banner.jpg"
+import twoChicks from "../assets/advertisements/Two Chicks Banner Image.jpeg"
 
 const AdCarousel = ({
     // Default props with sensible defaults
@@ -32,58 +24,23 @@ const AdCarousel = ({
         },
         {
             id: 2,
-            name: 'Andrew Brodsky, Allstate Agent',
-            logo: andrewBrodsky
-        },
-        {
-            id: 3,
-            name: "Doody Calls",
-            logo: doodyCalls
-        },
-        {
-            id: 4,
             name: 'Epps HVAC Co',
             logo: eppsHvac
         },
         {
-            id: 5,
-            name: "Gaston County Public Health",
-            logo: gastonCoHd
-        },
-        {
-            id: 6,
-            name: "Gaston Roofing",
-            logo: gastonRoofing
-        },
-        {
-            id: 7,
-            name: "Groovy Beast",
+            id: 3,
+            name: 'Groovy Beast',
             logo: groovyBeast
         },
         {
-            id: 8, 
-            name: "Kanwisher Law, PLLC",
-            logo: kanwisher
+            id: 4,
+            name: 'Mavericks',
+            logo: mavericks
         },
         {
-            id: 9,
-            name: "Moose's Grading Inc",
-            logo: moosesGrading
-        },
-        {
-            id: 10,
-            name: "Retrieve Air",
-            logo: retrieveAir
-        },
-        {
-            id: 11,
-            name: "Sake Express (Mt Holly)",
-            logo: sakeExpress
-        },
-        {
-            id: 12,
-            name: "Sunny Beauty Co",
-            logo: sunnyBeauty
+          id: 5,
+          name: 'Two Chicks',
+          logo: twoChicks
         }
         // {
         //     id: 3,
