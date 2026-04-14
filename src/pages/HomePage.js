@@ -27,19 +27,6 @@ export default function HomePage() {
       <div>
         <section className="d-flex flex-column align-items-center">
           <div
-            className="col-lg-6 alert col-md-9 alert-success text-center mx-3"
-            role="alert"
-          >
-            <h2>
-              Our first weekend of 2026 will be the weekend of April 10th &
-              11th!
-            </h2>
-          </div>
-        </section>
-      </div>
-      <div>
-        <section className="d-flex flex-column align-items-center">
-          <div
             className="col-lg-6 alert col-md-9 alert-light text-center mx-3"
             role="alert"
           >
@@ -175,29 +162,23 @@ export default function HomePage() {
                     </div>
                   </div>
                   <div
-                    className=" col border border-3 rounded border-secondary-subtle shadow-2b m-3 mw-100"
+                    className=" col border border-3 rounded border-secondary-subtle shadow-2b p-3 m-3 mw-100"
                     style={{ backgroundColor: "#004280" }}
                   >
-                    <p
-                      className="h3 text-light text-start p-3"
-                      style={{ textIndent: "50px" }}
-                    >
+                    <h4 className="h1 remember-header shadow-2b">
+                      <strong>Playing this Weekend!</strong>
+                    </h4>
+
+                    <h5 className="h3 remember-header shadow-2b">
+                      <strong>4/17/2026 & 4/18/2026</strong>
+                    </h5>
+
+                    <p className="h3 text-light text-start text-center p-3">
+                      <strong>The Super Mario Galaxy Movie</strong>
                       <br />
-                      Please continue to check in with us for updates and
-                      adjustments to our menu and rules this season which have
-                      been posted on our{" "}
-                      <a
-                        href="https://www.facebook.com/profile.php?id=100063570731472"
-                        className="text-light"
-                      >
-                        <strong>Facebook</strong>
-                      </a>{" "}
-                      page and have been updated on our website.
-                    </p>
-                    <p className="h4 text-light text-end p-3">
-                      A Big Thank You,
+                      followed by
                       <br />
-                      The Belmont Drive-In Family
+                      <strong>Project Hail Mary</strong>
                     </p>
                     <div className="d-flex justify-content-center">
                       <img
@@ -206,6 +187,11 @@ export default function HomePage() {
                         className="justify-content-center w-50 mw-100 mh-100 border border-secondary border-3 rounded my-3"
                       ></img>
                     </div>
+                    <p className="h4 text-light text-end p-3">
+                      A Big Thank You,
+                      <br />
+                      The Belmont Drive-In Family
+                    </p>
                   </div>
                 </div>
               </div>
