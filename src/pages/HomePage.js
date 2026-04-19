@@ -120,10 +120,6 @@ export default function HomePage() {
                           Gates open at <strong>6:00PM</strong>!
                         </li>
                         <li>
-                          Our <strong>first</strong> movie starts at{" "}
-                          <strong>7:30PM</strong>!
-                        </li>
-                        <li>
                           We are a <strong>cash only</strong> business!
                         </li>
                         <li>
