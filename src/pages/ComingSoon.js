@@ -10,7 +10,7 @@ const posterStyle = {
 export default function ComingSoon() {
   const upcomingWeekends = [
     {
-      dates: { start: "4/24/2026", end: "4/25/2026" },
+      dates: { start: "5/1/2026", end: "5/2/2026" },
       movies: [comingSoon[0], comingSoon[1]],
     },
   ];
