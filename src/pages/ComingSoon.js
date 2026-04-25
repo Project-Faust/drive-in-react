@@ -13,6 +13,10 @@ export default function ComingSoon() {
       dates: { start: "5/1/2026", end: "5/2/2026" },
       movies: [comingSoon[0], comingSoon[1]],
     },
+    {
+      dates: { start: "5/8/2026", end: "5/9/2026" },
+      movies: [comingSoon[2], comingSoon[3]],
+    },
   ];
 
   return (
@@ -100,42 +104,6 @@ export default function ComingSoon() {
               </div>
             </section>
           ))}
-
-          {/* TBD Weekend Section */}
-          {/* <section className="row text-center bg-dark rounded mx-5">
-                        <div className="d-inline-flex justify-content-center my-4 mx-auto">
-                            <div className="text-center border border-3 border-primary rounded p-3" style={{ backgroundColor: "#000000" }}>
-                                <h2>Weekend of <strong>6/27/2025</strong> & <strong>6/28/2025</strong>!</h2>
-                                <h3 className="my-3">
-                                    <strong>To Be Announced</strong>
-                                </h3>
-                            </div>
-                        </div>
-
-                        <div className="mb-3">
-                            <section className="row justify-content-evenly text-center m-3">
-                                {toBeDetermined.map((movie, index) => (
-                                    <div key={`tbd-${index}`} className="col-lg-5 col-md-12">
-                                        <div
-                                            className="border border-danger border-3 rounded shadow-lg p-3 my-3"
-                                            style={{ backgroundColor: "#000000" }}
-                                        >
-                                            <h1 className="text-light pt-2"><strong>{movie.title}</strong></h1>
-                                            <div className="container">
-                                                <img
-                                                    src={movie.image}
-                                                    alt="Coming soon placeholder"
-                                                    className="border border-light rounded shadow-lg"
-                                                    style={posterStyle}
-                                                />
-                                                <p className="text-light">Booking not yet confirmed</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                ))}
-                            </section>
-                        </div>
-                    </section> */}
         </div>
       </div>
     </section>
