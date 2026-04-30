@@ -9,16 +9,16 @@ const template = [
 
 export const nowPlaying = [
   {
-    title: "GOAT",
+    title: "The Devil Wears Prada 2",
     image:
-      "https://m.media-amazon.com/images/M/MV5BYzE5OTJkOGMtYWFiNi00NTlkLWE3ZWItY2ZlNjkyOWVhMjMyXkEyXkFqcGc@._V1_.jpg",
-    imdb: "https://www.imdb.com/title/tt27613895/",
+      "https://m.media-amazon.com/images/M/MV5BZmM3ZDU3ODItZmY5Yi00OTQ2LWE5OTctZTA5NDBhMWJkOGY3XkEyXkFqcGc@._V1_.jpg",
+    imdb: "https://www.imdb.com/title/tt33612209/",
   },
   {
-    title: "Scream 7",
+    title: "Ready or Not 2: Here I Come",
     image:
-      "https://m.media-amazon.com/images/M/MV5BMzk2YzRjYmItNTA5Mi00ODczLTljYzUtOWE1ZDFkODhlZWJlXkEyXkFqcGc@._V1_.jpg`",
-    imdb: "https://www.imdb.com/title/tt27047903/",
+      "https://m.media-amazon.com/images/M/MV5BZTM3N2EyMTEtNDhkMi00ZjNiLWI0MWUtOGViMjExODY3YTJhXkEyXkFqcGc@._V1_.jpg",
+    imdb: "https://www.imdb.com/title/tt33978029/",
   },
 ];
 
@@ -37,18 +37,6 @@ export const toBeDetermined = [
 
 // eslint-disable-next-line
 export const comingSoon = [
-  {
-    title: "The Devil Wears Prada 2",
-    image:
-      "https://m.media-amazon.com/images/M/MV5BZmM3ZDU3ODItZmY5Yi00OTQ2LWE5OTctZTA5NDBhMWJkOGY3XkEyXkFqcGc@._V1_.jpg",
-    imdb: "https://www.imdb.com/title/tt33612209/",
-  },
-  {
-    title: "Ready or Not 2: Here I Come",
-    image:
-      "https://m.media-amazon.com/images/M/MV5BZTM3N2EyMTEtNDhkMi00ZjNiLWI0MWUtOGViMjExODY3YTJhXkEyXkFqcGc@._V1_.jpg",
-    imdb: "https://www.imdb.com/title/tt33978029/",
-  },
   {
     title: "Hoppers",
     image:

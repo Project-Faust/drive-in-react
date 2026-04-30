@@ -166,15 +166,15 @@ export default function HomePage() {
                     </h4>
 
                     <h5 className="h3 remember-header shadow-2b">
-                      <strong>4/24/2026 & 4/25/2026</strong>
+                      <strong>5/1/2026 & 5/2/2026</strong>
                     </h5>
 
                     <p className="h3 text-light text-start text-center p-3">
-                      <strong>GOAT</strong>
+                      <strong>The Devil Wears Prada 2</strong>
                       <br />
                       followed by
                       <br />
-                      <strong>Scream 7</strong>
+                      <strong>Ready or Not 2: Here I come</strong>
                     </p>
                     <div className="d-flex justify-content-center">
                       <img

@@ -13,10 +13,6 @@ export default function ComingSoon() {
       dates: { start: "5/1/2026", end: "5/2/2026" },
       movies: [comingSoon[0], comingSoon[1]],
     },
-    {
-      dates: { start: "5/8/2026", end: "5/9/2026" },
-      movies: [comingSoon[2], comingSoon[3]],
-    },
   ];
 
   return (

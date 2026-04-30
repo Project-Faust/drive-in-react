@@ -28,8 +28,7 @@ export default function CurrentFeatures() {
         <div className="d-inline-flex shadow border border-3 rounded border-light bg-dark text-light m-3">
           <div className="text-center p-3">
             <h2>
-              Weekend of <strong>4/24/2026</strong> & <strong>4/25/2026</strong>
-              !
+              Weekend of <strong>5/1/2026</strong> & <strong>5/2/2026</strong>!
             </h2>
             <h1>
               <strong>{firstFeature}</strong>
