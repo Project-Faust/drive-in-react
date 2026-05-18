@@ -9,16 +9,16 @@ const template = [
 
 export const nowPlaying = [
   {
-    title: "Animal Farm",
+    title: "Star Wars: The Mandalorian & Grogu",
     image:
-      "https://m.media-amazon.com/images/M/MV5BY2U5YTliZDktZWFhZS00ZDI3LTk5MWMtMDFlMjA3MDI2MGMwXkEyXkFqcGc@._V1_.jpg",
-    imdb: "https://www.imdb.com/title/tt2467700/",
+      "https://m.media-amazon.com/images/M/MV5BYzVkMmJhNTgtNjYwOS00YjM0LThlNWEtNGExNmIxZjVkMmJhXkEyXkFqcGc@._V1_.jpg",
+    imdb: "https://www.imdb.com/title/tt30825738/",
   },
   {
-    title: "Shrek",
+    title: "Send Help",
     image:
-      "https://m.media-amazon.com/images/M/MV5BN2FkMTRkNTUtYTI0NC00ZjI4LWI5MzUtMDFmOGY0NmU2OGY1XkEyXkFqcGc@._V1_.jpg",
-    imdb: "https://www.imdb.com/title/tt0126029/",
+      "https://m.media-amazon.com/images/M/MV5BOTgxOWY5NTMtYjdiNi00NTIyLTkwMTQtMWNjM2IzYTU0ODgyXkEyXkFqcGc@._V1_.jpg",
+    imdb: "https://www.imdb.com/title/tt8036976/",
   },
 ];
 
