@@ -170,11 +170,11 @@ export default function HomePage() {
                     </h5>
 
                     <p className="h3 text-light text-start text-center p-3">
-                      <strong>Star Wars: The Mandalorian & Grogu</strong>
+                      <strong>The Sheep Detectives</strong>
                       <br />
                       followed by
                       <br />
-                      <strong>Send Help</strong>
+                      <strong>Star Wars: The Mandalorian & Grogu</strong>
                     </p>
                     <div className="d-flex justify-content-center">
                       <img
