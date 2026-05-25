@@ -166,7 +166,7 @@ export default function HomePage() {
                     </h4>
 
                     <h5 className="h3 remember-header shadow-2b">
-                      <strong>5/22/2026 & 5/23/2026</strong>
+                      <strong>5/29/2026 & 5/30/2026</strong>
                     </h5>
 
                     <p className="h3 text-light text-start text-center p-3">
