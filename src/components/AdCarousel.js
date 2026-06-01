@@ -8,6 +8,7 @@ import Col from "react-bootstrap/Col";
 import "./AdCarousel.css";
 
 import allPro from "../assets/advertisements/all-pro-banner.jpg";
+import belmontEye from "../assets/advertisements/belmont-eye.jpg";
 import drainExpress from "../assets/advertisements/drain-express.jpg";
 import eppsHvac from "../assets/advertisements/epps-hvac.webp";
 import gastonRoofing from "../assets/advertisements/gaston-roofing.jpg";
@@ -15,6 +16,10 @@ import groovyBeast from "../assets/advertisements/groovy-beast.jpg";
 import joeStanfield from "../assets/advertisements/joe-stanfield.jpg";
 import mavericks from "../assets/advertisements/Mavericks Banner.jpg";
 import sakeExpress from "../assets/advertisements/sake-express.jpg";
+import sodomaLaw from "../assets/advertisements/sodoma-law.jpg";
+import stPeter from "../assets/advertisements/st-peter-flooring.jpg";
+import studioElite from "../assets/advertisements/studio-elite.jpg";
+import trueTemp from "../assets/advertisements/true-temp.jpeg";
 import twoChicks from "../assets/advertisements/Two Chicks Banner Image.jpeg";
 
 const AdCarousel = ({
@@ -28,42 +33,73 @@ const AdCarousel = ({
     },
     {
       id: 2,
+      name: "Belmont Eye",
+      logo: belmontEye,
+    },
+    {
+      id: 3,
+      name: "Crafty Kate LLC",
+      logo: null,
+    },
+    {
+      id: 4,
       name: "Drain Express",
       logo: drainExpress,
     },
     {
-      id: 3,
+      id: 5,
       name: "Epps HVAC Co",
       logo: eppsHvac,
     },
     {
-      id: 4,
+      id: 6,
       name: "Gaston Roofing",
       logo: gastonRoofing,
     },
 
     {
-      id: 5,
+      id: 7,
       name: "Groovy Beast",
       logo: groovyBeast,
     },
     {
-      id: 6,
+      id: 8,
       name: "Joe Stanfield",
       logo: joeStanfield,
     },
     {
-      id: 7,
+      id: 9,
       name: "Mavericks",
       logo: mavericks,
     },
     {
-      id: 8,
-      name: "Sake Express",
+      id: 10,
+      name: "Sake Express Mount Holly",
       logo: sakeExpress,
     },
     {
-      id: 9,
+      id: 11,
+      name: "Sodoma Law Belmont",
+      logo: sodomaLaw,
+    },
+    {
+      id: 12,
+      name: "St Peter Flooring LLC",
+      logo: stPeter,
+    },
+    {
+      id: 13,
+      name: "Studio Elite",
+      logo: studioElite,
+    },
+    {
+      id: 14,
+      name: "True Temp Heating & Air LLC",
+      logo: trueTemp,
+    },
+
+    {
+      id: 15,
       name: "Two Chicks",
       logo: twoChicks,
     },
@@ -78,15 +114,15 @@ const AdCarousel = ({
   const partnerSlides = Array.isArray(partners[0])
     ? partners
     : partners.reduce((resultArray, item, index) => {
-        const chunkIndex = Math.floor(index / logosPerSlide);
+      const chunkIndex = Math.floor(index / logosPerSlide);
 
-        if (!resultArray[chunkIndex]) {
-          resultArray[chunkIndex] = []; // Start a new chunk
-        }
+      if (!resultArray[chunkIndex]) {
+        resultArray[chunkIndex] = []; // Start a new chunk
+      }
 
-        resultArray[chunkIndex].push(item);
-        return resultArray;
-      }, []);
+      resultArray[chunkIndex].push(item);
+      return resultArray;
+    }, []);
 
   return (
     <section className="partner-section">
