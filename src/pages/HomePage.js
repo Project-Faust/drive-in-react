@@ -174,7 +174,7 @@ export default function HomePage() {
                       <br />
                       followed by
                       <br />
-                      <strong>To Be Determined</strong>
+                      <strong>The Sheep Detectives</strong>
                     </p>
                     <div className="d-flex justify-content-center">
                       <img

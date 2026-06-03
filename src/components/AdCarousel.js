@@ -8,13 +8,19 @@ import Col from "react-bootstrap/Col";
 import "./AdCarousel.css";
 
 import allPro from "../assets/advertisements/all-pro-banner.jpg";
+import ames from "../assets/advertisements/ames.jpg";
 import belmontEye from "../assets/advertisements/belmont-eye.jpg";
+import craftyKate from "../assets/advertisements/crafty-kate.png";
 import drainExpress from "../assets/advertisements/drain-express.jpg";
 import eppsHvac from "../assets/advertisements/epps-hvac.webp";
 import gastonRoofing from "../assets/advertisements/gaston-roofing.jpg";
+import griffin from "../assets/advertisements/griffin.jpg";
 import groovyBeast from "../assets/advertisements/groovy-beast.jpg";
+import groundworx from "../assets/advertisements/groundworx.png";
+import imc from "../assets/advertisements/imc.jpg";
 import joeStanfield from "../assets/advertisements/joe-stanfield.jpg";
 import mavericks from "../assets/advertisements/Mavericks Banner.jpg";
+import rmFence from "../assets/advertisements/rm-fence.jpg";
 import sakeExpress from "../assets/advertisements/sake-express.jpg";
 import sodomaLaw from "../assets/advertisements/sodoma-law.jpg";
 import stPeter from "../assets/advertisements/st-peter-flooring.jpg";
@@ -31,75 +37,99 @@ const AdCarousel = ({
       name: "All Pro Enviro",
       logo: allPro,
     },
+	  {
+		  id: 2,
+		  name: "AMES Copper Group",
+		  logo: ames,
+	  },
     {
-      id: 2,
+      id: 3,
       name: "Belmont Eye",
       logo: belmontEye,
     },
     {
-      id: 3,
-      name: "Crafty Kate LLC",
-      logo: null,
+      id: 4,
+      name: "Crafty Kate",
+      logo: craftyKate,
     },
     {
-      id: 4,
+      id: 5,
       name: "Drain Express",
       logo: drainExpress,
     },
     {
-      id: 5,
+      id: 6,
       name: "Epps HVAC Co",
       logo: eppsHvac,
     },
     {
-      id: 6,
+      id: 7,
       name: "Gaston Roofing",
       logo: gastonRoofing,
     },
-
+	{
+		id: 8,
+		name: "Griffin Heating & Cooling",
+		logo: griffin,
+	},
     {
-      id: 7,
+      id: 9,
       name: "Groovy Beast",
       logo: groovyBeast,
     },
+	  {
+		  id: 10,
+		  name: "Groundworks",
+		  logo: groundworx,
+	  },
+	  {
+		  id: 11,
+		  name: "IMC Metals America",
+		  logo: imc,
+	  },
     {
-      id: 8,
+      id: 12,
       name: "Joe Stanfield",
       logo: joeStanfield,
     },
     {
-      id: 9,
-      name: "Mavericks",
+      id: 13,
+      name: "Mavericks Entertainment",
       logo: mavericks,
     },
+	  {
+		  id: 14,
+		  name: "RM Fencing",
+		  logo:rmFence,
+	  },
     {
-      id: 10,
+      id: 15,
       name: "Sake Express Mount Holly",
       logo: sakeExpress,
     },
     {
-      id: 11,
+      id: 16,
       name: "Sodoma Law Belmont",
       logo: sodomaLaw,
     },
     {
-      id: 12,
-      name: "St Peter Flooring LLC",
+      id: 17,
+      name: "St Peter Flooring",
       logo: stPeter,
     },
     {
-      id: 13,
+      id: 18,
       name: "Studio Elite",
       logo: studioElite,
     },
     {
-      id: 14,
+      id: 19,
       name: "True Temp Heating & Air LLC",
       logo: trueTemp,
     },
 
     {
-      id: 15,
+      id: 20,
       name: "Two Chicks",
       logo: twoChicks,
     },
