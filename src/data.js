@@ -14,7 +14,7 @@ export const nowPlaying = [
     imdb: "https://www.imdb.com/title/tt29355505/",
   },
   {
-    title: "The Breadwinner",
+    title: "Backrooms",
     image: "https://m.media-amazon.com/images/M/MV5BZTQ3ZWQ4YTctMTI0OC00NmI5LWFlNjgtNjhhMDQxYjUxYTQyXkEyXkFqcGc@._V1_.jpg",
     imdb: "https://www.imdb.com/title/tt34459219/",
   },

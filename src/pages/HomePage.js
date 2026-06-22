@@ -27,16 +27,17 @@ export default function HomePage() {
       <div>
         <section className="d-flex flex-column align-items-center">
           <div
-            className="col-lg-6 alert col-md-9 alert-light text-center mx-3"
+            className="col-lg-6 alert col-md-9 alert-danger text-center mx-3"
             role="alert"
           >
             <h2>
-              Please view our upated Menu & Rules Pages! <br /> There have been
-              some updates for the new season!
+              Please be aware:
+              <br />
+              We will be <strong>closed</strong> for the weekend of July 3rd and 4th!
             </h2>
           </div>
         </section>
-      </div>
+      </div >
 
       <div className="text-center m-3">
         <section className="d-inline-flex border border-3 rounded border-secondary bg-dark mw-100">
@@ -166,7 +167,7 @@ export default function HomePage() {
                     </h4>
 
                     <h5 className="h3 remember-header shadow-2b">
-                      <strong>6/19/2026 & 6/20/2026</strong>
+                      <strong>6/26/2026 & 6/27/2026</strong>
                     </h5>
 
                     <p className="h3 text-light text-start text-center p-3">
@@ -174,7 +175,7 @@ export default function HomePage() {
                       <br />
                       followed by
                       <br />
-                      <strong>The Breadwinner</strong>
+                      <strong>Backrooms</strong>
                     </p>
                     <div className="d-flex justify-content-center">
                       <img
@@ -226,6 +227,6 @@ export default function HomePage() {
           ></iframe>
         </div>
       </section>
-    </section>
+    </section >
   );
 }
