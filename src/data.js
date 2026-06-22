@@ -15,7 +15,7 @@ export const nowPlaying = [
   },
   {
     title: "Backrooms",
-    image: "https://m.media-amazon.com/images/M/MV5BZTQ3ZWQ4YTctMTI0OC00NmI5LWFlNjgtNjhhMDQxYjUxYTQyXkEyXkFqcGc@._V1_.jpg",
+    image: "https://m.media-amazon.com/images/M/MV5BYzQyYjZmMjctMzIyZi00MDI0LWJhNGQtMzQ3MTFlNDgwNGM5XkEyXkFqcGc@._V1_.jpg",
     imdb: "https://www.imdb.com/title/tt34459219/",
   },
 ];
