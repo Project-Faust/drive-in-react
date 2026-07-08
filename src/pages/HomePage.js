@@ -24,21 +24,6 @@ export default function HomePage() {
         <img src={logo} alt="Belmont Drive-In logo" />
       </div>
 
-      <div>
-        <section className="d-flex flex-column align-items-center">
-          <div
-            className="col-lg-6 alert col-md-9 alert-danger text-center mx-3"
-            role="alert"
-          >
-            <h2>
-              Please be aware:
-              <br />
-              We will be <strong>closed</strong> for the weekend of July 3rd and 4th!
-            </h2>
-          </div>
-        </section>
-      </div >
-
       <div className="text-center m-3">
         <section className="d-inline-flex border border-3 rounded border-secondary bg-dark mw-100">
           <div className="text-center text-light p-3">
@@ -167,15 +152,15 @@ export default function HomePage() {
                     </h4>
 
                     <h5 className="h3 remember-header shadow-2b">
-                      <strong>6/26/2026 & 6/27/2026</strong>
+                      <strong>7/10/2026 & 7/11/2026</strong>
                     </h5>
 
                     <p className="h3 text-light text-start text-center p-3">
-                      <strong>Toy Story 5</strong>
+                      <strong>Minions and Monsters</strong>
                       <br />
                       followed by
                       <br />
-                      <strong>Backrooms</strong>
+                      <strong>Disclosure Day</strong>
                     </p>
                     <div className="d-flex justify-content-center">
                       <img
