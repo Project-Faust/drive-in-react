@@ -24,19 +24,6 @@ export default function HomePage() {
         <img src={logo} alt="Belmont Drive-In logo" />
       </div>
 
-      <div className="text-center m-3">
-        <section className="d-inline-flex border border-3 rounded border-secondary bg-dark mw-100">
-          <div className="text-center text-light p-3">
-            <h1>
-              <strong>Welcome to the Belmont Drive-In Theatre</strong>
-            </h1>
-            <h2>
-              <strong>Your affordable family entertainment center!</strong>
-            </h2>
-          </div>
-        </section>
-      </div>
-
       <div className="d-flex justify-content-center align-items-center mw-100">
         <section className="row justify-content-center text-center w-100">
           <div className="col-lg-9 col-md-12">
@@ -147,21 +134,41 @@ export default function HomePage() {
                     className=" col border border-3 rounded border-secondary-subtle shadow-2b p-3 m-3 mw-100"
                     style={{ backgroundColor: "#004280" }}
                   >
-                    <h4 className="h1 remember-header shadow-2b">
-                      <strong>Playing this Weekend!</strong>
-                    </h4>
+                    <div>
+                      <h4 className="h1 remember-header shadow-2b">
+                        <strong>Playing this Weekend!</strong>
+                      </h4>
 
-                    <h5 className="h3 remember-header shadow-2b">
-                      <strong>7/10/2026 & 7/11/2026</strong>
-                    </h5>
+                      <section>
+                        <h5 className="h3 remember-header shadow-2b">
+                          <strong>7/17/2026</strong>
+                        </h5>
 
-                    <p className="h3 text-light text-start text-center p-3">
-                      <strong>Minions and Monsters</strong>
-                      <br />
-                      followed by
-                      <br />
-                      <strong>Disclosure Day</strong>
-                    </p>
+                        <p className="h3 text-light text-start text-center p-3">
+                          <strong>Minions and Monsters</strong>
+                          <br />
+                          followed by
+                          <br />
+                          <strong>Toy Story 5</strong>
+                        </p>
+                      </section>
+
+                      <section>
+                        <h5 className="h3 remember-header shadow-2b">
+                          <strong>7/18/2026</strong>
+                        </h5>
+
+                        <p className="h3 text-light text-start text-center p-3">
+                          <strong>Toy Story 5</strong>
+                          <br />
+                          followed by
+                          <br />
+                          <strong>Minions and Monsters</strong>
+                        </p>
+                      </section>
+
+                    </div>
+
                     <div className="d-flex justify-content-center">
                       <img
                         src={ifYoureLooking}

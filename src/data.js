@@ -14,9 +14,9 @@ export const nowPlaying = [
     imdb: "https://www.imdb.com/title/tt32890033/",
   },
   {
-    title: "Disclosure Day",
-    image: "https://m.media-amazon.com/images/M/MV5BMTgwNDI1ZjctYWNmMS00MTJhLTg1ZWItMzI1Yjk5NjZkYWFkXkEyXkFqcGc@._V1_.jpg",
-    imdb: "https://www.imdb.com/title/tt15047880/",
+    title: "Toy Story 5",
+    image: "https://m.media-amazon.com/images/M/MV5BZTI1YTBiNmEtYWUxZi00YzFkLWIzNjMtMmZjMmY2NzM0ZWMzXkEyXkFqcGc@._V1_.jpg",
+    imdb: "https://www.imdb.com/title/tt29355505/",
   },
 ];
 
