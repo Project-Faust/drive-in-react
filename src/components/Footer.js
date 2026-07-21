@@ -10,11 +10,11 @@
 // }
 
 export default function Footer() {
-    return (
-        <p className="text-center bg-secondary-subtle text-dark border-top border-dark mw-100 my-0 py-1"
-        style={{
-            textShadow: "0px",
-            fontSize:"18px"
-        }}>© 2025 Belmont Drive-In. All rights reserved.</p>
-    )
+  return (
+    <p className="text-center bg-secondary-subtle text-dark border-top border-dark mw-100 my-0 py-1"
+      style={{
+        textShadow: "0px",
+        fontSize: "18px"
+      }}>© 2026 Belmont Drive-In. All rights reserved.</p>
+  )
 }

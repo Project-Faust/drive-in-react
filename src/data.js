@@ -9,14 +9,14 @@
 
 export const nowPlaying = [
   {
-    title: "Minions & Monsters",
-    image: "https://m.media-amazon.com/images/M/MV5BYzBjMDg4YjctYzg3ZS00ZDFmLWI1YjctM2RkZGVjZWEyYWQ0XkEyXkFqcGc@._V1_.jpg",
-    imdb: "https://www.imdb.com/title/tt32890033/",
+    title: "Moana (2026)",
+    image: "https://m.media-amazon.com/images/M/MV5BMTQ1OTQ2Y2UtMzllNS00ODFiLWFkNGItNGRjOWRlMjIwNTRlXkEyXkFqcGc@._V1_.jpg",
+    imdb: "https://www.imdb.com/title/tt27419466/",
   },
   {
-    title: "Toy Story 5",
-    image: "https://m.media-amazon.com/images/M/MV5BZTI1YTBiNmEtYWUxZi00YzFkLWIzNjMtMmZjMmY2NzM0ZWMzXkEyXkFqcGc@._V1_.jpg",
-    imdb: "https://www.imdb.com/title/tt29355505/",
+    title: "Supergirl",
+    image: "https://m.media-amazon.com/images/M/MV5BMmJkOTE0MWUtY2E5OS00NzEyLWI4NjEtYzQzYzFmMjk5ODE3XkEyXkFqcGc@._V1_.jpg",
+    imdb: "https://www.imdb.com/title/tt8814476/",
   },
 ];
 

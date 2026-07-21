@@ -141,32 +141,17 @@ export default function HomePage() {
 
                       <section>
                         <h5 className="h3 remember-header shadow-2b">
-                          <strong>7/17/2026</strong>
+                          <strong>7/24/2026 & 7/25/2026</strong>
                         </h5>
 
                         <p className="h3 text-light text-start text-center p-3">
-                          <strong>Minions and Monsters</strong>
+                          <strong>Moana (2026)</strong>
                           <br />
                           followed by
                           <br />
-                          <strong>Toy Story 5</strong>
+                          <strong>Supergirl</strong>
                         </p>
                       </section>
-
-                      <section>
-                        <h5 className="h3 remember-header shadow-2b">
-                          <strong>7/18/2026</strong>
-                        </h5>
-
-                        <p className="h3 text-light text-start text-center p-3">
-                          <strong>Toy Story 5</strong>
-                          <br />
-                          followed by
-                          <br />
-                          <strong>Minions and Monsters</strong>
-                        </p>
-                      </section>
-
                     </div>
 
                     <div className="d-flex justify-content-center">
