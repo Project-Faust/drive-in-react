@@ -141,15 +141,15 @@ export default function HomePage() {
 
                       <section>
                         <h5 className="h3 remember-header shadow-2b">
-                          <strong>7/24/2026 & 7/25/2026</strong>
+                          <strong>7/31/2026 & 8/1/2026</strong>
                         </h5>
 
                         <p className="h3 text-light text-start text-center p-3">
-                          <strong>Moana (2026)</strong>
+                          <strong>Spider-Man: Brand New Day</strong>
                           <br />
                           followed by
                           <br />
-                          <strong>Supergirl</strong>
+                          <strong>Moana (2026)</strong>
                         </p>
                       </section>
                     </div>
