@@ -14,9 +14,9 @@ export const nowPlaying = [
     imdb: "https://www.imdb.com/title/tt22084616/",
   },
   {
-    title: "Moana (2026)",
-    image: "https://m.media-amazon.com/images/M/MV5BMTQ1OTQ2Y2UtMzllNS00ODFiLWFkNGItNGRjOWRlMjIwNTRlXkEyXkFqcGc@._V1_.jpg",
-    imdb: "https://www.imdb.com/title/tt27419466/",
+    title: "Evil Dead Burn",
+    image: "https://m.media-amazon.com/images/M/MV5BZTljMTZjZTItZjMzZi00NDBhLWFmMzAtOGNiNTlhY2MxMzg5XkEyXkFqcGc@._V1_.jpg",
+    imdb: "https://www.imdb.com/title/tt31170389/",
   },
 ];
 

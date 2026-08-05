@@ -141,7 +141,7 @@ export default function HomePage() {
 
                       <section>
                         <h5 className="h3 remember-header shadow-2b">
-                          <strong>7/31/2026 & 8/1/2026</strong>
+                          <strong>8/7/2026 & 8/8/2026</strong>
                         </h5>
 
                         <p className="h3 text-light text-start text-center p-3">
@@ -149,7 +149,7 @@ export default function HomePage() {
                           <br />
                           followed by
                           <br />
-                          <strong>Moana (2026)</strong>
+                          <strong>Evil Dead Burn</strong>
                         </p>
                       </section>
                     </div>
