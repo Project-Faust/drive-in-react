@@ -9,14 +9,14 @@
 
 export const nowPlaying = [
   {
+    title: "Paw Patrol: The Dino Movie",
+    image: "https://m.media-amazon.com/images/M/MV5BY2E2Y2Q0Y2ItZTUyZS00MzllLTkwYmQtYjdmNzM3NGRiYjFmXkEyXkFqcGc@._V1_.jpg",
+    imdb: "https://www.imdb.com/title/tt29356163/",
+  },
+  {
     title: "Spider-Man: Brand New Day",
     image: "https://m.media-amazon.com/images/M/MV5BOWNjYWM3NWItOGE0ZS00MWRjLThiZWEtYjc4ZmNmMmU5ZTVmXkEyXkFqcGc@._V1_.jpg",
     imdb: "https://www.imdb.com/title/tt22084616/",
-  },
-  {
-    title: "Evil Dead Burn",
-    image: "https://m.media-amazon.com/images/M/MV5BZTljMTZjZTItZjMzZi00NDBhLWFmMzAtOGNiNTlhY2MxMzg5XkEyXkFqcGc@._V1_.jpg",
-    imdb: "https://www.imdb.com/title/tt31170389/",
   },
 ];
 
