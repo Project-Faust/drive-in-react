@@ -14,9 +14,9 @@ export const nowPlaying = [
     imdb: "https://www.imdb.com/title/tt29356163/",
   },
   {
-    title: "Spider-Man: Brand New Day",
-    image: "https://m.media-amazon.com/images/M/MV5BOWNjYWM3NWItOGE0ZS00MWRjLThiZWEtYjc4ZmNmMmU5ZTVmXkEyXkFqcGc@._V1_.jpg",
-    imdb: "https://www.imdb.com/title/tt22084616/",
+    title: "Super Troopers 3",
+    image: "https://m.media-amazon.com/images/M/MV5BNzY3MmJlZGYtNTk1OS00NTE5LWEzOGYtMjIzODU5MWNhYWFjXkEyXkFqcGc@._V1_.jpg",
+    imdb: "https://www.imdb.com/title/tt8820258/",
   },
 ];
 
