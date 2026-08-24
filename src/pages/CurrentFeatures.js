@@ -6,6 +6,8 @@ import redCurtain from "../assets/red-curtain.webp";
 
 const firstFeature = nowPlaying[0].title;
 const secondFeature = nowPlaying[1].title;
+const thirdFeature = nowPlaying[2].title;
+const fourthFeature = nowPlaying[3].title;
 
 const posterStyle = {
   maxWidth: "95%",
@@ -28,7 +30,7 @@ export default function CurrentFeatures() {
         <div className="d-inline-flex shadow border border-3 rounded border-light bg-dark text-light m-3">
           <div className="text-center p-3">
             <h2>
-              Weekend of <strong>8/21/2026</strong> & <strong>8/22/2026</strong>
+              Friday <strong>8/28/2026</strong>
               !
             </h2>
             <h1>
@@ -44,7 +46,57 @@ export default function CurrentFeatures() {
 
       <div className="d-flex justify-content-center">
         <section className="row justify-content-evenly text-center w-100 m-3">
-          {nowPlaying.map((res) => (
+          {nowPlaying.slice(0, 2).map((res) => (
+            <div className="col-lg-5 col-md-12" key={res.imdb}>
+              <div className="border border-secondary border-3 rounded bg-dark mb-3">
+                <a
+                  href={res.imdb}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="text-dark text-decoration-none"
+                >
+                  <h1 className="text-decoration-none text-light pt-2">
+                    <strong>{res.title}</strong>
+                  </h1>
+                </a>
+                <div className="container">
+                  <a href={res.imdb} target="_blank" rel="noreferrer">
+                    <img
+                      src={res.image}
+                      alt="preview"
+                      className="shadow border border-light rounded"
+                      style={posterStyle}
+                    />
+                    <p className="text-decoration-none text-light">
+                      Image source: IMDb
+                    </p>
+                  </a>
+                </div>
+              </div>
+            </div>
+          ))}
+        </section>
+      </div>
+      <div className="text-center">
+        <div className="d-inline-flex shadow border border-3 rounded border-light bg-dark text-light m-3">
+          <div className="text-center p-3">
+            <h2>
+              Saturday <strong>8/29/2026</strong>!
+            </h2>
+            <h1>
+              <strong>{thirdFeature}</strong>
+            </h1>
+            <h4>will be followed by</h4>
+            <h1>
+              <strong>{fourthFeature}!</strong>
+            </h1>
+          </div>
+        </div>
+      </div>
+
+      <div className="d-flex justify-content-center">
+        <section className="row justify-content-evenly text-center w-100 m-3">
+          {nowPlaying.slice(2).map((res) => (
             <div className="col-lg-5 col-md-12" key={res.imdb}>
               <div className="border border-secondary border-3 rounded bg-dark mb-3">
                 <a

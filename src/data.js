@@ -9,14 +9,24 @@
 
 export const nowPlaying = [
   {
-    title: "Paw Patrol: The Dino Movie",
-    image: "https://m.media-amazon.com/images/M/MV5BY2E2Y2Q0Y2ItZTUyZS00MzllLTkwYmQtYjdmNzM3NGRiYjFmXkEyXkFqcGc@._V1_.jpg",
-    imdb: "https://www.imdb.com/title/tt29356163/",
+    title: "Harry Potter and the Sorcerer's Stone",
+    image: "https://m.media-amazon.com/images/M/MV5BNTU1MzgyMDMtMzBlZS00YzczLThmYWEtMjU3YmFlOWEyMjE1XkEyXkFqcGc@._V1_.jpg",
+    imdb: "https://www.imdb.com/title/tt0241527/",
   },
   {
-    title: "Super Troopers 3",
-    image: "https://m.media-amazon.com/images/M/MV5BNzY3MmJlZGYtNTk1OS00NTE5LWEzOGYtMjIzODU5MWNhYWFjXkEyXkFqcGc@._V1_.jpg",
-    imdb: "https://www.imdb.com/title/tt8820258/",
+    title: "Harry Potter and the Chamber of Secrets",
+    image: "https://m.media-amazon.com/images/M/MV5BNGJhM2M2MWYtZjIzMC00MDZmLThkY2EtOWViMDhhYjRhMzk4XkEyXkFqcGc@._V1_.jpg",
+    imdb: "https://www.imdb.com/title/tt0295297/",
+  },
+  {
+    title: "Harry Potter and the Prisoner of Azkaban",
+    image: "https://m.media-amazon.com/images/M/MV5BMTY4NTIwODg0N15BMl5BanBnXkFtZTcwOTc0MjEzMw@@._V1_.jpg",
+    imdb: "https://www.imdb.com/title/tt0304141/",
+  },
+  {
+    title: "Harry Potter and the Goblet of Fire",
+    image: "https://m.media-amazon.com/images/M/MV5BMTIzNzUzOTk2NV5BMl5BanBnXkFtZTYwNTI4MDg2._V1_.jpg",
+    imdb: "https://www.imdb.com/title/tt0330373/",
   },
 ];
 
@@ -36,9 +46,9 @@ export const toBeDetermined = [
 // eslint-disable-next-line
 export const comingSoon = [
   {
-    title: "Spider-Man: Brand New Day",
-    image: "https://m.media-amazon.com/images/M/MV5BOWNjYWM3NWItOGE0ZS00MWRjLThiZWEtYjc4ZmNmMmU5ZTVmXkEyXkFqcGc@._V1_.jpg",
-    imdb: "https://www.imdb.com/title/tt22084616/",
+    title: "To Be Determined",
+    image: require("../src/assets/to-be-determined.jpg"),
+    imdb: "",
   },
   {
     title: "To Be Determined",
