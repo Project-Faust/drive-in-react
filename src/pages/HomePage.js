@@ -24,11 +24,10 @@ export default function HomePage() {
         <img src={logo} alt="Belmont Drive-In logo" />
       </div>
 
-      <div class="alert alert-success col-lg-9 text-center mx-auto" role="alert">
-        We hope everyone is excited for another Harry Potter marathon this weekend!
-        <br />
-        Check out the 'Now Playing' tab or scroll down to see more info on what day each movie is playing!
+      <div class="alert alert-danger col-lg-9 text-center mx-auto" role="alert">
+        Please be aware that we will be <strong>closed</strong> for the weekend of <strong>9/4/2026 & 9/5/2026</strong> in observance of Labor Day!
       </div>
+
       <div className="d-flex justify-content-center align-items-center mw-100">
         <section className="row justify-content-center text-center w-100">
           <div className="col-lg-9 col-md-12">
@@ -146,28 +145,11 @@ export default function HomePage() {
 
                       <section>
                         <h5 className="h3 remember-header shadow-2b">
-                          <strong>Friday 8/28/2026</strong>
+                          <strong>Friday 9/4/2026 & Saturday 9/5/2026</strong>
                         </h5>
 
                         <p className="h3 text-light text-start text-center p-3">
-                          <strong>Harry Potter and the Sorcerer's Stone</strong>
-                          <br />
-                          followed by
-                          <br />
-                          <strong>Harry Potter and the Chamber of Secrets</strong>
-                        </p>
-                      </section>
-                      <section>
-                        <h5 className="h3 remember-header shadow-2b">
-                          <strong>Saturday 8/29/2026</strong>
-                        </h5>
-
-                        <p className="h3 text-light text-start text-center p-3">
-                          <strong>Harry Potter and the Prisoner of Azkaban</strong>
-                          <br />
-                          followed by
-                          <br />
-                          <strong>Harry Potter and the Goblet of Fire</strong>
+                          <strong>We will be closed in observance of Labor Day!</strong>
                         </p>
                       </section>
                     </div>
