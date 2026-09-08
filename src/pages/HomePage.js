@@ -24,10 +24,6 @@ export default function HomePage() {
         <img src={logo} alt="Belmont Drive-In logo" />
       </div>
 
-      <div class="alert alert-danger col-lg-9 text-center mx-auto" role="alert">
-        Please be aware that we will be <strong>closed</strong> for the weekend of <strong>9/4/2026 & 9/5/2026</strong> in observance of Labor Day!
-      </div>
-
       <div className="d-flex justify-content-center align-items-center mw-100">
         <section className="row justify-content-center text-center w-100">
           <div className="col-lg-9 col-md-12">
@@ -145,11 +141,15 @@ export default function HomePage() {
 
                       <section>
                         <h5 className="h3 remember-header shadow-2b">
-                          <strong>Friday 9/4/2026 & Saturday 9/5/2026</strong>
+                          <strong>Friday 9/11/2026 & Saturday 9/12/2026</strong>
                         </h5>
 
                         <p className="h3 text-light text-start text-center p-3">
-                          <strong>We will be closed in observance of Labor Day!</strong>
+                          <strong>Practical Magic 2</strong>
+                          <br />
+                          will be followed by
+                          <br />
+                          <strong>The End of Oak Street</strong>
                         </p>
                       </section>
                     </div>
