@@ -9,15 +9,15 @@
 
 export const nowPlaying = [
   {
-    title: "Cars",
-    image: "https://m.media-amazon.com/images/M/MV5BMTg5NzY0MzA2MV5BMl5BanBnXkFtZTYwNDc3NTc2._V1_.jpg",
-    imdb: "https://www.imdb.com/title/tt0317219/",
+    title: "Avengers Endgame: Encore",
+    image: "https://m.media-amazon.com/images/M/MV5BMWEyNDM2ZmQtMmFkNi00MTQ1LTk1MjItMzdlZGJlYmIyYzZlXkEyXkFqcGc@._V1_.jpg",
+    imdb: "https://www.imdb.com/title/tt4154796/",
   },
 
   {
-    title: "Practical Magic 2",
-    image: "https://m.media-amazon.com/images/M/MV5BMWUyY2UyNjgtYTg5MC00MDZmLWE1MzEtZmU2YWE2ZTMzMjUwXkEyXkFqcGc@._V1_.jpg",
-    imdb: "https://www.imdb.com/title/tt32588798/",
+    title: "Runner",
+    image: "https://m.media-amazon.com/images/M/MV5BOThmN2YyMzMtN2Y2Zi00MjViLTg2NzQtNGM0ZDU3ZDAyYThhXkEyXkFqcGc@._V1_.jpg",
+    imdb: "https://www.imdb.com/title/tt31349844/",
   },
 ];
 

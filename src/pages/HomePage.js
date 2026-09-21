@@ -6,7 +6,6 @@ import logo from "../assets/logo.webp";
 import starryBG from "../assets/star-background.webp";
 import starryBGport from "../assets/star-background-portrait.jpg";
 import AdCarousel from "../components/AdCarousel";
-// import SpecialEventAnnouncement from "../components/specialAnnouncement";
 
 export default function HomePage() {
   usePreloadImage([starryBG, logo, ifYoureLooking]);
@@ -17,7 +16,6 @@ export default function HomePage() {
         backgroundImage: `url(${starryBGport})`,
         backgroundSize: "cover",
         backgroundPosition: "center",
-        // height: '100vh'
       }}
     >
       <div id="banner" className=" mw-100 mh-100 text-center py-3">
@@ -141,15 +139,15 @@ export default function HomePage() {
 
                       <section>
                         <h5 className="h3 remember-header shadow-2b">
-                          <strong>Friday 9/18/2026 & Saturday 9/19/2026</strong>
+                          <strong>Friday 9/25/2026 & Saturday 9/26/2026</strong>
                         </h5>
 
                         <p className="h3 text-light text-start text-center p-3">
-                          <strong>Cars</strong>
+                          <strong>Avengers Endgame: Encore</strong>
                           <br />
                           will be followed by
                           <br />
-                          <strong>Practical Magic 2</strong>
+                          <strong>Runner</strong>
                         </p>
                       </section>
                     </div>
@@ -173,19 +171,7 @@ export default function HomePage() {
           </div>
         </section>
       </div>
-      {/* <SpecialEventAnnouncement
-        variant="dark"
-        wrapInCard
-        infoBullets={[
-          "Gates 6:00 PM · Show at dusk",
-          "Limited capacity",
-          "Concessions open · No outside food please"
-        ]}
-        hero={{
-          imageUrl: "https://images.unsplash.com/photo-1517604931442-7e0c8ed2963c?q=80&w=1200&auto=format&fit=crop",
-          overlay: true
-        }}
-      /> */}
+
       <AdCarousel />
       <section>
         <div

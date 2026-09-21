@@ -1,6 +1,4 @@
 // eslint-disable-next-line
-import WeekendDates from "../components/WeekendDates";
-// eslint-disable-next-line
 import { nowPlaying, comingSoon, toBeDetermined } from "../data";
 import redCurtain from "../assets/red-curtain.webp";
 
@@ -28,7 +26,7 @@ export default function CurrentFeatures() {
         <div className="d-inline-flex shadow border border-3 rounded border-light bg-dark text-light m-3">
           <div className="text-center p-3">
             <h2>
-              <strong>Friday 9/18/2026 & Saturday 9/19/2026</strong>
+              <strong>Friday 9/25/2026 & Saturday 9/26/2026</strong>
               !
             </h2>
             <h1>
