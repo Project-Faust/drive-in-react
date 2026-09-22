@@ -133,13 +133,13 @@ export default function HomePage() {
                     style={{ backgroundColor: "#004280" }}
                   >
                     <div>
-                      <h4 className="h1 remember-header shadow-2b">
-                        <strong>Playing this Weekend!</strong>
+                      <h4 className="h1 remember-header text-decoration-underline shadow-2b">
+                        <strong></strong>
                       </h4>
 
                       <section>
-                        <h5 className="h3 remember-header shadow-2b">
-                          <strong>Friday 9/25/2026 & Saturday 9/26/2026</strong>
+                        <h5 className="h1 remember-header text-decoration-underline shadow-2b">
+                          <strong>Friday 9/25/2026</strong>
                         </h5>
 
                         <p className="h3 text-light text-start text-center p-3">
@@ -150,6 +150,21 @@ export default function HomePage() {
                           <strong>Runner</strong>
                         </p>
                       </section>
+
+                      <section>
+                        <h5 className="h1 remember-header text-decoration-underline shadow-2b">
+                          <strong>Saturday 9/26/2026</strong>
+                        </h5>
+
+                        <p className="h3 text-light text-start text-center p-3">
+                          <strong>Runner</strong>
+                          <br />
+                          will be followed by
+                          <br />
+                          <strong>Avengers Endgame: Encore</strong>
+                        </p>
+                      </section>
+
                     </div>
 
                     <div className="d-flex justify-content-center">
@@ -171,7 +186,6 @@ export default function HomePage() {
           </div>
         </section>
       </div>
-
       <AdCarousel />
       <section>
         <div

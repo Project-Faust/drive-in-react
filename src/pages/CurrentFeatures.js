@@ -26,7 +26,7 @@ export default function CurrentFeatures() {
         <div className="d-inline-flex shadow border border-3 rounded border-light bg-dark text-light m-3">
           <div className="text-center p-3">
             <h2>
-              <strong>Friday 9/25/2026 & Saturday 9/26/2026</strong>
+              <strong>Friday 9/25/2026</strong>
               !
             </h2>
             <h1>
@@ -73,6 +73,59 @@ export default function CurrentFeatures() {
           ))}
         </section>
       </div>
+
+      <div className="text-center">
+        <div className="d-inline-flex shadow border border-3 rounded border-light bg-dark text-light m-3">
+          <div className="text-center p-3">
+            <h2>
+              <strong>Saturday 9/26/2026</strong>
+              !
+            </h2>
+            <h1>
+              <strong>{secondFeature}</strong>
+            </h1>
+            <h4>will be followed by</h4>
+            <h1>
+              <strong>{firstFeature}!</strong>
+            </h1>
+          </div>
+        </div>
+      </div>
+
+      <div className="d-flex justify-content-center">
+        <section className="row justify-content-evenly text-center w-100 m-3">
+          {nowPlaying.slice(0, 2).reverse().map((res) => (
+            <div className="col-lg-5 col-md-12" key={res.imdb}>
+              <div className="border border-secondary border-3 rounded bg-dark mb-3">
+                <a
+                  href={res.imdb}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="text-dark text-decoration-none"
+                >
+                  <h1 className="text-decoration-none text-light pt-2">
+                    <strong>{res.title}</strong>
+                  </h1>
+                </a>
+                <div className="container">
+                  <a href={res.imdb} target="_blank" rel="noreferrer">
+                    <img
+                      src={res.image}
+                      alt="preview"
+                      className="shadow border border-light rounded"
+                      style={posterStyle}
+                    />
+                    <p className="text-decoration-none text-light">
+                      Image source: IMDb
+                    </p>
+                  </a>
+                </div>
+              </div>
+            </div>
+          ))}
+        </section>
+      </div>
+
 
       <p className="text-center text-light mb-0">
         Photo by{" "}
