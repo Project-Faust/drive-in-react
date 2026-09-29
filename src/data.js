@@ -9,15 +9,15 @@
 
 export const nowPlaying = [
   {
-    title: "Avengers Endgame: Encore",
-    image: "https://m.media-amazon.com/images/M/MV5BMWEyNDM2ZmQtMmFkNi00MTQ1LTk1MjItMzdlZGJlYmIyYzZlXkEyXkFqcGc@._V1_.jpg",
-    imdb: "https://www.imdb.com/title/tt4154796/",
+    title: "The Nightmare Before Christmas",
+    image: "https://m.media-amazon.com/images/M/MV5BNmYxOTAzZWYtOGI3Yi00ODc3LTk5ZjYtZTY0MzVkZTg3YmRiXkEyXkFqcGc@._V1_.jpg",
+    imdb: "https://www.imdb.com/title/tt0107688/",
   },
 
   {
-    title: "Runner",
-    image: "https://m.media-amazon.com/images/M/MV5BOThmN2YyMzMtN2Y2Zi00MjViLTg2NzQtNGM0ZDU3ZDAyYThhXkEyXkFqcGc@._V1_.jpg",
-    imdb: "https://www.imdb.com/title/tt31349844/",
+    title: "Resident Evil",
+    image: "https://m.media-amazon.com/images/M/MV5BZGVmNzRlZTctNTU2OS00MTQwLWI2ZWQtOGViMjc4ODNlNzVmXkEyXkFqcGc@._V1_.jpg",
+    imdb: "https://www.imdb.com/title/tt35538033/",
   },
 ];
 

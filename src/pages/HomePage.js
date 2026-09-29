@@ -139,32 +139,17 @@ export default function HomePage() {
 
                       <section>
                         <h5 className="h1 remember-header text-decoration-underline shadow-2b">
-                          <strong>Friday 9/25/2026</strong>
+                          <strong>Friday 10/2/2026</strong> <br />&<br /> <strong>Saturday 10/3/2026</strong>
                         </h5>
 
                         <p className="h3 text-light text-start text-center p-3">
-                          <strong>Avengers Endgame: Encore</strong>
+                          <strong>The Nightmare Before Christmas</strong>
                           <br />
                           will be followed by
                           <br />
-                          <strong>Runner</strong>
+                          <strong>Resident Evil</strong>
                         </p>
                       </section>
-
-                      <section>
-                        <h5 className="h1 remember-header text-decoration-underline shadow-2b">
-                          <strong>Saturday 9/26/2026</strong>
-                        </h5>
-
-                        <p className="h3 text-light text-start text-center p-3">
-                          <strong>Runner</strong>
-                          <br />
-                          will be followed by
-                          <br />
-                          <strong>Avengers Endgame: Encore</strong>
-                        </p>
-                      </section>
-
                     </div>
 
                     <div className="d-flex justify-content-center">
