@@ -48,7 +48,7 @@ export default function HomePage() {
                     <strong>6:00PM</strong>!
                   </h4>
                   <h5 className="h3 py-1">
-                    Our first movie starts at <strong>SUNDOWN</strong>!
+                    Our first movie starts at approximately <strong>7:30PM</strong>!
                   </h5>
                 </div>
                 <div className="border-top border-light">
@@ -139,15 +139,15 @@ export default function HomePage() {
 
                       <section>
                         <h5 className="h1 remember-header text-decoration-underline shadow-2b">
-                          <strong>Friday 10/9/2026</strong> <br />&<br /> <strong>Saturday 10/10/2026</strong>
+                          <strong>Friday 10/16/2026</strong> <br />&<br /> <strong>Saturday 10/17/2026</strong>
                         </h5>
 
                         <p className="h3 text-light text-start text-center p-3">
-                          <strong>Casper</strong>
+                          <strong>Beetlejuice</strong>
                           <br />
                           will be followed by
                           <br />
-                          <strong>Friday the 13th</strong>
+                          <strong>Beetlejuice Beetlejuice</strong>
                         </p>
                       </section>
                     </div>
