@@ -36,14 +36,14 @@ export const toBeDetermined = [
 // eslint-disable-next-line
 export const comingSoon = [
   {
-    title: "To Be Determined",
-    image: require("./assets/to-be-determined.jpg"),
-    imdb: "",
+    title: "Minions & Monsters",
+    image: "https://m.media-amazon.com/images/M/MV5BYzBjMDg4YjctYzg3ZS00ZDFmLWI1YjctM2RkZGVjZWEyYWQ0XkEyXkFqcGc@._V1_.jpg",
+    imdb: "https://www.imdb.com/title/tt32890033/",
   },
   {
-    title: "To Be Determined",
-    image: require("../src/assets/to-be-determined.jpg"),
-    imdb: "",
+    title: "Other Mommy",
+    image: "https://m.media-amazon.com/images/M/MV5BOGUyODYyYTctMmY0Mi00ZWIwLThjYWItZDJmODY4NGU1YjY1XkEyXkFqcGc@._V1_.jpg",
+    imdb: "https://www.imdb.com/title/tt36586020/",
   },
 
 ];
