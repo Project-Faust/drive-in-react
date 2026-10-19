@@ -139,15 +139,15 @@ export default function HomePage() {
 
                       <section>
                         <h5 className="h1 remember-header text-decoration-underline shadow-2b">
-                          <strong>Friday 10/16/2026</strong> <br />&<br /> <strong>Saturday 10/17/2026</strong>
+                          <strong>Friday 10/23/2026</strong> <br />&<br /> <strong>Saturday 10/24/2026</strong>
                         </h5>
 
                         <p className="h3 text-light text-start text-center p-3">
-                          <strong>Beetlejuice</strong>
+                          <strong>Minions and Monsters</strong>
                           <br />
                           will be followed by
                           <br />
-                          <strong>Beetlejuice Beetlejuice</strong>
+                          <strong>Other Mommy</strong>
                         </p>
                       </section>
                     </div>

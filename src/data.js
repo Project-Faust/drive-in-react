@@ -9,14 +9,14 @@
 
 export const nowPlaying = [
   {
-    title: "Bettlejuice",
-    image: "https://m.media-amazon.com/images/M/MV5BYjkwNzVlNDEtMTJlNy00OTdlLTljYWItM2RkZmZkYzY3YjM2XkEyXkFqcGc@._V1_.jpg",
-    imdb: "https://www.imdb.com/title/tt0094721/",
+    title: "Minions & Monsters",
+    image: "https://m.media-amazon.com/images/M/MV5BYzBjMDg4YjctYzg3ZS00ZDFmLWI1YjctM2RkZGVjZWEyYWQ0XkEyXkFqcGc@._V1_.jpg",
+    imdb: "https://www.imdb.com/title/tt32890033/",
   },
   {
-    title: "Beetlejuice Beetlejuice",
-    image: "https://m.media-amazon.com/images/M/MV5BNTQ4Y2MzY2MtYzQyMS00ZTQ3LWIzZGQtNjVjYzgwYzA1MDkzXkEyXkFqcGc@._V1_.jpg",
-    imdb: "https://www.imdb.com/title/tt2049403/",
+    title: "Other Mommy",
+    image: "https://m.media-amazon.com/images/M/MV5BOGUyODYyYTctMmY0Mi00ZWIwLThjYWItZDJmODY4NGU1YjY1XkEyXkFqcGc@._V1_.jpg",
+    imdb: "https://www.imdb.com/title/tt36586020/",
   },
 ];
 
@@ -36,14 +36,13 @@ export const toBeDetermined = [
 // eslint-disable-next-line
 export const comingSoon = [
   {
-    title: "Minions & Monsters",
-    image: "https://m.media-amazon.com/images/M/MV5BYzBjMDg4YjctYzg3ZS00ZDFmLWI1YjctM2RkZGVjZWEyYWQ0XkEyXkFqcGc@._V1_.jpg",
-    imdb: "https://www.imdb.com/title/tt32890033/",
+    title: "Halloween",
+    image: "https://m.media-amazon.com/images/M/MV5BMzZiNTdiYTgtYjNkMS00MmJmLWEwZGQtNmY0NGJkMGE0YmYzXkEyXkFqcGc@._V1_.jpg",
+    imdb: "https://www.imdb.com/title/tt0077651/",
   },
   {
-    title: "Other Mommy",
-    image: "https://m.media-amazon.com/images/M/MV5BOGUyODYyYTctMmY0Mi00ZWIwLThjYWItZDJmODY4NGU1YjY1XkEyXkFqcGc@._V1_.jpg",
-    imdb: "https://www.imdb.com/title/tt36586020/",
+    title: "A Nightmare on Elm Street",
+    image: "https://m.media-amazon.com/images/M/MV5BNTZmN2VlMWMtMTdlMi00NDBhLWIyODMtODEwMzM0ODMwMWYwXkEyXkFqcGc@._V1_.jpg",
+    imdb: "https://www.imdb.com/title/tt0087800/",
   },
-
 ];
