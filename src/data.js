@@ -9,14 +9,14 @@
 
 export const nowPlaying = [
   {
-    title: "Minions & Monsters",
-    image: "https://m.media-amazon.com/images/M/MV5BYzBjMDg4YjctYzg3ZS00ZDFmLWI1YjctM2RkZGVjZWEyYWQ0XkEyXkFqcGc@._V1_.jpg",
-    imdb: "https://www.imdb.com/title/tt32890033/",
+    title: "Halloween",
+    image: "https://m.media-amazon.com/images/M/MV5BMzZiNTdiYTgtYjNkMS00MmJmLWEwZGQtNmY0NGJkMGE0YmYzXkEyXkFqcGc@._V1_.jpg",
+    imdb: "https://www.imdb.com/title/tt0077651/",
   },
   {
-    title: "Other Mommy",
-    image: "https://m.media-amazon.com/images/M/MV5BOGUyODYyYTctMmY0Mi00ZWIwLThjYWItZDJmODY4NGU1YjY1XkEyXkFqcGc@._V1_.jpg",
-    imdb: "https://www.imdb.com/title/tt36586020/",
+    title: "A Nightmare on Elm Street",
+    image: "https://m.media-amazon.com/images/M/MV5BNTZmN2VlMWMtMTdlMi00NDBhLWIyODMtODEwMzM0ODMwMWYwXkEyXkFqcGc@._V1_.jpg",
+    imdb: "https://www.imdb.com/title/tt0087800/",
   },
 ];
 
@@ -36,13 +36,28 @@ export const toBeDetermined = [
 // eslint-disable-next-line
 export const comingSoon = [
   {
-    title: "Halloween",
-    image: "https://m.media-amazon.com/images/M/MV5BMzZiNTdiYTgtYjNkMS00MmJmLWEwZGQtNmY0NGJkMGE0YmYzXkEyXkFqcGc@._V1_.jpg",
-    imdb: "https://www.imdb.com/title/tt0077651/",
+    title: "The Cat in the Hat",
+    image: "https://m.media-amazon.com/images/M/MV5BZmJhNzk4OGMtOTlmNC00ODAxLWFkYjYtY2RhYWVmNDg5YmViXkEyXkFqcGc@._V1_.jpg",
+    imdb: "https://www.imdb.com/title/tt2321555/",
   },
   {
-    title: "A Nightmare on Elm Street",
-    image: "https://m.media-amazon.com/images/M/MV5BNTZmN2VlMWMtMTdlMi00NDBhLWIyODMtODEwMzM0ODMwMWYwXkEyXkFqcGc@._V1_.jpg",
-    imdb: "https://www.imdb.com/title/tt0087800/",
+    title: "To Be Determined",
+    image: require("../src/assets/to-be-determined.jpg"),
+    imdb: "",
   },
+
 ];
+
+// eslint-disable-next-line
+export const christmasWeekend = [
+  {
+    title: "Elf",
+    image: "https://m.media-amazon.com/images/M/MV5BNDQ0ZWE2NzgtNGNhMC00MDIwLWI1MjUtYjYxZGRiM2UyYTQzXkEyXkFqcGc@._V1_.jpg",
+    imdb: "https://www.imdb.com/title/tt0319343/",
+  },
+  {
+    title: "National Lampoon's Christmas Vacation",
+    image: "https://m.media-amazon.com/images/M/MV5BZDgxYzI2YWItNmUyNS00ZWE4LWEzZDctYTk1M2VkYjhkOWVmXkEyXkFqcGc@._V1_.jpg",
+    imdb: "https://www.imdb.com/title/tt0097958/",
+  },
+]

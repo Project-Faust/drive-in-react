@@ -1,5 +1,5 @@
 // eslint-disable-next-line
-import { comingSoon, nowPlaying, toBeDetermined } from "../data";
+import { comingSoon, nowPlaying, toBeDetermined, christmasWeekend } from "../data";
 
 const posterStyle = {
   maxWidth: "100%",
@@ -10,9 +10,14 @@ const posterStyle = {
 export default function ComingSoon() {
   const upcomingWeekends = [
     {
-      dates: { start: "10/30/2026", end: "10/31/2026" },
+      dates: { start: "11/06/2026", end: "11/07/2026" },
       movies: [comingSoon[0], comingSoon[1]],
     },
+    {
+      dates: { start: "12/04/2026", end: "12/05/2026" },
+      movies: [christmasWeekend[0], christmasWeekend[1]],
+    }
+
   ];
 
   return (
