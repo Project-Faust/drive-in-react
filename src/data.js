@@ -41,11 +41,20 @@ export const comingSoon = [
     imdb: "https://www.imdb.com/title/tt2321555/",
   },
   {
+    title: "Gremlins",
+    image: "https://m.media-amazon.com/images/M/MV5BYmMzMmIxNzYtYjk3OS00NjBiLTkxNDQtODU3ZDNjN2RiMTIxXkEyXkFqcGc@._V1_.jpg",
+    imdb: "https://www.imdb.com/title/tt0087363/",
+  },
+  {
+    title: "The Cat in the Hat",
+    image: "https://m.media-amazon.com/images/M/MV5BZmJhNzk4OGMtOTlmNC00ODAxLWFkYjYtY2RhYWVmNDg5YmViXkEyXkFqcGc@._V1_.jpg",
+    imdb: "https://www.imdb.com/title/tt2321555/",
+  },
+  {
     title: "To Be Determined",
     image: require("../src/assets/to-be-determined.jpg"),
     imdb: "",
   },
-
 ];
 
 // eslint-disable-next-line
