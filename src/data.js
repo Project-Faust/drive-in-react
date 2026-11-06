@@ -9,14 +9,14 @@
 
 export const nowPlaying = [
   {
-    title: "Halloween",
-    image: "https://m.media-amazon.com/images/M/MV5BMzZiNTdiYTgtYjNkMS00MmJmLWEwZGQtNmY0NGJkMGE0YmYzXkEyXkFqcGc@._V1_.jpg",
-    imdb: "https://www.imdb.com/title/tt0077651/",
+    title: "The Cat in the Hat",
+    image: "https://m.media-amazon.com/images/M/MV5BZmJhNzk4OGMtOTlmNC00ODAxLWFkYjYtY2RhYWVmNDg5YmViXkEyXkFqcGc@._V1_.jpg",
+    imdb: "https://www.imdb.com/title/tt2321555/",
   },
   {
-    title: "A Nightmare on Elm Street",
-    image: "https://m.media-amazon.com/images/M/MV5BNTZmN2VlMWMtMTdlMi00NDBhLWIyODMtODEwMzM0ODMwMWYwXkEyXkFqcGc@._V1_.jpg",
-    imdb: "https://www.imdb.com/title/tt0087800/",
+    title: "Gremlins",
+    image: "https://m.media-amazon.com/images/M/MV5BYmMzMmIxNzYtYjk3OS00NjBiLTkxNDQtODU3ZDNjN2RiMTIxXkEyXkFqcGc@._V1_.jpg",
+    imdb: "https://www.imdb.com/title/tt0087363/",
   },
 ];
 
@@ -35,16 +35,6 @@ export const toBeDetermined = [
 
 // eslint-disable-next-line
 export const comingSoon = [
-  {
-    title: "The Cat in the Hat",
-    image: "https://m.media-amazon.com/images/M/MV5BZmJhNzk4OGMtOTlmNC00ODAxLWFkYjYtY2RhYWVmNDg5YmViXkEyXkFqcGc@._V1_.jpg",
-    imdb: "https://www.imdb.com/title/tt2321555/",
-  },
-  {
-    title: "Gremlins",
-    image: "https://m.media-amazon.com/images/M/MV5BYmMzMmIxNzYtYjk3OS00NjBiLTkxNDQtODU3ZDNjN2RiMTIxXkEyXkFqcGc@._V1_.jpg",
-    imdb: "https://www.imdb.com/title/tt0087363/",
-  },
   {
     title: "The Cat in the Hat",
     image: "https://m.media-amazon.com/images/M/MV5BZmJhNzk4OGMtOTlmNC00ODAxLWFkYjYtY2RhYWVmNDg5YmViXkEyXkFqcGc@._V1_.jpg",
