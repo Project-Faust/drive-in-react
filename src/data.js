@@ -9,14 +9,14 @@
 
 export const nowPlaying = [
   {
-    title: "A Christmas Story",
-    image: "https://m.media-amazon.com/images/M/MV5BZWZhYzI1YjktYzJjYy00NjIwLWE0MGItNWM4YWM2ZjFkNGM0XkEyXkFqcGc@._V1_.jpg",
-    imdb: "https://www.imdb.com/title/tt0085334/",
+    title: "How the Grinch Stole Christmas",
+    image: "https://m.media-amazon.com/images/M/MV5BZDFhMjEwOWItYmYxNy00NjIxLWFiMmUtNjU5ZDFjNzYwY2I2XkEyXkFqcGc@._V1_.jpg",
+    imdb: "https://www.imdb.com/title/tt0170016/",
   },
   {
-    title: "The Cat in the Hat",
-    image: "https://m.media-amazon.com/images/M/MV5BZmJhNzk4OGMtOTlmNC00ODAxLWFkYjYtY2RhYWVmNDg5YmViXkEyXkFqcGc@._V1_.jpg",
-    imdb: "https://www.imdb.com/title/tt2321555/",
+    title: "It's a Wonderful Life",
+    image: "https://m.media-amazon.com/images/M/MV5BMDM4OWFhYjEtNTE5Yy00NjcyLTg5N2UtZDQwNDZlYjlmNDU5XkEyXkFqcGc@._V1_.jpg",
+    imdb: "https://www.imdb.com/title/tt0038650/",
   },
 ];
 
@@ -35,16 +35,6 @@ export const toBeDetermined = [
 
 // eslint-disable-next-line
 export const comingSoon = [
-  {
-    title: "How the Grinch Stole Christmas",
-    image: "https://m.media-amazon.com/images/M/MV5BZDFhMjEwOWItYmYxNy00NjIxLWFiMmUtNjU5ZDFjNzYwY2I2XkEyXkFqcGc@._V1_.jpg",
-    imdb: "https://www.imdb.com/title/tt0170016/",
-  },
-  {
-    title: "To Be Determined",
-    image: require("../src/assets/to-be-determined.jpg"),
-    imdb: "",
-  },
 ];
 
 // eslint-disable-next-line
