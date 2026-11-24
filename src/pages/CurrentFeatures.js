@@ -1,9 +1,9 @@
 // eslint-disable-next-line
 import redCurtain from "../assets/red-curtain.webp";
-import { nowPlaying } from "../data";
+import { nowPlaying, comingSoon } from "../data";
 
-const firstFeature = nowPlaying[0].title;
-const secondFeature = nowPlaying[1].title;
+const firstFeature = comingSoon[0].title;
+const secondFeature = comingSoon[1].title;
 
 const posterStyle = {
   maxWidth: "95%",

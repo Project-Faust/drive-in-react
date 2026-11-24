@@ -13,7 +13,7 @@ export default function App() {
   const [navLinks] = useState([
     { name: "Welcome" },
     { name: "Now Playing" },
-    { name: "Coming Soon"},
+    // { name: "Coming Soon"},
     { name: "Menu" },
     { name: "Rules" },
     // { name: "About Us" }
@@ -28,15 +28,15 @@ export default function App() {
         currentLink={currentNav}
         setCurrentLink={setCurrentNav}
       />
-      <main 
-      id="mainContainer"
-      className="mw-100">
+      <main
+        id="mainContainer"
+        className="mw-100">
         {currentNav === navLinks[0] && <HomePage></HomePage>}
-        {currentNav === navLinks[1] && <CurrentFeatures></CurrentFeatures>} 
-        {currentNav === navLinks[2] && <ComingSoon></ComingSoon> } 
-        {currentNav === navLinks[3] && <Menu></Menu>} 
-        {currentNav === navLinks[4] && <Rules></Rules>}
-        { /* currentNav === navLinks[5] && <AboutUs></AboutUs> */} 
+        {currentNav === navLinks[1] && <CurrentFeatures></CurrentFeatures>}
+        { /* currentNav === navLinks[2] && <ComingSoon></ComingSoon> */}
+        {currentNav === navLinks[2] && <Menu></Menu>}
+        {currentNav === navLinks[3] && <Rules></Rules>}
+        { /* currentNav === navLinks[5] && <AboutUs></AboutUs> */}
       </main>
       <Footer></Footer>
     </div>

@@ -22,6 +22,10 @@ export default function HomePage() {
         <img src={logo} alt="Belmont Drive-In logo" />
       </div>
 
+      <div class="alert alert-danger text-center col-lg-9 mx-auto" role="alert">
+        We will be <strong>closed</strong> for the weekend of <strong>11/27/2026</strong> & <strong>11/28/2026</strong> in observance of Thanksgiving!
+      </div>
+
       <div className="d-flex justify-content-center align-items-center mw-100">
         <section className="row justify-content-center text-center w-100">
           <div className="col-lg-9 col-md-12">
@@ -139,15 +143,15 @@ export default function HomePage() {
 
                       <section>
                         <h5 className="h1 remember-header text-decoration-underline shadow-2b">
-                          <strong>Friday 11/20/2026</strong> <br />&<br /> <strong>Saturday 11/21/2026</strong>
+                          <strong>Friday 12/4/2026</strong> <br />&<br /> <strong>Saturday 12/5/2026</strong>
                         </h5>
 
                         <p className="h3 text-light text-start text-center p-3">
-                          <strong>How the Grinch Stole Christmas</strong>
+                          <strong>Elf</strong>
                           <br />
                           will be followed by
                           <br />
-                          <strong>It's a Wonderful Life</strong>
+                          <strong>National Lampoon's Christmas Vacation</strong>
                         </p>
                       </section>
                     </div>
